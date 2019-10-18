@@ -4,50 +4,57 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    float velX;
-    public float speed;
-    private Rigidbody2D rb;
-    private Vector2 moveVelocity;
-    public float health;
-    bool facingRight = true;
 
-    public GameObject projectile;
-    Vector2 projectilePos;
-    public float fireRate;
-    float nextFire = 0;
+    public Projectile Projectile;
+    public float Speed;
+    public float Health;
+    public float FireRate;
+
+    public Rigidbody2D _rigidBody;
+    private Vector2 _moveInput;
+    private Vector2 _moveVelocity;
+    private Vector2 _projectilePos;
+    private float _nextFire = 0;
+    private float _velX;
+    private bool _facingRight = true;
+  
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();     
+        //_rigidBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        velX = Input.GetAxisRaw("Horizontal");
-        Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput.normalized * speed;
-        if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
+        
+        _velX = Input.GetAxisRaw("Horizontal");
+        _moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _moveVelocity = _moveInput.normalized * Speed;
+        if (Input.GetButtonDown("Fire1") && Time.time > _nextFire)
         {
-            nextFire = Time.time + fireRate;
+          
+            _nextFire = Time.time + FireRate;
             Shoot();
         }
-       
+
     }
     void LateUpdate()
     {
         Vector3 localScale = transform.localScale;
-        if (velX > 0)
+        if (_velX > 0)
         {
-            facingRight = true;
+            _facingRight = true;
         }
-        else if (velX < 0)
+        else if (_velX < 0)
         {
-            facingRight = false;
+            _facingRight = false;
         }
-        if (((facingRight) && (localScale.x < 0)) || ((!facingRight) && (localScale.x > 0)))
+        if (((_facingRight) && (localScale.x < 0)) || ((!_facingRight) && (localScale.x > 0)))
         {
             localScale.x *= -1;
         }
@@ -55,15 +62,26 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+        _rigidBody.MovePosition(_rigidBody.position + _moveVelocity * Time.fixedDeltaTime);
 
     }
 
     void Shoot()
     {
-        projectilePos = transform.position;
-        Instantiate(projectile, projectilePos, Quaternion.identity);
+
+        Projectile projectile = GameObject.Instantiate<Projectile>(Projectile);
+        projectile.transform.position = this.transform.position;
+
     }
 
-  
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Walls")
+        {
+            Debug.Log("lol");
+            _rigidBody.velocity = Vector2.zero;
+            _moveInput = Vector2.zero;
+            _moveVelocity = Vector2.zero;
+        }
+    }
 }
