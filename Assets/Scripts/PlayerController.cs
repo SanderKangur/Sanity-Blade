@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public float Health;
     public float FireRate;
+    public AudioSource Oof;
+    public AudioSource Brap;
 
     public Rigidbody2D _rigidBody;
     private Vector2 _moveInput;
@@ -19,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool _facingRight = true;
     private bool _inv = false;
     private float _timerInv = 2.0f;
+
 
 
     void Start()
@@ -83,7 +86,7 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-
+        Brap.Play();
         Projectile projectile = GameObject.Instantiate<Projectile>(Projectile);
         projectile.transform.position = this.transform.position;
 
@@ -93,6 +96,7 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.tag == "Enemy" && !_inv)
         {
+            Oof.Play();
             Health -= 20;
             _inv = true;
             this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
