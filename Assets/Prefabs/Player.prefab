@@ -99,8 +99,9 @@ MonoBehaviour:
   Projectile: {fileID: 6572408186856399348, guid: 452f5792c610aa44b8c57958fb982405,
     type: 3}
   Speed: 7
-  Health: 10
+  Health: 100
   FireRate: 0.1
+  _rigidBody: {fileID: 0}
 --- !u!50 &4306182013996423517
 Rigidbody2D:
   serializedVersion: 4

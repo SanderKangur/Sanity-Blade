@@ -17,21 +17,36 @@ public class PlayerController : MonoBehaviour
     private float _nextFire = 0;
     private float _velX;
     private bool _facingRight = true;
-  
+    private bool _inv = false;
+    private float _timerInv = 2.0f;
 
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        //_rigidBody = GetComponent<Rigidbody2D>();
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+        
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Health <= 0)
+        {
+            GameObject.Destroy(this.gameObject);
+        }
+
+        if (_inv && Health != 0)
+        {
+
+            _timerInv -= Time.deltaTime;
+            if (_timerInv < 0)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+                _inv = false;
+                _timerInv = 2.0f;
+            }
+        }
+
         _velX = Input.GetAxisRaw("Horizontal");
         _moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         _moveVelocity = _moveInput.normalized * Speed;
@@ -76,12 +91,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Walls")
+        if(collision.tag == "Enemy" && !_inv)
         {
-            Debug.Log("lol");
-            _rigidBody.velocity = Vector2.zero;
-            _moveInput = Vector2.zero;
-            _moveVelocity = Vector2.zero;
+            Health -= 20;
+            _inv = true;
+            this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
     }
+
 }

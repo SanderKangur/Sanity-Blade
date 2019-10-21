@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public static Projectile Instance;
     public float Speed;
+    public float Damage;
+
     private Vector3 _moveDirection;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        Instance = this;
+    }
     void Start()
     {
         _moveDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
