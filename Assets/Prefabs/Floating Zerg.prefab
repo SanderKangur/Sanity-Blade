@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6484949755801727270}
   - component: {fileID: 6484949755801727269}
   - component: {fileID: 6484949755801727266}
+  - component: {fileID: 9063620044446851653}
   m_Layer: 0
   m_Name: Floating Zerg
   m_TagString: Enemy
@@ -116,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
-  Lives: 500
+  Lives: 300
 --- !u!60 &6484949755801727266
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -258,3 +259,24 @@ PolygonCollider2D:
       - {x: 0.39499998, y: -0.26}
     - - {x: -0.435, y: -0.049999997}
       - {x: -0.48499998, y: -0.099999994}
+--- !u!50 &9063620044446851653
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484949755801727289}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         if(Health <= 0)
         {
             GameObject.Destroy(this.gameObject);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
 
         if (_inv && Health != 0)
