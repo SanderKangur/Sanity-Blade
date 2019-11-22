@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     public float Damage;
 
     private Vector3 _moveDirection;
+    private Rigidbody2D _rigidBody;
 
     private void Awake()
     {
@@ -19,6 +20,8 @@ public class Projectile : MonoBehaviour
         _moveDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
         _moveDirection.z = 0;
         _moveDirection.Normalize();
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     // Update is called once per frame
@@ -33,6 +36,18 @@ public class Projectile : MonoBehaviour
         if (collision.tag == "Enemy" || collision.tag == "Walls")
         {
             GameObject.Destroy(this.gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Walls"))
+        {
+            GameObject.Destroy(this.gameObject);
+        }
+        if (collision.gameObject.tag == "Objects")
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
         }
     }
 

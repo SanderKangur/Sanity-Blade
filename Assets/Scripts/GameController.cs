@@ -5,13 +5,14 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance;
-    public GameObject Door, Exit;
+    public GameObject Exit;
     public List<string> Levels;
+
+    public AudioSource DoorOpen;
 
     private void Awake()
     {
         Instance = this;
-        Door.SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,10 +21,10 @@ public class GameController : MonoBehaviour
         GameObject[] getCount = GameObject.FindGameObjectsWithTag("Enemy");
         int count = getCount.Length;
 
-        if(count == 0)
+        if(count == 0 && !Exit.activeSelf)
         {
-            Exit.SetActive(false);
-            Door.SetActive(true);
+            DoorOpen.Play();
+            Exit.SetActive(true);
         }
     }
 }

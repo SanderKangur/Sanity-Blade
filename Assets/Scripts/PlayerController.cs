@@ -95,15 +95,19 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.tag == "Enemy" && !_inv)
+        if (collision.gameObject.CompareTag("Enemy") && !_inv)
         {
+            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * 100, ForceMode2D.Force);
+
             Oof.Play();
             Health -= 20;
             _inv = true;
             this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
     }
-
 }
