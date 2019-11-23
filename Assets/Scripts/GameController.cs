@@ -7,8 +7,8 @@ public class GameController : MonoBehaviour
     public static GameController Instance;
     public GameObject Exit;
     public List<string> Levels;
-
     public AudioSource DoorOpen;
+    public AudioSource Ambience;
 
     private void Awake()
     {
@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         Exit.SetActive(false);
+        Ambience.Play();
     }
 
     // Update is called once per frame

@@ -45,7 +45,7 @@ public class Alien : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.tag == "Player")
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
@@ -61,5 +61,16 @@ public class Alien : MonoBehaviour
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
+
+        if (collision.gameObject.tag == "Melee")
+        {
+            Damage(50);
+            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.3f;
+        }
     }
+
+    
 }

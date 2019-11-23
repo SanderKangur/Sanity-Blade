@@ -13,8 +13,10 @@ public class PlayerController : MonoBehaviour
     public float FireRate;
     public AudioSource Oof;
     public AudioSource Brap;
-    public Rigidbody2D _rigidBody;
+    public AudioSource Walk;
+    public CapsuleCollider2D Collider;
 
+    private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
     private Vector2 _moveInput;
@@ -24,7 +26,9 @@ public class PlayerController : MonoBehaviour
     private bool _inv = false;
     private float _timerInv = 2.0f;
     private float _knockback = 0;
-
+    private float _meleeTimer = 0.2f;
+    private bool _isMelee = false;
+   
 
 
     void Start()
@@ -33,7 +37,8 @@ public class PlayerController : MonoBehaviour
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        
+        Collider.gameObject.SetActive(false);
+
     }
 
     void Update()
@@ -66,23 +71,30 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        float _velX = Input.GetAxisRaw("Horizontal");
-        bool moving = false;
+        float velX = Input.GetAxisRaw("Horizontal");
+        float velY = Input.GetAxisRaw("Vertical");
+        bool isMoving = false;
 
         if (_knockback <= 0)
         {
-            if (Mathf.Abs(_velX) > float.Epsilon)
+            if (Mathf.Abs(velX) > float.Epsilon || Mathf.Abs(velY) > float.Epsilon)
             {
-                _spriteRenderer.flipX = _velX < 0;
-                moving = true;
+                _spriteRenderer.flipX = velX < 0;
+                isMoving = true;
+                Walk.volume = Random.Range(0.8f, 1.0f);
+                Walk.pitch = Random.Range(0.8f, 1.2f);
+                if (!Walk.isPlaying)
+                {
+                    Walk.Play();
+                }
             }
-            _moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            _moveInput = new Vector2(velX, velY);
             _moveVelocity = _moveInput.normalized * Speed;
             
         }
         _knockback -= Time.deltaTime;
 
-        if (Input.GetButtonDown("Fire1") && Time.time > _nextFire)
+        if (Input.GetButtonDown("Fire2") && Time.time > _nextFire)
         {
           
             _nextFire = Time.time + FireRate;
@@ -91,10 +103,12 @@ public class PlayerController : MonoBehaviour
         }
 
         
-        if (Input.GetButtonDown("Fire2") && Time.time > _nextFire)
+        if (Input.GetButtonDown("Fire1") && !_isMelee)
         {
-           
-            _nextFire = Time.time + FireRate;
+            _isMelee = true;
+            _meleeTimer = 0.2f;
+            Collider.gameObject.SetActive(true);
+
             int random = Random.Range(1, 5);
             if (random == 1)
             {
@@ -105,7 +119,20 @@ public class PlayerController : MonoBehaviour
                 _animator.SetTrigger("Melee");
             }
         }
-        _animator.SetBool("Walk", moving);
+        if (_isMelee)
+        {
+            if (_meleeTimer > 0)
+            {
+                _meleeTimer -= Time.deltaTime;
+            }
+            else
+            {
+                _isMelee = false;
+                Collider.gameObject.SetActive(false);
+            }
+        }
+        _animator.SetBool("Walk", isMoving);
+
 
     }
 
