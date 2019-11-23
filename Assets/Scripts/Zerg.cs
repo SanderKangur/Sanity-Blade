@@ -10,6 +10,7 @@ public class Zerg : MonoBehaviour
     private Transform _target;
     private Rigidbody2D _rigidBody;
     private float _knockback = 0;
+    public AudioClipGroup Monster;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class Zerg : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, _target.position) > 1)
             {
+                
                 transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
             }
         }
@@ -38,6 +40,7 @@ public class Zerg : MonoBehaviour
 
     public void Damage(float dam)
     {
+        Monster?.Play();
         Lives -= dam;
     }
 

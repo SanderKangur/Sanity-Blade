@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public AudioSource Brap;
     public AudioSource Walk;
     public CapsuleCollider2D Collider;
+    public AudioClipGroup Sword, Fireball;
+
 
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
@@ -28,7 +30,8 @@ public class PlayerController : MonoBehaviour
     private float _knockback = 0;
     private float _meleeTimer = 0.2f;
     private bool _isMelee = false;
-   
+  
+
 
 
     void Start()
@@ -38,6 +41,7 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         Collider.gameObject.SetActive(false);
+        
 
     }
 
@@ -61,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
         if (_inv && Health != 0)
         {
-
+            UIController.Instance.SetHealth((int) Health);
             _timerInv -= Time.deltaTime;
             if (_timerInv < 0)
             {
@@ -98,6 +102,7 @@ public class PlayerController : MonoBehaviour
         {
           
             _nextFire = Time.time + FireRate;
+            Fireball?.Play();
             Shoot();
             _animator.SetTrigger("Projectile");
         }
@@ -105,6 +110,7 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetButtonDown("Fire1") && !_isMelee)
         {
+            Sword?.Play();
             _isMelee = true;
             _meleeTimer = 0.2f;
             Collider.gameObject.SetActive(true);
@@ -145,7 +151,6 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        Brap.Play();
         Projectile projectile = GameObject.Instantiate<Projectile>(Projectile);
         projectile.transform.position = this.transform.position;
 

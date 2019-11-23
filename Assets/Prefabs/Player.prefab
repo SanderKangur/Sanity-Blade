@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 659829067}
   - component: {fileID: 2064427956}
   - component: {fileID: 2053574609}
+  - component: {fileID: 888119125}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -179,6 +180,8 @@ MonoBehaviour:
   Brap: {fileID: 659829067}
   Walk: {fileID: 2053574609}
   Collider: {fileID: 477457775}
+  Sword: {fileID: 11400000, guid: 4fc8237420554ef46be7a5e45e949c7c, type: 2}
+  Fireball: {fileID: 11400000, guid: a1f2d0c5c086fa3498891e484b36de8e, type: 2}
 --- !u!50 &4306182013996423517
 Rigidbody2D:
   serializedVersion: 4
@@ -322,7 +325,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4306182013996423518}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0d8e0a682f9ffb948adc3a5dec7a216e, type: 3}
@@ -523,3 +526,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &888119125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306182013996423518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec007a04d85a0b447b6c7587f2d1dd42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Amount: 2
+  AudioSourcePrefab: {fileID: 3028480306060970291, guid: 35aa4844ceebcd644b89bde7b60bb275,
+    type: 3}
