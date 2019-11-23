@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6484949755801727268}
   - component: {fileID: 6484949755801727271}
   - component: {fileID: 6484949755801727270}
-  - component: {fileID: 6484949755801727269}
   - component: {fileID: 6484949755801727266}
   - component: {fileID: 9063620044446851653}
+  - component: {fileID: 1180225669}
   m_Layer: 8
   m_Name: Floating Zerg
   m_TagString: Enemy
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1656268949
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -634939176177036431, guid: 96f53815f3f5f684584370d75e75000d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -104,20 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6484949755801727269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484949755801727289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c69e9691950bfd54a9fbdf0084262e14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 2
-  Lives: 300
 --- !u!60 &6484949755801727266
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -280,3 +266,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1180225669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484949755801727289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281d5c3793020b6428559406526bd955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 2
+  Lives: 300

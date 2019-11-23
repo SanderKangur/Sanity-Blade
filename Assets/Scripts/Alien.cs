@@ -9,6 +9,7 @@ public class Alien : MonoBehaviour
 
     private Transform _target;
     private Rigidbody2D _rigidBody;
+    private float _knockback = 0;
 
 
     void Start()
@@ -20,15 +21,14 @@ public class Alien : MonoBehaviour
 
     void Update()
     {
-        if(Speed == 0)
+        if (_knockback <= 0)
         {
-
+            if (Vector2.Distance(transform.position, _target.position) > 1)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
+            }
         }
-      
-        if (Vector2.Distance(transform.position, _target.position) > 1)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
-        }
+        _knockback -= Time.deltaTime;
 
         if(Lives <= 0)
         {
@@ -49,23 +49,17 @@ public class Alien : MonoBehaviour
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 7, ForceMode2D.Impulse);
-            //_rigidBody.AddForce(new Vector2(_rigidBody.velocity.x * -1, _rigidBody.velocity.y * -1));
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.3f;
+          
         }
         if (collision.gameObject.tag == "Projectile")
         {
             Damage(Projectile.Instance.Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 3, ForceMode2D.Impulse);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Projectile")
-        {
-            Damage(Projectile.Instance.Damage);
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.3f;
         }
     }
 }

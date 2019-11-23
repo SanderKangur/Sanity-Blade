@@ -13,16 +13,17 @@ public class PlayerController : MonoBehaviour
     public float FireRate;
     public AudioSource Oof;
     public AudioSource Brap;
-
     public Rigidbody2D _rigidBody;
+
+    private SpriteRenderer _spriteRenderer;
+    private Animator _animator;
     private Vector2 _moveInput;
     private Vector2 _moveVelocity;
     private Vector2 _projectilePos;
     private float _nextFire = 0;
-    private float _velX;
-    private bool _facingRight = true;
     private bool _inv = false;
     private float _timerInv = 2.0f;
+    private float _knockback = 0;
 
 
 
@@ -30,6 +31,8 @@ public class PlayerController : MonoBehaviour
     {
         _rigidBody = GetComponent<Rigidbody2D>();
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         
     }
 
@@ -37,8 +40,18 @@ public class PlayerController : MonoBehaviour
     {
         if(Health <= 0)
         {
-            GameObject.Destroy(this.gameObject);
-            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+            if (_timerInv == 2.0f)
+            {
+                _animator.SetTrigger("RIP");
+               
+            }
+            _timerInv -= Time.deltaTime;
+            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+
+            if (_timerInv < 0)
+            {
+                SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+            }
         }
 
         if (_inv && Health != 0)
@@ -47,45 +60,61 @@ public class PlayerController : MonoBehaviour
             _timerInv -= Time.deltaTime;
             if (_timerInv < 0)
             {
-                this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+                _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
                 _inv = false;
                 _timerInv = 2.0f;
             }
         }
 
-        _velX = Input.GetAxisRaw("Horizontal");
-        _moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        _moveVelocity = _moveInput.normalized * Speed;
+        float _velX = Input.GetAxisRaw("Horizontal");
+        bool moving = false;
+
+        if (_knockback <= 0)
+        {
+            if (Mathf.Abs(_velX) > float.Epsilon)
+            {
+                _spriteRenderer.flipX = _velX < 0;
+                moving = true;
+            }
+            _moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            _moveVelocity = _moveInput.normalized * Speed;
+            
+        }
+        _knockback -= Time.deltaTime;
+
         if (Input.GetButtonDown("Fire1") && Time.time > _nextFire)
         {
           
             _nextFire = Time.time + FireRate;
             Shoot();
+            _animator.SetTrigger("Projectile");
         }
 
+        
+        if (Input.GetButtonDown("Fire2") && Time.time > _nextFire)
+        {
+           
+            _nextFire = Time.time + FireRate;
+            int random = Random.Range(1, 5);
+            if (random == 1)
+            {
+                _animator.SetTrigger("Critical");
+            }
+            else
+            {
+                _animator.SetTrigger("Melee");
+            }
+        }
+        _animator.SetBool("Walk", moving);
+
     }
-    void LateUpdate()
-    {
-        Vector3 localScale = transform.localScale;
-        if (_velX > 0)
-        {
-            _facingRight = true;
-        }
-        else if (_velX < 0)
-        {
-            _facingRight = false;
-        }
-        if (((_facingRight) && (localScale.x < 0)) || ((!_facingRight) && (localScale.x > 0)))
-        {
-            localScale.x *= -1;
-        }
-        transform.localScale = localScale;
-    }
+
     private void FixedUpdate()
     {
+        if(_knockback <= 0)
         _rigidBody.MovePosition(_rigidBody.position + _moveVelocity * Time.fixedDeltaTime);
-
     }
+
 
     void Shoot()
     {
@@ -102,12 +131,13 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 100, ForceMode2D.Force);
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.2f;
 
             Oof.Play();
             Health -= 20;
             _inv = true;
-            this.gameObject.GetComponent<SpriteRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
     }
 }

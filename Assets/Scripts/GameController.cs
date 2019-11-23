@@ -15,6 +15,11 @@ public class GameController : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        Exit.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -8,6 +8,7 @@ TagManager:
   - Walls
   - Projectile
   - Objects
+  - Melee
   layers:
   - Default
   - TransparentFX
