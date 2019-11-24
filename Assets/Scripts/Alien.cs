@@ -11,7 +11,7 @@ public class Alien : MonoBehaviour
     private Transform _target;
     private Rigidbody2D _rigidBody;
     private float _knockback = 0;
-
+    public AudioClipGroup Monster;
 
     void Start()
     {
@@ -40,6 +40,7 @@ public class Alien : MonoBehaviour
 
     public void Damage(float dam)
     {
+        Monster?.Play();
         Lives -= dam;
     }
 

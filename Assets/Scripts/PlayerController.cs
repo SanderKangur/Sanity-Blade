@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     public PotionData PotionData;
     public SpellData SpellData;
 
-    public AudioSource Oof, Walk;
+    public AudioSource Oof, Walk, Boop;
     public AudioClipGroup Sword, Fireball;
 
     private Rigidbody2D _rigidBody;
@@ -232,21 +232,25 @@ public class PlayerController : MonoBehaviour
             if (type.Equals("Weapon"))
             {
                 WeaponData = collision.gameObject.GetComponent<Drop>().Weapon;
+                Boop.Play();
                 UpdateSprites();
             }
             if (type.Equals("Item"))
             {
                ItemData = collision.gameObject.GetComponent<Drop>().Item;
+                Boop.Play();
                 UpdateSprites();
             }
             if (type.Equals("Spell"))
             {
                 SpellData = collision.gameObject.GetComponent<Drop>().Spell;
+                Boop.Play();
                 UpdateSprites();
             }
             if (type.Equals("Potion"))
             {
                 PotionData = collision.gameObject.GetComponent<Drop>().Potion;
+                Boop.Play();
                 UpdateSprites();
             }
         }
