@@ -32,6 +32,7 @@ public class Alien : MonoBehaviour
 
         if(Lives <= 0)
         {
+            PlayerController.Instance.Health = PlayerController.Instance.Health + 10;
             GameObject.Destroy(this.gameObject);
         }
     }

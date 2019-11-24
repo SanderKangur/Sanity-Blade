@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 
+    public static PlayerController Instance;
     public Projectile Projectile;
     public float Speed;
     public float Health;
@@ -30,7 +31,8 @@ public class PlayerController : MonoBehaviour
     private float _knockback = 0;
     private float _meleeTimer = 0.2f;
     private bool _isMelee = false;
-  
+    private const float AntiHealth = 2.1f;
+
 
 
 
@@ -41,6 +43,7 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         Collider.gameObject.SetActive(false);
+        Instance = this;
         
 
     }
@@ -49,6 +52,7 @@ public class PlayerController : MonoBehaviour
     {
         if(Health <= 0)
         {
+           
             if (_timerInv == 2.0f)
             {
                 _animator.SetTrigger("RIP");
@@ -62,9 +66,16 @@ public class PlayerController : MonoBehaviour
                 SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             }
         }
+        if (Health >= 1)
+        {
+            Health -= AntiHealth * Time.deltaTime;
+            UIController.Instance.SetHealth((int)Health);
+
+        }
 
         if (_inv && Health != 0)
         {
+            
             UIController.Instance.SetHealth((int) Health);
             _timerInv -= Time.deltaTime;
             if (_timerInv < 0)
