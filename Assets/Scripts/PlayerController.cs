@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource Walk;
     public CapsuleCollider2D Collider;
     public AudioClipGroup Sword, Fireball;
-
+    public Sprite _projectileSprite, _weaponSprite;
 
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
                 SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             }
         }
-        if (Health >= 1)
+        if (Health > 0)
         {
             Health -= AntiHealth * Time.deltaTime;
             UIController.Instance.SetHealth((int)Health);
@@ -162,7 +162,9 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
+
         Projectile projectile = GameObject.Instantiate<Projectile>(Projectile);
+        projectile.GetComponent<SpriteRenderer>().sprite = _projectileSprite; 
         projectile.transform.position = this.transform.position;
 
     }
@@ -181,6 +183,19 @@ public class PlayerController : MonoBehaviour
             Health -= 20;
             _inv = true;
             _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+        }
+
+        if (collision.gameObject.tag == "Drop")
+        {
+            string type = collision.gameObject.GetComponent<Drop>().Type;
+            if (type.Equals("Weapon"))
+            {
+                _weaponSprite = collision.gameObject.GetComponent<SpriteRenderer>().sprite;
+            }
+            if (type.Equals("Projectile"))
+            {
+               _projectileSprite = collision.gameObject.GetComponent<SpriteRenderer>().sprite;
+            }
         }
     }
 }

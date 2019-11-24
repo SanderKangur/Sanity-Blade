@@ -6,6 +6,7 @@ public class Alien : MonoBehaviour
 {
     public float Speed;
     public float Lives = 100f;
+    public GameObject Drop;
 
     private Transform _target;
     private Rigidbody2D _rigidBody;
@@ -73,5 +74,9 @@ public class Alien : MonoBehaviour
         }
     }
 
-    
+    private void OnDestroy()
+    {
+        Instantiate(Drop, transform.position, Drop.transform.rotation);
+    }
+
 }

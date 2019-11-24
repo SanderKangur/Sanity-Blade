@@ -146,7 +146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1656268949
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2585874796098763323, guid: 4251cba01847af14b9a7ad2936e0cb15,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -182,6 +182,9 @@ MonoBehaviour:
   Collider: {fileID: 477457775}
   Sword: {fileID: 11400000, guid: 4fc8237420554ef46be7a5e45e949c7c, type: 2}
   Fireball: {fileID: 11400000, guid: a1f2d0c5c086fa3498891e484b36de8e, type: 2}
+  _projectileSprite: {fileID: 8751384007769531333, guid: 9d96edecb1e578e41a0dd7f6dac4fa35,
+    type: 3}
+  _weaponSprite: {fileID: 21300000, guid: e9e1c156e36da2d43b2e9ce62f160971, type: 3}
 --- !u!50 &4306182013996423517
 Rigidbody2D:
   serializedVersion: 4
