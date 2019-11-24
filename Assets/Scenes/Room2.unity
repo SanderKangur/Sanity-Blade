@@ -161,7 +161,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 790025762}
-  - {fileID: 2093959589}
   - {fileID: 662909294}
   - {fileID: 1997560454}
   m_Father: {fileID: 0}
@@ -321,7 +320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Drop
       value: 
-      objectReference: {fileID: 8141986738642819662, guid: 30efea6d012ce2e4da8e19593e725eb7,
+      objectReference: {fileID: 8141986738642819662, guid: 8fbbaf648c3921f47addd36f346e4159,
         type: 3}
     - target: {fileID: -3585243329456344795, guid: 517f1a084e98e7e4a928325ee36637b6,
         type: 3}
@@ -564,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 378750266}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!19719996 &662909295
 TilemapCollider2D:
@@ -4129,7 +4128,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 378750266}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1997560455
 TilemapRenderer:
@@ -4528,6 +4527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370de86e30fe7f144a0341f8ff30bd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  room: {fileID: 0}
 --- !u!61 &2093959587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4660,11 +4660,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093959585}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0.5, z: -1.02}
+  m_LocalPosition: {x: 3.9192986, y: 1.7881259, z: 220.71394}
   m_LocalScale: {x: 2.0426, y: 20, z: 2.0426}
   m_Children: []
-  m_Father: {fileID: 378750266}
-  m_RootOrder: 1
+  m_Father: {fileID: 2130400988}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2130400986
 GameObject:
@@ -4715,7 +4715,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.0807014, y: -1.2881259, z: -221.73395}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2093959589}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5142,7 +5143,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Drop
       value: 
-      objectReference: {fileID: 8141986738642819662, guid: d4119a8f8cc5aa24bb36507109e5e7f9,
+      objectReference: {fileID: 8141986738642819662, guid: 418dc084e7265dd4eb1c5debc08cd1e0,
         type: 3}
     - target: {fileID: -3585243329456344795, guid: 517f1a084e98e7e4a928325ee36637b6,
         type: 3}

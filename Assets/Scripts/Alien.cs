@@ -72,6 +72,11 @@ public class Alien : MonoBehaviour
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
+
+        if(collision.gameObject.tag == "Drop")
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+        }
     }
 
     private void OnDestroy()

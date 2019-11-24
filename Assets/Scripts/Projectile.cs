@@ -45,7 +45,7 @@ public class Projectile : MonoBehaviour
         {
             GameObject.Destroy(this.gameObject);
         }
-        if (collision.gameObject.tag == "Objects")
+        if (collision.gameObject.tag == "Objects" || collision.gameObject.tag == "Drop")
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
         }

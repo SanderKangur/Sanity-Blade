@@ -63,7 +63,7 @@ public class Zerg : MonoBehaviour
             _rigidBody.AddForce(dir * 3, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
-        if (collision.gameObject.tag == "Objects")
+        if (collision.gameObject.tag == "Objects" || collision.gameObject.tag == "Drop")
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true); 
         }

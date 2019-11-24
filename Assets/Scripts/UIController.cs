@@ -31,14 +31,6 @@ public class UIController : MonoBehaviour
         get { return _currentValue; }
     }
 
-
-    private void Start()
-    {
-        SetHealth(100);
-        print("test");
-        print(_currentPercent);
-   
-    }
     void Awake()
     {
         Instance = this;

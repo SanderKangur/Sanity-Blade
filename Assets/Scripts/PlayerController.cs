@@ -9,15 +9,19 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     public Projectile Projectile;
+    public CapsuleCollider2D Collider;
+
     public float Speed;
     public float Health;
     public float FireRate;
-    public AudioSource Oof;
-    public AudioSource Brap;
-    public AudioSource Walk;
-    public CapsuleCollider2D Collider;
+    
+    public ItemData ItemData;
+    public WeaponData WeaponData;
+    public PotionData PotionData;
+    public SpellData SpellData;
+
+    public AudioSource Oof, Walk;
     public AudioClipGroup Sword, Fireball;
-    public Sprite _projectileSprite, _weaponSprite;
 
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
@@ -34,7 +38,14 @@ public class PlayerController : MonoBehaviour
     private const float AntiHealth = 2.1f;
 
 
-
+    private void Awake()
+    {
+        Events.OnStartRoom += StartRoom;
+    }
+    private void OnDestroy()
+    {
+        Events.OnStartRoom -= StartRoom;
+    }
 
     void Start()
     {
@@ -44,8 +55,18 @@ public class PlayerController : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         Collider.gameObject.SetActive(false);
         Instance = this;
-        
+    }
 
+    public void StartRoom(PlayerInfo data)
+    {
+        Speed = data.Speed;
+        Health = data.Health;
+        FireRate = data.FireRate;
+
+        ItemData = data.ItemData;
+        WeaponData = data.WeaponData;
+        PotionData = data.PotionData;
+        SpellData = data.SpellData;
     }
 
     void Update()
@@ -164,7 +185,9 @@ public class PlayerController : MonoBehaviour
     {
 
         Projectile projectile = GameObject.Instantiate<Projectile>(Projectile);
-        projectile.GetComponent<SpriteRenderer>().sprite = _projectileSprite; 
+        projectile.GetComponent<SpriteRenderer>().sprite = SpellData.Sprite;
+        projectile.Damage = SpellData.Damage;
+        projectile.Speed = SpellData.Speed;
         projectile.transform.position = this.transform.position;
 
     }
@@ -190,11 +213,19 @@ public class PlayerController : MonoBehaviour
             string type = collision.gameObject.GetComponent<Drop>().Type;
             if (type.Equals("Weapon"))
             {
-                _weaponSprite = collision.gameObject.GetComponent<SpriteRenderer>().sprite;
+                WeaponData = collision.gameObject.GetComponent<Drop>().Weapon;
             }
-            if (type.Equals("Projectile"))
+            if (type.Equals("Item"))
             {
-               _projectileSprite = collision.gameObject.GetComponent<SpriteRenderer>().sprite;
+               ItemData = collision.gameObject.GetComponent<Drop>().Item;
+            }
+            if (type.Equals("Spell"))
+            {
+                SpellData = collision.gameObject.GetComponent<Drop>().Spell;
+            }
+            if (type.Equals("Potion"))
+            {
+                PotionData = collision.gameObject.GetComponent<Drop>().Potion;
             }
         }
     }

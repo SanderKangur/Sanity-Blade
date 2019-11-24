@@ -111,9 +111,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: Item
-  Sprites:
-  - {fileID: -8419157238138717284, guid: abcdec14d94a88347b867a2386e80a95, type: 3}
-  - {fileID: -3955928768824376489, guid: abcdec14d94a88347b867a2386e80a95, type: 3}
-  - {fileID: 8223241991984964864, guid: abcdec14d94a88347b867a2386e80a95, type: 3}
-  - {fileID: 2619082145844522257, guid: abcdec14d94a88347b867a2386e80a95, type: 3}
-  - {fileID: 8650782246694591811, guid: abcdec14d94a88347b867a2386e80a95, type: 3}
+  Weapons:
+  - {fileID: 11400000, guid: 7458212cb8cb3e144997fcb67a6e6590, type: 2}
+  - {fileID: 11400000, guid: 2ed47c34cdfc0f4488b5272e6fee7ccd, type: 2}
+  - {fileID: 11400000, guid: 1df44954955985744b04dc7db5ec28c8, type: 2}
+  Items:
+  - {fileID: 11400000, guid: 79ed9a8353a2b3a499b06e6488923f2a, type: 2}
+  - {fileID: 11400000, guid: 8ca87dc34f12d4c459a549416c4d8759, type: 2}
+  Spells:
+  - {fileID: 11400000, guid: 08aaab437dfb85740868b3c03c5579c7, type: 2}
+  - {fileID: 11400000, guid: fdb5c538e26ea6f419eb117297e1376a, type: 2}
+  - {fileID: 11400000, guid: 52afec483abd4e8489a5f48270a4ef82, type: 2}
+  Potions:
+  - {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
+  - {fileID: 11400000, guid: 9449644a68518e14b8732e503ddad5b9, type: 2}
+  Weapon: {fileID: 0}
+  Item: {fileID: 0}
+  Spell: {fileID: 0}
+  Potion: {fileID: 0}

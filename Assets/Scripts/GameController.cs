@@ -33,4 +33,22 @@ public class GameController : MonoBehaviour
             Exit.SetActive(true);
         }
     }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        Debug.Log("Level " + level);
+        if (level > 1)
+        {
+            PlayerInfo info = new PlayerInfo();
+            PlayerController player = PlayerController.Instance;
+            info.Health = player.Health;
+            info.Speed = player.Speed;
+            info.FireRate = player.FireRate;
+            info.WeaponData = player.WeaponData;
+            info.ItemData = player.ItemData;
+            info.SpellData = player.SpellData;
+            info.PotionData = player.PotionData;
+            Events.StartRoom(info);
+        }
+    }
 }
