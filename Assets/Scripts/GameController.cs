@@ -49,6 +49,8 @@ public class GameController : MonoBehaviour
             info.SpellData = player.SpellData;
             info.PotionData = player.PotionData;
             Events.StartRoom(info);
+            
         }
     }
+
 }

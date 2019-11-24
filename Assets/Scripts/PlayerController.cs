@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         Collider.gameObject.SetActive(false);
         Instance = this;
+        UpdateSprites();
+       
     }
 
     public void StartRoom(PlayerInfo data)
@@ -67,10 +69,25 @@ public class PlayerController : MonoBehaviour
         WeaponData = data.WeaponData;
         PotionData = data.PotionData;
         SpellData = data.SpellData;
+        UpdateSprites();
     }
-
+    void UpdateSprites()
+    {
+        if (ItemData != null && InventoryUIController.Instance.ItemSprite != null) 
+            InventoryUIController.Instance.ItemSprite.sprite = ItemData.Sprite;
+        if (WeaponData != null && InventoryUIController.Instance.WeaponSprite != null)
+            InventoryUIController.Instance.WeaponSprite.sprite = WeaponData.Sprite;
+        if (PotionData != null && InventoryUIController1.Instance.PotionSprite != null)
+            InventoryUIController1.Instance.PotionSprite.sprite = PotionData.Sprite;
+        if (SpellData != null && InventoryUIController1.Instance.SpellSprite != null)
+        {
+            InventoryUIController1.Instance.SpellSprite.sprite = SpellData.Sprite;
+           
+        }
+    }
     void Update()
     {
+        
         if(Health <= 0)
         {
            
@@ -169,6 +186,7 @@ public class PlayerController : MonoBehaviour
                 Collider.gameObject.SetActive(false);
             }
         }
+        
         _animator.SetBool("Walk", isMoving);
 
 
@@ -214,18 +232,22 @@ public class PlayerController : MonoBehaviour
             if (type.Equals("Weapon"))
             {
                 WeaponData = collision.gameObject.GetComponent<Drop>().Weapon;
+                UpdateSprites();
             }
             if (type.Equals("Item"))
             {
                ItemData = collision.gameObject.GetComponent<Drop>().Item;
+                UpdateSprites();
             }
             if (type.Equals("Spell"))
             {
                 SpellData = collision.gameObject.GetComponent<Drop>().Spell;
+                UpdateSprites();
             }
             if (type.Equals("Potion"))
             {
                 PotionData = collision.gameObject.GetComponent<Drop>().Potion;
+                UpdateSprites();
             }
         }
     }
