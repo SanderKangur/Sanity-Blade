@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3b215d3bb355b64bb677134c8197c64, type: 3}
   m_Name: P_Health
   m_EditorClassIdentifier: 
-  Boost: 5
+  Boost: 15
   Sprite: {fileID: -4156976322373235980, guid: abcdec14d94a88347b867a2386e80a95, type: 3}

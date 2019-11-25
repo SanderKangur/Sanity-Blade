@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 7e82e63f251d46944a01246a5be6a94a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4819368563152835787
+    second: monster_cerberus_claws_0
+  - first:
+      213: 8582568312569178954
+    second: monster_cerberus_claws_1
+  - first:
+      213: 7664668383076089522
+    second: monster_cerberus_claws_2
+  - first:
+      213: -7636366533666282429
+    second: monster_cerberus_claws_3
+  - first:
+      213: 2333246105154487136
+    second: monster_cerberus_claws_4
+  - first:
+      213: 5758928895377281671
+    second: monster_cerberus_claws_5
+  - first:
+      213: -2369889037941500451
+    second: monster_cerberus_claws_6
+  - first:
+      213: 3871874140425840130
+    second: monster_cerberus_claws_7
+  - first:
+      213: 1569366280806539295
+    second: monster_cerberus_claws_8
+  - first:
+      213: 8395448365628361828
+    second: monster_cerberus_claws_9
+  - first:
+      213: -550587442977067766
+    second: monster_cerberus_claws_10
+  - first:
+      213: -8677936009094893535
+    second: monster_cerberus_claws_11
+  - first:
+      213: 6868269219248120270
+    second: monster_cerberus_claws_12
+  - first:
+      213: 4838902349115989211
+    second: monster_cerberus_claws_13
+  - first:
+      213: -5431803431577954375
+    second: monster_cerberus_claws_14
+  - first:
+      213: 5172568471094979476
+    second: monster_cerberus_claws_15
+  - first:
+      213: 2339014806093192452
+    second: monster_cerberus_claws_16
+  - first:
+      213: 6584850601656730582
+    second: monster_cerberus_claws_17
+  - first:
+      213: 8358631382909675587
+    second: monster_cerberus_claws_18
+  - first:
+      213: -3543743658878992717
+    second: monster_cerberus_claws_19
+  - first:
+      213: 6271947851175515544
+    second: monster_cerberus_claws_20
+  - first:
+      213: -2115028920325590635
+    second: monster_cerberus_claws_21
+  - first:
+      213: -9002478083187575217
+    second: monster_cerberus_claws_22
+  - first:
+      213: 4334870692511057092
+    second: monster_cerberus_claws_23
+  - first:
+      213: 3080748852205252491
+    second: monster_cerberus_claws_24
+  - first:
+      213: -4647906956528404376
+    second: monster_cerberus_claws_25
+  - first:
+      213: 5471234829652720695
+    second: monster_cerberus_claws_26
+  - first:
+      213: 5378962301847826987
+    second: monster_cerberus_claws_27
+  - first:
+      213: -5643050572826096206
+    second: monster_cerberus_claws_28
+  - first:
+      213: -8596158060430556104
+    second: monster_cerberus_claws_29
+  - first:
+      213: 6443234323209927664
+    second: monster_cerberus_claws_30
+  - first:
+      213: 476903953683069909
+    second: monster_cerberus_claws_31
+  - first:
+      213: -1183997799038031846
+    second: monster_cerberus_claws_32
+  - first:
+      213: 6469750463075049675
+    second: monster_cerberus_claws_33
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_cerberus_claws_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 278
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48242919e207a3646880d76d844c4825
+      internalID: -4819368563152835787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 278
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2185b4b2e1ba0642ba84bcf9c687c2a
+      internalID: 8582568312569178954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 278
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04f8eebf00eb2343824287a9bdf2466
+      internalID: 7664668383076089522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 275
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409027c7cf0f11540b529ff2c15cb9ba
+      internalID: -7636366533666282429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 272
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c7f9048de4c224c8be9a96d80b0a70
+      internalID: 2333246105154487136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 266
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c2e2cf2fdb46f4c89125d7803ea0e2
+      internalID: 5758928895377281671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 229
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b67d79fce630924ca14cb011f95101f
+      internalID: -2369889037941500451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 231
+        width: 83
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1299291c140014ab020523a271b6a3
+      internalID: 3871874140425840130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 215
+        width: 79
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f41e31071dac4b8bb1b388f686303
+      internalID: 1569366280806539295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 79
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2045ac7409cfee74daf28efd5ac40b2f
+      internalID: 8395448365628361828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 204
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68db116bb4d947b4c94c9d7b1b5bc408
+      internalID: -550587442977067766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 225
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb8ae58fe360d440a8249657933d0e6
+      internalID: -8677936009094893535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 220
+        width: 38
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979e6ff90a19f504cbd4c69c103d6d47
+      internalID: 6868269219248120270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 154
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be560021d3535b41a352558325d22de
+      internalID: 4838902349115989211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 208
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e57cfdf1e872949b6ab2bff4532a2e
+      internalID: -5431803431577954375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 157
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd89576b0009b4aa094a25befb3b83
+      internalID: 5172568471094979476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99166e42400be8944a9df8994da84c57
+      internalID: 2339014806093192452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 197
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0b36854d46c7c40b2e3ad6795f97f3
+      internalID: 6584850601656730582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 146
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c329c2381893a9c4a92db041bb5ec2ae
+      internalID: 8358631382909675587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 133
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66e17e99b80db94f92c600693352983
+      internalID: -3543743658878992717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 134
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b807e78b484da4a91d0bd1b626ab4d
+      internalID: 6271947851175515544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 136
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a43095ccd77d8d43bf3f2fd55149d66
+      internalID: -2115028920325590635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 72
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14035e5b589dbf94aae9c0afb527570e
+      internalID: -9002478083187575217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 72
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7493809229873ab44975e3f55efe7e7f
+      internalID: 4334870692511057092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 73
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03d56be416f8e04994c2c70695b19ea
+      internalID: 3080748852205252491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 72
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0ff7a9543bcc84aad8ba62655ffafc
+      internalID: -4647906956528404376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 72
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ea7beb709bf5458501e983d4ad139
+      internalID: 5471234829652720695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_27
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 73
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8764d4a53fb14bc4ebf1a3494e5954db
+      internalID: 5378962301847826987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 12
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c0ba0d37102c44e80c5b2fc7e19a22
+      internalID: -5643050572826096206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 12
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f77822c57b2ba145b168d69fa103e92
+      internalID: -8596158060430556104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_30
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 11
+        width: 79
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d2fd2b570493849ba4d0ec4e82571f
+      internalID: 6443234323209927664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 4
+        width: 76
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c6278d1bafeec49bd7c93f36796496
+      internalID: 476903953683069909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 4
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ed161f8877054fa1dbc8eb504e041
+      internalID: -1183997799038031846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_cerberus_claws_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb017abbfd3700645904b9c13db59285
+      internalID: 6469750463075049675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

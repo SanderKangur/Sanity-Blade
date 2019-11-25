@@ -26,6 +26,7 @@ public class Alien : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, _target.position) > 1)
             {
+                GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
                 transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
             }
         }
@@ -48,8 +49,9 @@ public class Alien : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !PlayerController.Instance.Inv)
         {
+            PlayerController.Instance.Health -= 10;
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
@@ -58,7 +60,7 @@ public class Alien : MonoBehaviour
         }
         if (collision.gameObject.tag == "Projectile")
         {
-            Damage(Projectile.Instance.Damage);
+            Damage(collision.gameObject.GetComponent<Projectile>().Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
@@ -67,7 +69,7 @@ public class Alien : MonoBehaviour
 
         if (collision.gameObject.tag == "Melee")
         {
-            Damage(50);
+            Damage(PlayerController.Instance.WeaponData.Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3b215d3bb355b64bb677134c8197c64, type: 3}
   m_Name: P_Speed
   m_EditorClassIdentifier: 
-  Boost: 2
+  Boost: 20
   Sprite: {fileID: 1106725773446617828, guid: abcdec14d94a88347b867a2386e80a95, type: 3}

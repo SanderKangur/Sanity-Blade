@@ -1,0 +1,2047 @@
+fileFormatVersion: 2
+guid: fd495d4182ef0d645b982cefde364198
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2345513972560381969
+    second: monster_mogall_eye_0
+  - first:
+      213: 4905256259151300041
+    second: monster_mogall_eye_1
+  - first:
+      213: 8932537907762131432
+    second: monster_mogall_eye_2
+  - first:
+      213: -3125851586498775900
+    second: monster_mogall_eye_3
+  - first:
+      213: 4695671854522047261
+    second: monster_mogall_eye_4
+  - first:
+      213: -7562213696930499892
+    second: monster_mogall_eye_5
+  - first:
+      213: -2498464956355917281
+    second: monster_mogall_eye_6
+  - first:
+      213: 4116904299591196719
+    second: monster_mogall_eye_7
+  - first:
+      213: 8688529920629244500
+    second: monster_mogall_eye_8
+  - first:
+      213: -580855768594487121
+    second: monster_mogall_eye_9
+  - first:
+      213: -499852654178245268
+    second: monster_mogall_eye_10
+  - first:
+      213: -7623931363959897182
+    second: monster_mogall_eye_11
+  - first:
+      213: 7831668015847396055
+    second: monster_mogall_eye_12
+  - first:
+      213: 3666223493258933356
+    second: monster_mogall_eye_13
+  - first:
+      213: 2717052666590552444
+    second: monster_mogall_eye_14
+  - first:
+      213: -5161577864829753399
+    second: monster_mogall_eye_15
+  - first:
+      213: 8780051290821615110
+    second: monster_mogall_eye_16
+  - first:
+      213: -8490832952167505148
+    second: monster_mogall_eye_17
+  - first:
+      213: -5350883460926054093
+    second: monster_mogall_eye_18
+  - first:
+      213: 8587243145931461171
+    second: monster_mogall_eye_19
+  - first:
+      213: -435881347299696677
+    second: monster_mogall_eye_20
+  - first:
+      213: -5558935666424886309
+    second: monster_mogall_eye_21
+  - first:
+      213: 5031897321354781043
+    second: monster_mogall_eye_22
+  - first:
+      213: -3261804875091451017
+    second: monster_mogall_eye_23
+  - first:
+      213: -5670950792475802809
+    second: monster_mogall_eye_24
+  - first:
+      213: -3924596510696018912
+    second: monster_mogall_eye_25
+  - first:
+      213: -8335872576290775424
+    second: monster_mogall_eye_26
+  - first:
+      213: -388919720621641414
+    second: monster_mogall_eye_27
+  - first:
+      213: -3680223392744434338
+    second: monster_mogall_eye_28
+  - first:
+      213: -3879793876174291580
+    second: monster_mogall_eye_29
+  - first:
+      213: 8766555692493329120
+    second: monster_mogall_eye_30
+  - first:
+      213: -1341260790346647769
+    second: monster_mogall_eye_31
+  - first:
+      213: 6506789972528435119
+    second: monster_mogall_eye_32
+  - first:
+      213: 7704753950996999713
+    second: monster_mogall_eye_33
+  - first:
+      213: 85143105216885522
+    second: monster_mogall_eye_34
+  - first:
+      213: 6940712657948502931
+    second: monster_mogall_eye_35
+  - first:
+      213: 8947534188291285439
+    second: monster_mogall_eye_36
+  - first:
+      213: 2935493530523330905
+    second: monster_mogall_eye_37
+  - first:
+      213: 6074691872289902290
+    second: monster_mogall_eye_38
+  - first:
+      213: 7545276844824648585
+    second: monster_mogall_eye_39
+  - first:
+      213: 2172286168672811095
+    second: monster_mogall_eye_40
+  - first:
+      213: -1220083763839815293
+    second: monster_mogall_eye_41
+  - first:
+      213: -7458825649262892174
+    second: monster_mogall_eye_42
+  - first:
+      213: -8826674299041667405
+    second: monster_mogall_eye_43
+  - first:
+      213: -284303552642466993
+    second: monster_mogall_eye_44
+  - first:
+      213: 6711186236763266204
+    second: monster_mogall_eye_45
+  - first:
+      213: -6034533895005005625
+    second: monster_mogall_eye_46
+  - first:
+      213: -8010231410546883237
+    second: monster_mogall_eye_47
+  - first:
+      213: -5911770740565470360
+    second: monster_mogall_eye_48
+  - first:
+      213: -1156439153433632518
+    second: monster_mogall_eye_49
+  - first:
+      213: -4944018881720773190
+    second: monster_mogall_eye_50
+  - first:
+      213: -2596000819078323317
+    second: monster_mogall_eye_51
+  - first:
+      213: 6230846288481095188
+    second: monster_mogall_eye_52
+  - first:
+      213: 778586485848281010
+    second: monster_mogall_eye_53
+  - first:
+      213: 5638424008312178911
+    second: monster_mogall_eye_54
+  - first:
+      213: 5701596186202186238
+    second: monster_mogall_eye_55
+  - first:
+      213: -5250400686742419578
+    second: monster_mogall_eye_56
+  - first:
+      213: 4906608263846587328
+    second: monster_mogall_eye_57
+  - first:
+      213: -1757628455528367573
+    second: monster_mogall_eye_58
+  - first:
+      213: 3676545478644215223
+    second: monster_mogall_eye_59
+  - first:
+      213: 3225567315750767889
+    second: monster_mogall_eye_60
+  - first:
+      213: -4962161664852106448
+    second: monster_mogall_eye_61
+  - first:
+      213: -968294987315309569
+    second: monster_mogall_eye_62
+  - first:
+      213: 5970565511388560826
+    second: monster_mogall_eye_63
+  - first:
+      213: 6726669268829653435
+    second: monster_mogall_eye_64
+  - first:
+      213: 3537042882687599989
+    second: monster_mogall_eye_65
+  - first:
+      213: 1982998776981258289
+    second: monster_mogall_eye_66
+  - first:
+      213: -6422174240157128841
+    second: monster_mogall_eye_67
+  - first:
+      213: 5158227595365135868
+    second: monster_mogall_eye_68
+  - first:
+      213: 4472291691469999386
+    second: monster_mogall_eye_69
+  - first:
+      213: 3248614189816449082
+    second: monster_mogall_eye_70
+  - first:
+      213: 206303954476938510
+    second: monster_mogall_eye_71
+  - first:
+      213: -2274866814216079853
+    second: monster_mogall_eye_72
+  - first:
+      213: -5886072043138676930
+    second: monster_mogall_eye_73
+  - first:
+      213: 2677239753268843034
+    second: monster_mogall_eye_74
+  - first:
+      213: 849101462928950731
+    second: monster_mogall_eye_75
+  - first:
+      213: 6809773551368331501
+    second: monster_mogall_eye_76
+  - first:
+      213: 1499704263733873655
+    second: monster_mogall_eye_77
+  - first:
+      213: -8198262249568598588
+    second: monster_mogall_eye_78
+  - first:
+      213: 6982819776443317541
+    second: monster_mogall_eye_79
+  - first:
+      213: 5664095576561130664
+    second: monster_mogall_eye_80
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_mogall_eye_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 848
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94675fae75fff04c8c3c1f336ba85cf
+      internalID: -2345513972560381969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 856
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b6f0eeb6b78e4295e739b65ccc121
+      internalID: 4905256259151300041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 859
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b089ff633e05e4ab43bf0d1f785b31
+      internalID: 8932537907762131432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 864
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7e44d7c33ea8942b5e978f6b0eead8
+      internalID: -3125851586498775900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 866
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b3780dc468e6d43b3254b485e211eb
+      internalID: 4695671854522047261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 866
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4088a5c571bc724eb264385ea81c4b3
+      internalID: -7562213696930499892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 869
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c1b6829bf90c143a9c3cde601837c5
+      internalID: -2498464956355917281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 868
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f28042a0d5a3104bab9a03fbdf5c7d8
+      internalID: 4116904299591196719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 866
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ca50f0a7ffe74bb58a057ac0e8d4e
+      internalID: 8688529920629244500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 847
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405f23633d1b5ca40ac34560ba540d2d
+      internalID: -580855768594487121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 848
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbf0c06647ad1941a4923bc80ea8705
+      internalID: -499852654178245268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 849
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d3cb6bbed96e949a7563f0d779dff9
+      internalID: -7623931363959897182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 850
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb64e2d8f473b54db4fc121628f826c
+      internalID: 7831668015847396055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 849
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd00e2cbad4bf48a4ab01a4dea4391
+      internalID: 3666223493258933356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 851
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55618749edbca4d4aabea69d51476e0e
+      internalID: 2717052666590552444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_15
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 850
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c660e1373a2c4479cf52d37e008528
+      internalID: -5161577864829753399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_16
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 848
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a88a190770a34a8c7bf42fe99672b
+      internalID: 8780051290821615110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 812
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7705059c6ef26fe419f698b92f8eaf91
+      internalID: -8490832952167505148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 813
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c56c45c32860b449837253a0b1bb77d
+      internalID: -5350883460926054093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 813
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c3e412497ba34d9886291e1cd92f8
+      internalID: 8587243145931461171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 813
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc47a14c5a952d4c96b64214a2c1fe0
+      internalID: -435881347299696677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_21
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 816
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb759422d803a64396980997ac0a000
+      internalID: -5558935666424886309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 817
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aa421f5fd54b049bbb99742f7c64e0
+      internalID: 5031897321354781043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_23
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 813
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b46724f3a7da4fb8a47d37fd83210
+      internalID: -3261804875091451017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 812
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdba22e3a58c694eaabda0a021b72e4
+      internalID: -5670950792475802809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_25
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 808
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5359892e2e03774c95d03e1c6a347d0
+      internalID: -3924596510696018912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_26
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 807
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab2deeb11de664408eb6be14f0f5292
+      internalID: -8335872576290775424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 794
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7923d7a1e64e740b3b42c9a03f442d
+      internalID: -388919720621641414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 795
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67593947cee303c4498ac0ca8fff43d2
+      internalID: -3680223392744434338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 795
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1417397a1ab83f40b4811762631af0e
+      internalID: -3879793876174291580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 795
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab151e1fe87cc044a558e516e4f12be
+      internalID: 8766555692493329120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 796
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a6b5e253d15040bf9bf08673858f2
+      internalID: -1341260790346647769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_32
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 796
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dacd2243c0e3a143a84b8f04787bca8
+      internalID: 6506789972528435119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 796
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64491607673fcdc42b71cd3c608d2969
+      internalID: 7704753950996999713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_34
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 796
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2e79b1f3fbaad429fa899ded786791
+      internalID: 85143105216885522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_35
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 798
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ce4452fad8566429f897c0240c5ebc
+      internalID: 6940712657948502931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 798
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a4c6365858d1c4999200fec1d55711
+      internalID: 8947534188291285439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 748
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5db5d3d4748f4a4d8820bf8dc0b9c87
+      internalID: 2935493530523330905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_38
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 755
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1fbbc799a551044b46937b2e090ffc
+      internalID: 6074691872289902290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_39
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 758
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b9af6f81d0db74388f96aee6220f6b
+      internalID: 7545276844824648585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_40
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 758
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4ec556d9e57b24999bed1c16da8cb5
+      internalID: 2172286168672811095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 741
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13c8f5042bb2b14baa343933c7f699e
+      internalID: -1220083763839815293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 742
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2b2d9493838cf40a4ff0f2c193a7d9
+      internalID: -7458825649262892174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_43
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 743
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdc39cb82424d419825dad768c71df
+      internalID: -8826674299041667405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_44
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 745
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37766cb7f312fed429d0d4eb214d4341
+      internalID: -284303552642466993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 690
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231ad63a8ef6ad044af70f9ad31338d2
+      internalID: 6711186236763266204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 690
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3531253cc49aaa43ad263f326e18092
+      internalID: -6034533895005005625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_47
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 689
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a4478338fef7c4182f451dc08d5072
+      internalID: -8010231410546883237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_48
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 679
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90b12f63315c0f4297aef8db7ef2d16
+      internalID: -5911770740565470360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 687
+        width: 92
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b2886ba91121f4aa2e4be7e94edfb6
+      internalID: -1156439153433632518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 624
+        width: 94
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ec02dfea03205489e4495fb2ed9c1f
+      internalID: -4944018881720773190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 622
+        width: 76
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331100f97b00d854faed13805905d6b7
+      internalID: -2596000819078323317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 622
+        width: 95
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a8e6ae10ab1d347a5a072d3b780d96
+      internalID: 6230846288481095188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_53
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 618
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6e9300f8117c24a963c93486c4911e
+      internalID: 778586485848281010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_54
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 560
+        width: 91
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa8c0da080f7e144a518f3d672d14cb
+      internalID: 5638424008312178911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_55
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 558
+        width: 95
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d351c54a87bc0f64388ca436749eae6f
+      internalID: 5701596186202186238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_56
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 560
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c66fb12950c544cb633156801cae7e
+      internalID: -5250400686742419578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_57
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 561
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ee02bd49fdd5a4fa018532f8f5b4b6
+      internalID: 4906608263846587328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 492
+        width: 95
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caea91c9df0508f4f9a7130d297c2fa9
+      internalID: -1757628455528367573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 492
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c5ba8598cc38f469ad68e5998d6a41
+      internalID: 3676545478644215223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 495
+        width: 87
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f33b0f16626ccb4ba610c71b80e100c
+      internalID: 3225567315750767889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_61
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 498
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229f102c1e99800439fb992f0c88e150
+      internalID: -4962161664852106448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_62
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 418
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b27ad06bb2f142a407a5d23267149
+      internalID: -968294987315309569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_63
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 429
+        width: 91
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f1c13d8f91c294bb441b04a06a66c6
+      internalID: 5970565511388560826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_64
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 429
+        width: 95
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a68ebab777ba4ebf32bb32db3b679
+      internalID: 6726669268829653435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 434
+        width: 75
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca6e53204b7d044197abdeb365cabe0
+      internalID: 3537042882687599989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 319
+        width: 129
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697032a3cbf668948b7b4c1c3261cbe7
+      internalID: 1982998776981258289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_67
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 370
+        width: 113
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e0a9fb158bfe4d8f1225039c4926b
+      internalID: -6422174240157128841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 349
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f7a9f824457045a0705159e7c7041
+      internalID: 5158227595365135868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_69
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 309
+        width: 134
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe152e5748f92342b791b8637879447
+      internalID: 4472291691469999386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 249
+        width: 118
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf843aea5304284c9a9b55fbffcbab6
+      internalID: 3248614189816449082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 259
+        width: 123
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e71a2c2f81243a40b1fc290f9f2d34b
+      internalID: 206303954476938510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 227
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d374b62b1cf24fa442b91f040f39e
+      internalID: -2274866814216079853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_73
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 235
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5baf02c07bc34297a263457f040e7
+      internalID: -5886072043138676930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_74
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 149
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a7a653dadfe749a85f5b0691ee8c0
+      internalID: 2677239753268843034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_75
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 184
+        width: 80
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f742371aad3ec44811c463a853d272
+      internalID: 849101462928950731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_76
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 175
+        width: 81
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a32e7fce29524e8243f311f6513e8
+      internalID: 6809773551368331501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_77
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 115
+        width: 129
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50175640cb64cc04cb2e5fe1dcf6405f
+      internalID: 1499704263733873655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_78
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 89
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560a21589912d0c4c85acda26210c741
+      internalID: -8198262249568598588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_79
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 33
+        width: 82
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e9b95e086cd24b919f4971c255828
+      internalID: 6982819776443317541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_mogall_eye_80
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 20
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cb07fb3c4f50b4ca0152caca57d879
+      internalID: 5664095576561130664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

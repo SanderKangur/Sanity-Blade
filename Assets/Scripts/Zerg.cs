@@ -6,6 +6,7 @@ public class Zerg : MonoBehaviour
 {
     public float Speed;
     public float Lives = 100f;
+    public GameObject Drop;
 
     private Transform _target;
     private Rigidbody2D _rigidBody;
@@ -25,7 +26,7 @@ public class Zerg : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, _target.position) > 1)
             {
-                
+                GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
                 transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
             }
         }
@@ -48,7 +49,7 @@ public class Zerg : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !PlayerController.Instance.Inv)
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
@@ -67,5 +68,10 @@ public class Zerg : MonoBehaviour
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true); 
         }
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(Drop, transform.position, Drop.transform.rotation);
     }
 }

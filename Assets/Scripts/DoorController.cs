@@ -16,10 +16,7 @@ public class DoorController : MonoBehaviour
 
         if (collision.tag == "Player")
         {
-
-            int sceneIndex = GameController.Instance.Levels.IndexOf(_activeScene);
-            string newScene = GameController.Instance.Levels[sceneIndex + 1];
-            SceneManager.LoadScene(newScene, LoadSceneMode.Single);
+            SceneManager.LoadScene(GameController.Instance.NextRoom, LoadSceneMode.Single);
         }
     }
 }

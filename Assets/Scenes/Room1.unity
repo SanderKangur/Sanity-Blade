@@ -219,7 +219,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.4998255
+  orthographic size: 4.499825
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4238,11 +4238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
-  Levels:
-  - Room1
-  - Room2
-  - Room3
-  - Menu
+  NextRoom: Room2
   DoorOpen: {fileID: 2130400989}
   Ambience: {fileID: 2130400990}
 --- !u!4 &2130400988

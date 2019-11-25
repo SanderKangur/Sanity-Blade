@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance;
     public GameObject Exit;
-    public List<string> Levels;
+    public string NextRoom;
     public AudioSource DoorOpen;
     public AudioSource Ambience;
 

@@ -14,13 +14,14 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public float Health;
     public float FireRate;
-    
+    public bool Inv = false;
+
     public ItemData ItemData;
     public WeaponData WeaponData;
     public PotionData PotionData;
     public SpellData SpellData;
 
-    public AudioSource Oof, Walk, Boop;
+    public AudioSource Oof, Walk, Boop, Potion, Death;
     public AudioClipGroup Sword, Fireball;
 
     private Rigidbody2D _rigidBody;
@@ -30,7 +31,6 @@ public class PlayerController : MonoBehaviour
     private Vector2 _moveVelocity;
     private Vector2 _projectilePos;
     private float _nextFire = 0;
-    private bool _inv = false;
     private float _timerInv = 2.0f;
     private float _knockback = 0;
     private float _meleeTimer = 0.2f;
@@ -80,10 +80,7 @@ public class PlayerController : MonoBehaviour
         if (PotionData != null && InventoryUIController1.Instance.PotionSprite != null)
             InventoryUIController1.Instance.PotionSprite.sprite = PotionData.Sprite;
         if (SpellData != null && InventoryUIController1.Instance.SpellSprite != null)
-        {
             InventoryUIController1.Instance.SpellSprite.sprite = SpellData.Sprite;
-           
-        }
     }
     void Update()
     {
@@ -94,7 +91,7 @@ public class PlayerController : MonoBehaviour
             if (_timerInv == 2.0f)
             {
                 _animator.SetTrigger("RIP");
-               
+                Death.Play();
             }
             _timerInv -= Time.deltaTime;
             _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
@@ -111,7 +108,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (_inv && Health != 0)
+        if (Inv && Health > 0)
         {
             
             UIController.Instance.SetHealth((int) Health);
@@ -119,7 +116,7 @@ public class PlayerController : MonoBehaviour
             if (_timerInv < 0)
             {
                 _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-                _inv = false;
+                Inv = false;
                 _timerInv = 2.0f;
             }
         }
@@ -185,11 +182,17 @@ public class PlayerController : MonoBehaviour
                 _isMelee = false;
                 Collider.gameObject.SetActive(false);
             }
-        }
-        
+        }        
         _animator.SetBool("Walk", isMoving);
 
+        if (Input.GetKeyDown("q") && PotionData != null)
+        {
+            Health += PotionData.Boost;
+            Potion.Play();
+            PotionData = null;
+            InventoryUIController1.Instance.PotionSprite.sprite = null;
 
+        }
     }
 
     private void FixedUpdate()
@@ -213,18 +216,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && !_inv)
+        if (collision.gameObject.CompareTag("Enemy") && !Inv)
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.2f;
 
+
             Oof.Play();
-            Health -= 20;
-            _inv = true;
+            Inv = true;
             _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
+
+
 
         if (collision.gameObject.tag == "Drop")
         {
