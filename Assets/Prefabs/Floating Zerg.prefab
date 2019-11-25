@@ -281,4 +281,4 @@ MonoBehaviour:
   Speed: 2
   Lives: 300
   Drop: {fileID: 0}
-  Monster: {fileID: 0}
+  Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
