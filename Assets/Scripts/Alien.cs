@@ -49,9 +49,8 @@ public class Alien : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" && !PlayerController.Instance.Inv)
+        if (collision.gameObject.tag == "Player")
         {
-            PlayerController.Instance.Health -= 10;
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
@@ -84,7 +83,8 @@ public class Alien : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(Drop, transform.position, Drop.transform.rotation);
+        if (Drop != null)
+            Instantiate(Drop, transform.position, Drop.transform.rotation);
     }
 
 }

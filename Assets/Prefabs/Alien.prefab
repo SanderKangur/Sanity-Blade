@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7105153284838718108}
   - component: {fileID: -3585243329456344795}
   - component: {fileID: 1808758408}
+  - component: {fileID: 4787991986677605487}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Enemy
@@ -136,3 +137,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0.23582959, y: -0.11791453}
   m_Size: {x: 2.4883409, y: 4.36583}
   m_Direction: 0
+--- !u!114 &4787991986677605487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105153284838718099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyDamage: 10

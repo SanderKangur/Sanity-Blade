@@ -14,16 +14,16 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public float Health;
     public float FireRate;
-    public bool Inv = false;
 
     public ItemData ItemData;
     public WeaponData WeaponData;
-    public PotionData PotionData;
+    public PotionData PotionData, PotionDefault;
     public SpellData SpellData;
 
     public AudioSource Oof, Walk, Boop, Potion, Death;
     public AudioClipGroup Sword, Fireball;
 
+    private bool _inv = false;
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (Inv && Health > 0)
+        if (_inv && Health > 0)
         {
             
             UIController.Instance.SetHealth((int) Health);
@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
             if (_timerInv < 0)
             {
                 _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-                Inv = false;
+                _inv = false;
                 _timerInv = 2.0f;
             }
         }
@@ -185,13 +185,12 @@ public class PlayerController : MonoBehaviour
         }        
         _animator.SetBool("Walk", isMoving);
 
-        if (Input.GetKeyDown("q") && PotionData != null)
+        if (Input.GetKeyDown("q") && PotionData.Boost != 0)
         {
             Health += PotionData.Boost;
             Potion.Play();
-            PotionData = null;
-            InventoryUIController1.Instance.PotionSprite.sprite = null;
-
+            PotionData = PotionDefault;
+            UpdateSprites();
         }
     }
 
@@ -200,7 +199,6 @@ public class PlayerController : MonoBehaviour
         if(_knockback <= 0)
         _rigidBody.MovePosition(_rigidBody.position + _moveVelocity * Time.fixedDeltaTime);
     }
-
 
     void Shoot()
     {
@@ -216,7 +214,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && !Inv)
+        if (collision.gameObject.CompareTag("Enemy") && !_inv)
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
@@ -225,11 +223,24 @@ public class PlayerController : MonoBehaviour
 
 
             Oof.Play();
-            Inv = true;
+            Health -= collision.gameObject.GetComponent<Damage>().EnemyDamage;
+            _inv = true;
             _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
 
+        if (collision.gameObject.CompareTag("ProjectileEnemy") && !_inv)
+        {
+            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.2f;
 
+
+            Oof.Play();
+            Health -= collision.gameObject.GetComponent<ProjectileEnemy>().Damage;
+            _inv = true;
+            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+        }
 
         if (collision.gameObject.tag == "Drop")
         {

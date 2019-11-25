@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Alien.cs" />
     <Compile Include="Assets\Scripts\AudioClipGroup.cs" />
     <Compile Include="Assets\Scripts\AudioSourcePool.cs" />
+    <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\Drop.cs" />
     <Compile Include="Assets\Scripts\Events.cs" />

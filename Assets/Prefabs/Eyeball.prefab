@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2747409035204650894}
   - component: {fileID: 2747409035204650895}
   - component: {fileID: 522455057}
+  - component: {fileID: -4170021389801425303}
   m_Layer: 0
   m_Name: Eyeball
   m_TagString: Enemy
@@ -177,3 +178,16 @@ MonoBehaviour:
     type: 3}
   SpellData: {fileID: 11400000, guid: a3f92b80b0c7a064aac0a004da0bbb6e, type: 2}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
+--- !u!114 &-4170021389801425303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2747409035204650893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyDamage: 10

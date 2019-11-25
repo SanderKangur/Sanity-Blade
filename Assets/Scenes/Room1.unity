@@ -4982,6 +4982,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4306182013996423490, guid: 7c893b56d143ad841a944ad97d9c01cf,
+        type: 3}
+      propertyPath: PotionDefault
+      value: 
+      objectReference: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c893b56d143ad841a944ad97d9c01cf, type: 3}
 --- !u!1001 &7105153285235850821

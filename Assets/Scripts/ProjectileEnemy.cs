@@ -43,7 +43,6 @@ public class ProjectileEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerController.Instance.Health -= Damage;
             GameObject.Destroy(this.gameObject);
         }
 

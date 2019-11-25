@@ -49,7 +49,7 @@ public class Zerg : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !PlayerController.Instance.Inv)
+        if (collision.gameObject.CompareTag("Player"))
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
@@ -72,6 +72,7 @@ public class Zerg : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(Drop, transform.position, Drop.transform.rotation);
+        if (Drop != null)
+            Instantiate(Drop, transform.position, Drop.transform.rotation);
     }
 }
