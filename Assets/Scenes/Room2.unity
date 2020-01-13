@@ -205,7 +205,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 50
@@ -4625,7 +4625,7 @@ PrefabInstance:
     - target: {fileID: 4737365907007407977, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
       propertyPath: m_ReferenceResolution.x
-      value: 700
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 993926016285356980, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}

@@ -7,6 +7,8 @@ public class Alien : MonoBehaviour
     public float Speed;
     public float Lives = 100f;
     public GameObject Drop;
+    [Range(0, 10)]
+    public float Knockback;
 
     private Transform _target;
     private Rigidbody2D _rigidBody;
@@ -53,7 +55,7 @@ public class Alien : MonoBehaviour
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
           
         }
@@ -62,22 +64,26 @@ public class Alien : MonoBehaviour
             Damage(collision.gameObject.GetComponent<Projectile>().Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
-            _knockback = 0.3f;
-        }
-
-        if (collision.gameObject.tag == "Melee")
-        {
-            Damage(PlayerController.Instance.WeaponData.Damage);
-            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
-            dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 
         if(collision.gameObject.tag == "Drop")
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Melee")
+        {
+            Debug.Log("Melee");
+            Damage(PlayerController.Instance.WeaponData.Damage);
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
+            _knockback = 0.3f;
         }
     }
 

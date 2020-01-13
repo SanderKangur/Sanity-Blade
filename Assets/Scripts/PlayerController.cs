@@ -159,6 +159,7 @@ public class PlayerController : MonoBehaviour
             Sword?.Play();
             _isMelee = true;
             _meleeTimer = 0.2f;
+            //GameObject.Instantiate(Collider, this.transform);
             Collider.gameObject.SetActive(true);
 
             int random = Random.Range(1, 5);

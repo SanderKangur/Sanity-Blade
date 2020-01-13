@@ -42,7 +42,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.059563447, y: -0.11835777}
@@ -56,11 +56,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477457773}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.058693405
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -184,8 +184,8 @@ MonoBehaviour:
   ItemData: {fileID: 11400000, guid: 79ed9a8353a2b3a499b06e6488923f2a, type: 2}
   WeaponData: {fileID: 11400000, guid: ebc9bd84fdfd48c42829a60e4afcdcd4, type: 2}
   PotionData: {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
-  PotionDefault: {fileID: 0}
-  SpellData: {fileID: 11400000, guid: 79c2073a9dc695547b7d9f01c4f18196, type: 2}
+  PotionDefault: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599, type: 2}
+  SpellData: {fileID: 11400000, guid: 770f82f020822c947ab3c6a47afb58a8, type: 2}
   Oof: {fileID: 5046553961899888079}
   Walk: {fileID: 2053574609}
   Boop: {fileID: 6677263002494295427}

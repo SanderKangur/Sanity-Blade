@@ -10,9 +10,14 @@ public class Eyeball : MonoBehaviour
     public ProjectileEnemy Projectile;
     public SpellData SpellData;
     public AudioClipGroup Monster;
+    [Range(0, 10)]
+    public float Force;
 
     private float _fireRate = 2;
     private float _nextFire;
+    private float _specialRate = 10;
+    private float _nextSpecial;
+    private bool _specialAnim = false;
     private Animator _animator;
     private Transform _target;
     private Rigidbody2D _rigidBody;
@@ -26,6 +31,7 @@ public class Eyeball : MonoBehaviour
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _nextFire = Time.time + 5;
+        _nextSpecial = Time.time + 13;
     }
 
     void Update()
@@ -50,6 +56,27 @@ public class Eyeball : MonoBehaviour
             Shoot();
             _animator.SetTrigger("Attack");
         }
+
+        if (Time.time > _nextSpecial)
+        {
+            if (!_specialAnim)
+            {
+                _animator.SetTrigger("Special");
+                _specialAnim = true;
+            }
+            if (Time.time > _nextSpecial + 1)
+            {
+                _nextSpecial = Time.time + _specialRate;
+                _specialAnim = false;
+                Shoot();
+                Shoot();
+                Shoot();
+                Shoot();
+                Shoot();
+            }
+        }
+
+        
 
         if (Lives <= 0)
         {
@@ -84,7 +111,7 @@ public class Eyeball : MonoBehaviour
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
             _knockback = 0.3f;
 
         }
@@ -93,7 +120,7 @@ public class Eyeball : MonoBehaviour
             Damage(collision.gameObject.GetComponent<Projectile>().Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 
@@ -102,7 +129,7 @@ public class Eyeball : MonoBehaviour
             Damage(PlayerController.Instance.WeaponData.Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 

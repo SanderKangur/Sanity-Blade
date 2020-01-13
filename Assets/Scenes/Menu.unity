@@ -6948,7 +6948,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2031233035}
+      - m_Target: {fileID: 0}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -7323,7 +7323,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2031233035}
+      - m_Target: {fileID: 0}
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -7835,9 +7835,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031233033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43af8c2ac90184e41830f1cc04952a9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 106d0b9a4ca982d44a241287eb36c6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathText: Slain by the weakest of them all
 --- !u!1 &2143255896
 GameObject:
   m_ObjectHideFlags: 0
