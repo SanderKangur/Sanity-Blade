@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: b18131de26c3ea342bf0cdf67b42e383
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8784234177513625498
+    second: monster_revenant_claw_0
+  - first:
+      213: 2048797299383059161
+    second: monster_revenant_claw_1
+  - first:
+      213: 2855819346610407954
+    second: monster_revenant_claw_2
+  - first:
+      213: -1930280520781100012
+    second: monster_revenant_claw_3
+  - first:
+      213: 7396657993651338063
+    second: monster_revenant_claw_4
+  - first:
+      213: -6329404125481224881
+    second: monster_revenant_claw_5
+  - first:
+      213: -6405601916539022005
+    second: monster_revenant_claw_6
+  - first:
+      213: 8368319140853138897
+    second: monster_revenant_claw_7
+  - first:
+      213: -2509172517374499951
+    second: monster_revenant_claw_8
+  - first:
+      213: 5230832021957670262
+    second: monster_revenant_claw_9
+  - first:
+      213: -6186559787332488482
+    second: monster_revenant_claw_10
+  - first:
+      213: 4893747581748117432
+    second: monster_revenant_claw_11
+  - first:
+      213: -5005953595107625354
+    second: monster_revenant_claw_12
+  - first:
+      213: -1948483622491438530
+    second: monster_revenant_claw_13
+  - first:
+      213: 8608667730237957768
+    second: monster_revenant_claw_14
+  - first:
+      213: -7939376238462815185
+    second: monster_revenant_claw_15
+  - first:
+      213: -6794254481381000928
+    second: monster_revenant_claw_16
+  - first:
+      213: 2022491643993417189
+    second: monster_revenant_claw_17
+  - first:
+      213: -8500234458147434013
+    second: monster_revenant_claw_18
+  - first:
+      213: -4319489864199195650
+    second: monster_revenant_claw_19
+  - first:
+      213: -2695711255522377639
+    second: monster_revenant_claw_20
+  - first:
+      213: -8512516807515081964
+    second: monster_revenant_claw_21
+  - first:
+      213: 7184500682701426417
+    second: monster_revenant_claw_22
+  - first:
+      213: 5500875049926104740
+    second: monster_revenant_claw_23
+  - first:
+      213: -4492521686078226337
+    second: monster_revenant_claw_24
+  - first:
+      213: 4922691341420579319
+    second: monster_revenant_claw_25
+  - first:
+      213: 3754382288685694419
+    second: monster_revenant_claw_26
+  - first:
+      213: 1288228937700329251
+    second: monster_revenant_claw_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_revenant_claw_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 111
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fab50b4e943944780e2ae76a64d3d4
+      internalID: 8784234177513625498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 111
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cac9af320efba43bb3c7b3c558be89
+      internalID: 2048797299383059161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 112
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a73599248caa6408d326bcad00050b
+      internalID: 2855819346610407954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1765c131cff30d2479e1941e301477c6
+      internalID: -1930280520781100012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9170b322eee95468dac3881743bcf6
+      internalID: 7396657993651338063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 111
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e1c7995fcc5d04e91941189a7efaeb
+      internalID: -6329404125481224881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 111
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486fd4ef42f8a4642b8978822e2351df
+      internalID: -6405601916539022005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 102
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f5ac798b655b444882264c4919b9de
+      internalID: 8368319140853138897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 102
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4d6aca56b285f4593c59b043f673e8
+      internalID: -2509172517374499951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 102
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e945595f0ffa204085ba8867aca9787
+      internalID: 5230832021957670262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 103
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a96975bbbeba294aa833bb496494e93
+      internalID: -6186559787332488482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 50
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ce2909c5a4c3b40a7235100c718383
+      internalID: 4893747581748117432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 50
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1a83d645421264eb4fec8ad48f1cee
+      internalID: -5005953595107625354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 51
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa9f212e118a7c43b6771035202f9c0
+      internalID: -1948483622491438530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 52
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29d54a2d03a38841948c430287c4778
+      internalID: 8608667730237957768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 53
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807c3cb9ed000164daf2c4e9d1a948d1
+      internalID: -7939376238462815185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 54
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca787344a0235d46a6242f8154e5547
+      internalID: -6794254481381000928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 54
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b4969c8010d9940ac17d5f12b115b3
+      internalID: 2022491643993417189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 54
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8b589ea2df10a43b1c2dd851148029
+      internalID: -8500234458147434013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 54
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9234729607078241b7011ecece61fbf
+      internalID: -4319489864199195650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 54
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee86a5e665fa6ed4aa87530a0fc5d247
+      internalID: -2695711255522377639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c227740ef3149294eadbb9c8a6f37fdb
+      internalID: -8512516807515081964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 6
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a6c8e59685e17489b3ad1d066bab65
+      internalID: 7184500682701426417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 6
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a484527dbd53904b95fb93b9d881053
+      internalID: 5500875049926104740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c41a4a26b115a4da8cd80e95d8cab5
+      internalID: -4492521686078226337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 5
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa29c6d2c5866646b9a208ec69d51d0
+      internalID: 4922691341420579319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 6
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e9a07fb6ed8d8448f4063de23145e6
+      internalID: 3754382288685694419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_revenant_claw_27
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 7
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a7dd7907ea4774faede775ebff783d
+      internalID: 1288228937700329251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
