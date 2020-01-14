@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public Projectile Projectile;
     //public CapsuleCollider2D Collider;
     public GameObject Melee;
+    public Bomb Bomb;
 
     public float Speed;
     public float Health;
@@ -193,12 +194,30 @@ public class PlayerController : MonoBehaviour
             PotionData = PotionDefault;
             UpdateSprites();
         }
+        if (Input.GetKeyDown("e") && ItemData != null)
+        {
+            Throw();
+            ItemData = null;
+
+            UpdateSprites();
+        }
     }
 
     private void FixedUpdate()
     {
         if(_knockback <= 0)
         _rigidBody.MovePosition(_rigidBody.position + _moveVelocity * Time.fixedDeltaTime);
+    }
+
+    void Throw()
+    {
+        if (ItemData.TypeDescription.Equals("bomb"))
+        {
+            Bomb bomb = GameObject.Instantiate<Bomb>(Bomb);
+            bomb.GetComponent<SpriteRenderer>().sprite = ItemData.Sprite;
+            bomb.transform.position = this.transform.position;
+
+        }
     }
 
     void Shoot()

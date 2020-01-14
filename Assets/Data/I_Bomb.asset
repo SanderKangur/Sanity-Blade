@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a984d26be86d4204ab4321188e1222ff, type: 3}
   m_Name: I_Bomb
   m_EditorClassIdentifier: 
+  TypeDescription: bomb
   Sprite: {fileID: -6082545932358095676, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

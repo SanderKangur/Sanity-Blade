@@ -225,6 +225,7 @@ MonoBehaviour:
   Projectile: {fileID: 6572408186856399348, guid: 452f5792c610aa44b8c57958fb982405,
     type: 3}
   Melee: {fileID: 5131227085914722689}
+  Bomb: {fileID: 2581018142187219631, guid: 72d2d49983b56624591aa24848d65f06, type: 3}
   Speed: 7
   Health: 100
   FireRate: 0.2
