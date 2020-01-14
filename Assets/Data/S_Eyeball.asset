@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 20
   Speed: 10
+  FireRate: 0.3
   Sprite: {fileID: -5612587962090751443, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BigBoi : MonoBehaviour
 {
     public float Speed = 3f;
-    public float Lives = 300f;
+    public float Lives = 100f;
     public GameObject Drop;
     public AudioClipGroup Monster;
     [Range(0, 10)]
@@ -77,7 +77,7 @@ public class BigBoi : MonoBehaviour
             _knockback = 0.3f;
         }
 
-        if (collision.gameObject.tag == "Objects" || collision.gameObject.tag == "Drop")
+        if (collision.gameObject.tag == "Drop")
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
         }

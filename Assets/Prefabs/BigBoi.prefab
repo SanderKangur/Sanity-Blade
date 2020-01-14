@@ -98,7 +98,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.8405397
+  m_Mass: 1.2158895
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -120,8 +120,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.23582959, y: -0.11791453}
-  m_Size: {x: 2.4883409, y: 4.36583}
+  m_Offset: {x: 0.23582959, y: -0.5512425}
+  m_Size: {x: 2.4883409, y: 3.1104257}
   m_Direction: 0
 --- !u!114 &4787991986677605487
 MonoBehaviour:
@@ -171,4 +171,4 @@ MonoBehaviour:
   Lives: 100
   Drop: {fileID: 0}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
-  Force: 0
+  Knockback: 0

@@ -8,6 +8,7 @@ public class SpellData : ScriptableObject
 {
     public float Damage;
     public float Speed;
+    public float FireRate;
     public Sprite Sprite;
 }
 

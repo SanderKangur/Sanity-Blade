@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     {
         Speed = data.Speed;
         Health = data.Health;
-        FireRate = data.FireRate;
+        FireRate = data.SpellData.FireRate;
 
         ItemData = data.ItemData;
         WeaponData = data.WeaponData;
@@ -144,7 +144,7 @@ public class PlayerController : MonoBehaviour
         }
         _knockback -= Time.deltaTime;
 
-        if (Input.GetButtonDown("Fire2") && Time.time > _nextFire)
+        if (Input.GetButton("Fire2") && Time.time > _nextFire)
         {
           
             _nextFire = Time.time + FireRate;
@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour
             Sword?.Play();
             _isMelee = true;
             _meleeTimer = 0.2f;
-            //GameObject.Instantiate(Collider, this.transform);
+           
             Collider.gameObject.SetActive(true);
 
             int random = Random.Range(1, 5);
