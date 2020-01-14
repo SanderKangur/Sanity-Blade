@@ -9,7 +9,8 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     public Projectile Projectile;
-    public CapsuleCollider2D Collider;
+    //public CapsuleCollider2D Collider;
+    public GameObject Melee;
 
     public float Speed;
     public float Health;
@@ -53,7 +54,9 @@ public class PlayerController : MonoBehaviour
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        Collider.gameObject.SetActive(false);
+        //Collider.gameObject.SetActive(false);
+        Melee.gameObject.SetActive(false);
+        Melee.GetComponentInChildren<SpriteRenderer>().sprite = WeaponData.Sprite;
         Instance = this;
         UpdateSprites();
        
@@ -152,36 +155,33 @@ public class PlayerController : MonoBehaviour
             Shoot();
             _animator.SetTrigger("Projectile");
         }
-
         
         if (Input.GetButtonDown("Fire1") && !_isMelee)
         {
             Sword?.Play();
             _isMelee = true;
-            _meleeTimer = 0.2f;
-           
-            Collider.gameObject.SetActive(true);
-
-            int random = Random.Range(1, 5);
-            if (random == 1)
-            {
-                _animator.SetTrigger("Critical");
-            }
-            else
-            {
-                _animator.SetTrigger("Melee");
-            }
+            _meleeTimer = 0.5f;
+            Melee.gameObject.SetActive(true);
         }
         if (_isMelee)
         {
             if (_meleeTimer > 0)
             {
+                Melee.transform.Rotate(new Vector3(0, 0, -240) * 2 * Time.deltaTime);
                 _meleeTimer -= Time.deltaTime;
             }
             else
             {
                 _isMelee = false;
-                Collider.gameObject.SetActive(false);
+                //Collider.gameObject.SetActive(false);
+                Melee.transform.eulerAngles = new Vector3(0, 0, 150);
+                //Melee.transform.eulerAngles = new Vector3(
+                //    Melee.transform.eulerAngles.x,
+                //    Melee.transform.eulerAngles.y + 180,
+                //    Melee.transform.eulerAngles.z
+                //);
+                Melee.gameObject.SetActive(false);
+
             }
         }        
         _animator.SetBool("Walk", isMoving);
@@ -249,6 +249,7 @@ public class PlayerController : MonoBehaviour
             if (type.Equals("Weapon"))
             {
                 WeaponData = collision.gameObject.GetComponent<Drop>().Weapon;
+                Melee.GetComponentInChildren<SpriteRenderer>().sprite = WeaponData.Sprite;
                 Boop.Play();
                 UpdateSprites();
             }

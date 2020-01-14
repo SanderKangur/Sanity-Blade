@@ -4831,16 +4831,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -159.29004
       objectReference: {fileID: 0}
-    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 4104000842380658795, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -4860,6 +4850,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6262748710434670911, guid: 62061e1ce30a995458577af63b075e96, type: 3}
@@ -5555,22 +5555,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4306182013996423519, guid: 7c893b56d143ad841a944ad97d9c01cf,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-    - target: {fileID: 4306182013996423490, guid: 7c893b56d143ad841a944ad97d9c01cf,
-        type: 3}
-      propertyPath: SpellData
-      value: 
-      objectReference: {fileID: 11400000, guid: fdb5c538e26ea6f419eb117297e1376a,
-        type: 2}
-    - target: {fileID: 4306182013996423490, guid: 7c893b56d143ad841a944ad97d9c01cf,
-        type: 3}
-      propertyPath: FireRate
-      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c893b56d143ad841a944ad97d9c01cf, type: 3}
