@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: -3585243329456344795}
   - component: {fileID: 1808758408}
   - component: {fileID: 4787991986677605487}
-  - component: {fileID: 3444349561684750563}
-  - component: {fileID: 3500273411283986489}
+  - component: {fileID: 235707303}
+  - component: {fileID: 8035856963279066025}
   m_Layer: 0
   m_Name: BigBoi
   m_TagString: Enemy
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyDamage: 10
---- !u!95 &3444349561684750563
+--- !u!95 &235707303
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3500273411283986489
+--- !u!114 &8035856963279066025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,14 +164,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7105153284838718099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97c7dbaf7ab1c2e429443ffc7440b2b6, type: 3}
+  m_Script: {fileID: 11500000, guid: b8dec78ffdaa573448f74eeec53c9f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
-  Lives: 300
-  Drop: {fileID: 8141986738642819662, guid: 490ce9ba7226ad34ebaf13c2ef807a4e, type: 3}
-  Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
-    type: 3}
-  SpellData: {fileID: 11400000, guid: a3f92b80b0c7a064aac0a004da0bbb6e, type: 2}
+  Lives: 100
+  Drop: {fileID: 0}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
   Force: 0
