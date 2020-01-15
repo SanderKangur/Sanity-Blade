@@ -11,6 +11,7 @@ TagManager:
   - Melee
   - Drop
   - ProjectileEnemy
+  - Bomb
   layers:
   - Default
   - TransparentFX

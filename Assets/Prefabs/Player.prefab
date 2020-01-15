@@ -194,7 +194,7 @@ SpriteRenderer:
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -1656268949
   m_SortingLayer: 1
   m_SortingOrder: 1
@@ -226,10 +226,11 @@ MonoBehaviour:
     type: 3}
   Melee: {fileID: 5131227085914722689}
   Bomb: {fileID: 2581018142187219631, guid: 72d2d49983b56624591aa24848d65f06, type: 3}
+  Freeze: {fileID: -9179362942030328383, guid: 7ea5187e13aa43646a071e8268f26f64, type: 3}
   Speed: 7
   Health: 100
   FireRate: 0.2
-  ItemData: {fileID: 11400000, guid: 79ed9a8353a2b3a499b06e6488923f2a, type: 2}
+  ItemData: {fileID: 11400000, guid: 055a010aefdd29f4c9ed6ff8c2501740, type: 2}
   WeaponData: {fileID: 11400000, guid: ebc9bd84fdfd48c42829a60e4afcdcd4, type: 2}
   PotionData: {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
   PotionDefault: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599, type: 2}

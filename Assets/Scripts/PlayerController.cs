@@ -9,9 +9,9 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     public Projectile Projectile;
-    //public CapsuleCollider2D Collider;
     public GameObject Melee;
     public Bomb Bomb;
+    public Freeze Freeze;
 
     public float Speed;
     public float Health;
@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     private float _meleeTimer = 0.2f;
     private bool _isMelee = false;
     private const float AntiHealth = 2.1f;
+    private bool _attackRight = true;
 
 
     private void Awake()
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        //Collider.gameObject.SetActive(false);
+        FireRate = SpellData.FireRate;
         Melee.gameObject.SetActive(false);
         Melee.GetComponentInChildren<SpriteRenderer>().sprite = WeaponData.Sprite;
         Instance = this;
@@ -98,7 +99,7 @@ public class PlayerController : MonoBehaviour
                 Death.Play();
             }
             _timerInv -= Time.deltaTime;
-            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+            _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
 
             if (_timerInv < 0)
             {
@@ -119,7 +120,7 @@ public class PlayerController : MonoBehaviour
             _timerInv -= Time.deltaTime;
             if (_timerInv < 0)
             {
-                _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+                _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
                 _inv = false;
                 _timerInv = 2.0f;
             }
@@ -168,19 +169,31 @@ public class PlayerController : MonoBehaviour
         {
             if (_meleeTimer > 0)
             {
-                Melee.transform.Rotate(new Vector3(0, 0, -240) * 2 * Time.deltaTime);
+                if (velX > 0 || velX == 0 && _attackRight)
+                {
+                    Melee.transform.localScale = new Vector3(1, 1, 1);
+                    Melee.transform.Rotate(new Vector3(0, 0, -240) * 2 * Time.deltaTime);
+                    _attackRight = true;
+                }
+                else
+                {
+                    Melee.transform.localScale = new Vector3(1, -1, 1);
+                    Melee.transform.Rotate(new Vector3(0, 0, 240) * 2 * Time.deltaTime);
+                    _attackRight = false;
+                }
                 _meleeTimer -= Time.deltaTime;
             }
             else
             {
                 _isMelee = false;
-                //Collider.gameObject.SetActive(false);
-                Melee.transform.eulerAngles = new Vector3(0, 0, 150);
-                //Melee.transform.eulerAngles = new Vector3(
-                //    Melee.transform.eulerAngles.x,
-                //    Melee.transform.eulerAngles.y + 180,
-                //    Melee.transform.eulerAngles.z
-                //);
+                if (velX > 0)
+                {
+                    Melee.transform.eulerAngles = new Vector3(0, 0, 100);
+                }
+                else
+                {
+                    Melee.transform.eulerAngles = new Vector3(0, 0, 70);
+                }
                 Melee.gameObject.SetActive(false);
 
             }
@@ -216,6 +229,11 @@ public class PlayerController : MonoBehaviour
             Bomb bomb = GameObject.Instantiate<Bomb>(Bomb);
             bomb.GetComponent<SpriteRenderer>().sprite = ItemData.Sprite;
             bomb.transform.position = this.transform.position;
+        }
+
+        if (ItemData.TypeDescription.Equals("freeze"))
+        {
+            GameObject.Instantiate<Freeze>(Freeze);
 
         }
     }
@@ -241,11 +259,11 @@ public class PlayerController : MonoBehaviour
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.2f;
 
-
+            _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
             Oof.Play();
             Health -= collision.gameObject.GetComponent<Damage>().EnemyDamage;
             _inv = true;
-            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+            
         }
 
         if (collision.gameObject.CompareTag("ProjectileEnemy") && !_inv)
@@ -259,7 +277,7 @@ public class PlayerController : MonoBehaviour
             Oof.Play();
             Health -= collision.gameObject.GetComponent<ProjectileEnemy>().Damage;
             _inv = true;
-            _spriteRenderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+            _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
         }
 
         if (collision.gameObject.tag == "Drop")
