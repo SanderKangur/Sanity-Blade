@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorController : MonoBehaviour
+public class BackDoorController : MonoBehaviour
 {
     private string _activeScene;
     private void Awake()
@@ -18,7 +18,7 @@ public class DoorController : MonoBehaviour
         {
             PlayerPrefs.SetString("previousRoom", SceneManager.GetActiveScene().name);
 
-            SceneManager.LoadScene(GameController.Instance.NextRoom, LoadSceneMode.Single);
+            SceneManager.LoadScene(GameController.Instance.BackRoom, LoadSceneMode.Single);
         }
     }
 }

@@ -16,6 +16,8 @@ public class AltDoorController : MonoBehaviour
 
         if (collision.tag == "Player")
         {
+            PlayerPrefs.SetString("previousRoom", SceneManager.GetActiveScene().name);
+
             SceneManager.LoadScene(GameController.Instance.AltRoom, LoadSceneMode.Single);
         }
     }

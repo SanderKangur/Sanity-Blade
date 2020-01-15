@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\AttributeExamples.cs" />
     <Compile Include="Assets\Scripts\AudioClipGroup.cs" />
     <Compile Include="Assets\Scripts\AudioSourcePool.cs" />
+    <Compile Include="Assets\Scripts\BackDoorController.cs" />
     <Compile Include="Assets\Scripts\CameraCrop.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
