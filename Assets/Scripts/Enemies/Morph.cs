@@ -42,6 +42,7 @@ public class Morph : MonoBehaviour
 
     void Update()
     {
+        BossUIController.Instance.SetHealth((int)Lives);
         if (!_isDragon)
         {
             Debug.Log(_fairyTimer);

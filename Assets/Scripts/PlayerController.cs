@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using EZCameraShake;
 
 public class PlayerController : MonoBehaviour
 {
@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
         }
 
         if (_inv && Health > 0)
-        {
+        {UIController.Instance.SetHealth((int) Health);
             
             UIController.Instance.SetHealth((int) Health);
             _timerInv -= Time.deltaTime;
@@ -215,6 +215,8 @@ public class PlayerController : MonoBehaviour
             Throw();
             ItemData = null;
             Click.Play();
+            CameraShaker.Instance.ShakeOnce(0.2f, 0.2f, 0.3f, 0.3f);
+
             ItemData = EmptyItemSlot;
             UpdateSprites();
         }
@@ -281,6 +283,7 @@ public class PlayerController : MonoBehaviour
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.2f;
+            CameraShaker.Instance.ShakeOnce(0.2f, 0.3f, 0.3f, 0.3f);
 
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
             Oof.Play();
@@ -295,6 +298,7 @@ public class PlayerController : MonoBehaviour
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
             _knockback = 0.2f;
+            CameraShaker.Instance.ShakeOnce(0.5f, 0.5f, 0.3f, 0.3f);
 
 
             Oof.Play();
