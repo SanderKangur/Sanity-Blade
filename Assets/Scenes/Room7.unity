@@ -5654,7 +5654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
   AltExit: {fileID: 0}
-  NextRoom: Menu
+  NextRoom: Room8
   AltRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}

@@ -273,7 +273,7 @@ public class PlayerController : MonoBehaviour
 
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
             Oof.Play();
-            CameraShaker.Instance.ShakeOnce(0.3f, 0.62f, 0.2f, 0.2f);
+            CameraShaker.Instance.ShakeOnce(0.4f, 0.62f, 0.2f, 0.2f);
 
             Health -= collision.gameObject.GetComponent<Damage>().EnemyDamage;
             _inv = true;
@@ -289,7 +289,7 @@ public class PlayerController : MonoBehaviour
 
 
             Oof.Play();
-            CameraShaker.Instance.ShakeOnce(0.3f, 0.6f, 0.3f, 0.3f);
+            CameraShaker.Instance.ShakeOnce(0.5f, 0.6f, 0.3f, 0.3f);
 
             Health -= collision.gameObject.GetComponent<ProjectileEnemy>().Damage;
             _inv = true;
