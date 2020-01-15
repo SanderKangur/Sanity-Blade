@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: 6cd2085066d43db4eb72ff752af5b547
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5694965484078873156
+    second: tirado_general_axe_0
+  - first:
+      213: 7659054385330893160
+    second: tirado_general_axe_1
+  - first:
+      213: -4433743544642968972
+    second: tirado_general_axe_2
+  - first:
+      213: 1686368260084679285
+    second: tirado_general_axe_3
+  - first:
+      213: 3697778328040084210
+    second: tirado_general_axe_4
+  - first:
+      213: -2128501457747398748
+    second: tirado_general_axe_5
+  - first:
+      213: 861570577826649931
+    second: tirado_general_axe_6
+  - first:
+      213: 8651154063004958871
+    second: tirado_general_axe_7
+  - first:
+      213: 3040715276565917345
+    second: tirado_general_axe_8
+  - first:
+      213: -6343565549028280700
+    second: tirado_general_axe_9
+  - first:
+      213: -368506638485256378
+    second: tirado_general_axe_10
+  - first:
+      213: -2291142376034007808
+    second: tirado_general_axe_11
+  - first:
+      213: -7777396066528985886
+    second: tirado_general_axe_12
+  - first:
+      213: -1468258608128391635
+    second: tirado_general_axe_13
+  - first:
+      213: 8992285221030065324
+    second: tirado_general_axe_14
+  - first:
+      213: 6791836678899616246
+    second: tirado_general_axe_15
+  - first:
+      213: -4634504645066348551
+    second: tirado_general_axe_16
+  - first:
+      213: 1541824427120377421
+    second: tirado_general_axe_17
+  - first:
+      213: -2956776689907915727
+    second: tirado_general_axe_18
+  - first:
+      213: 6397761170854517362
+    second: tirado_general_axe_19
+  - first:
+      213: -6350859327209033846
+    second: tirado_general_axe_20
+  - first:
+      213: -2354099901998151335
+    second: tirado_general_axe_21
+  - first:
+      213: -6665339654392848807
+    second: tirado_general_axe_22
+  - first:
+      213: 6007654049896553072
+    second: tirado_general_axe_23
+  - first:
+      213: 4325993335050370466
+    second: tirado_general_axe_24
+  - first:
+      213: 965541852261570774
+    second: tirado_general_axe_25
+  - first:
+      213: -2548400027605850309
+    second: tirado_general_axe_26
+  - first:
+      213: -3707668552328683270
+    second: tirado_general_axe_27
+  - first:
+      213: 7320404715039973363
+    second: tirado_general_axe_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tirado_general_axe_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 282
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95efa6f75d02e44abf2cc54f8abfec8
+      internalID: -5694965484078873156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 281
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a702acea1dc004a8280aa1458ce454
+      internalID: 7659054385330893160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 276
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa48dcfd3fc5494e958ed085c241d88
+      internalID: -4433743544642968972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 273
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f6129718a0eaf49980e93f0957f130
+      internalID: 1686368260084679285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 274
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06562d9556aa71448e234f3232adb4e
+      internalID: 3697778328040084210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 276
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f8d0948cf3e5f429c231a7cd7b7ca9
+      internalID: -2128501457747398748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 274
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10355675bd2235a469e0d4987f9ea849
+      internalID: 861570577826649931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 272
+        width: 98
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758786c9a652d10419c3294c2cd9e15b
+      internalID: 8651154063004958871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeed71be99958045be08212eeb69c40
+      internalID: 3040715276565917345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 222
+        width: 140
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bf99a9988caa84f84f5fb780ac38dd
+      internalID: -6343565549028280700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 220
+        width: 93
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c5699fd2eeb6f4a99b0cac0538f301
+      internalID: -368506638485256378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 220
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd4bff6a4aed14458b01912a30a6f06
+      internalID: -2291142376034007808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 216
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dd47fcbe6b1ba4badaf4bcd20b86a9
+      internalID: -7777396066528985886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06ad30c35dd0a040aa9b8de09e2dc5b
+      internalID: -1468258608128391635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_14
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 165
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858addc743f4d8b4398cb36fba4281f8
+      internalID: 8992285221030065324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 163
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed63098e09038f1429d66c51824cdc31
+      internalID: 6791836678899616246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 95
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79984eaddc1e72048baaefbd45a6b51c
+      internalID: -4634504645066348551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcb49e8517dc2e44847a0c6bcaa4dc0
+      internalID: 1541824427120377421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c198198820be6ef4bbf6e60605cd5c59
+      internalID: -2956776689907915727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 89
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecd971ddf9e98645adddbdf1960aa91
+      internalID: 6397761170854517362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 88
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0f3e5e941ff14d83ff7245754035b
+      internalID: -6350859327209033846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a8000caa06ec04da21a8424739df9f
+      internalID: -2354099901998151335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 94
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8b4b51013a804db82891b56774468
+      internalID: -6665339654392848807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327b4646579afd349b9cf24c1cd3d6c5
+      internalID: 6007654049896553072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 33
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c4b6c048c2ff747a422f21e79be149
+      internalID: 4325993335050370466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 27
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7b3c4c7cb7174d85b68e6b5566881
+      internalID: 965541852261570774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_26
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 27
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b24e95d2fbe3994d99be45503d431b8
+      internalID: -2548400027605850309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 31
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1c1b9a5bd8c884b956a155b569da08
+      internalID: -3707668552328683270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tirado_general_axe_28
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 34
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec42aac40c01b498108efa8df07d31
+      internalID: 7320404715039973363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -233,9 +233,10 @@ MonoBehaviour:
   Health: 100
   FireRate: 0.2
   ItemData: {fileID: 11400000, guid: 055a010aefdd29f4c9ed6ff8c2501740, type: 2}
+  EmptyItemSlot: {fileID: 11400000, guid: 705ba195ec87faa48883695e3804df74, type: 2}
   WeaponData: {fileID: 11400000, guid: ebc9bd84fdfd48c42829a60e4afcdcd4, type: 2}
   PotionData: {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
-  PotionDefault: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599, type: 2}
+  EmptyPotionSlot: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599, type: 2}
   SpellData: {fileID: 11400000, guid: fdb5c538e26ea6f419eb117297e1376a, type: 2}
   freezeParticles: {fileID: 1793430164861898771}
   Oof: {fileID: 6192431480733464098}
@@ -1316,15 +1317,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4306182013996423516}
     m_Modifications:
-    - target: {fileID: 8287484240932031078, guid: 1ded6fb28821c2843a81bec26449d64b,
-        type: 3}
-      propertyPath: m_Name
-      value: Particle System
-      objectReference: {fileID: 0}
     - target: {fileID: 566645512980999492, guid: 1ded6fb28821c2843a81bec26449d64b,
         type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287484240932031078, guid: 1ded6fb28821c2843a81bec26449d64b,
+        type: 3}
+      propertyPath: m_Name
+      value: Particle System
       objectReference: {fileID: 0}
     - target: {fileID: 2704015557974051979, guid: 1ded6fb28821c2843a81bec26449d64b,
         type: 3}

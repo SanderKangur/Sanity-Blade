@@ -12,7 +12,7 @@ public class Freeze : MonoBehaviour
 
         foreach (GameObject enemy in enemies)
         {
-            enemy.GetComponent<SpriteRenderer>().color = new Color(0.2f, 0.2f, 1.0f, 1.0f);
+            enemy.GetComponent<SpriteRenderer>().color = new Color(0.0f, 0.9f, 1.0f, 1.0f);
             enemy.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
             enemy.GetComponent<GroundMelee>().isFrozen = true;
         }

@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        
         Exit.SetActive(false);
         AltExit.SetActive(false);
         Ambience.Play();
@@ -39,13 +40,25 @@ public class GameController : MonoBehaviour
             Exit.SetActive(true);
             AltExit.SetActive(true);
         }
+
+        if (isCleared)
+        {
+            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            foreach (GameObject enemy in enemies)
+            {
+                GameObject.Destroy(enemy.gameObject);
+            }
+        }
     }
 
     private void OnLevelWasLoaded(int level)
     {
         Debug.Log("Level " + level);
+        Debug.Log(isCleared);
         if (level > 1)
         {
+            
             PlayerInfo info = new PlayerInfo();
             PlayerController player = PlayerController.Instance;
             info.Health = player.Health;

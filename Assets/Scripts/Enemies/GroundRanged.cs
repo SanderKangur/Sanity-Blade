@@ -13,12 +13,13 @@ public class GroundRanged : MonoBehaviour
     [Range(0, 10)]
     public float Knockback;
 
-    private float _fireRate = 2;
+    private float _fireRate;
     private float _nextFire;
     private Animator _animator;
     private Transform _target;
     private Rigidbody2D _rigidBody;
     private float _knockback = 0;
+    private bool _fireAnim = false;
 
 
     void Start()
@@ -27,20 +28,30 @@ public class GroundRanged : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody2D>();
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
-        _nextFire = Time.time + 5;
+        _nextFire = Time.time + Random.Range(2, 4);
     }
 
     void Update()
     {
+       
         bool isMoving = false;
         if (_knockback <= 0)
         {
-            if (Vector2.Distance(transform.position, _target.position) > Random.Range(5, 10))
+            if (Vector2.Distance(transform.position, _target.position) > 10)
             {
                 isMoving = true;
                 GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
                 transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
-
+            }
+            else if(Vector2.Distance(transform.position, _target.position) > 7)
+            {
+                isMoving = false;
+            }
+            else
+            {
+                isMoving = true;
+                GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
+                transform.position = Vector2.MoveTowards(transform.position, -_target.position, Speed * Time.deltaTime);
             }
 
 
@@ -49,9 +60,20 @@ public class GroundRanged : MonoBehaviour
 
         if (Time.time > _nextFire)
         {
-            _nextFire = Time.time + _fireRate;
-            Shoot();
-            _animator.SetTrigger("Attack");
+            if (!_fireAnim)
+            {
+                _knockback = 1.5f;
+                _animator.SetTrigger("Attack");
+                _fireAnim = true;
+            }
+            if (Time.time > _nextFire + 1.3)
+            {
+                _nextFire = Random.Range(2, 4);
+                _nextFire = Time.time + _nextFire;
+                _fireAnim = false;
+                Shoot();
+                Shoot();
+            }
         }
 
         if (Lives <= 0)
@@ -100,18 +122,31 @@ public class GroundRanged : MonoBehaviour
             _knockback = 0.3f;
         }
 
+        if (collision.gameObject.tag == "Drop")
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.gameObject.tag == "Melee")
         {
+            Debug.Log("Melee");
             Damage(PlayerController.Instance.WeaponData.Damage);
-            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
+            Vector2 dir = collision.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 
-        if (collision.gameObject.tag == "Drop")
+        if (collision.gameObject.tag == "Bomb")
         {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+            Damage(100);
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
+            _knockback = 0.3f;
         }
     }
 

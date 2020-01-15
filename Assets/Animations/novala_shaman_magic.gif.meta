@@ -1,0 +1,2167 @@
+fileFormatVersion: 2
+guid: 60bccad1ab1b00d4380ec5473c113fa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7540913514742498728
+    second: novala_shaman_magic_0
+  - first:
+      213: -8600418918305545421
+    second: novala_shaman_magic_1
+  - first:
+      213: 1108664113991870201
+    second: novala_shaman_magic_2
+  - first:
+      213: 6566342924055207337
+    second: novala_shaman_magic_3
+  - first:
+      213: -5634419196723962040
+    second: novala_shaman_magic_4
+  - first:
+      213: -2958619268348883236
+    second: novala_shaman_magic_5
+  - first:
+      213: 4689015476655813494
+    second: novala_shaman_magic_6
+  - first:
+      213: -9084127908794898
+    second: novala_shaman_magic_7
+  - first:
+      213: -4164981208958964203
+    second: novala_shaman_magic_8
+  - first:
+      213: -7579704484984993860
+    second: novala_shaman_magic_9
+  - first:
+      213: 517002448280207159
+    second: novala_shaman_magic_10
+  - first:
+      213: -8232739106370853595
+    second: novala_shaman_magic_11
+  - first:
+      213: 1679740702211596208
+    second: novala_shaman_magic_12
+  - first:
+      213: -7242768459538676583
+    second: novala_shaman_magic_13
+  - first:
+      213: -2247985775269248001
+    second: novala_shaman_magic_14
+  - first:
+      213: 3877094678328344960
+    second: novala_shaman_magic_15
+  - first:
+      213: -7899860892707968808
+    second: novala_shaman_magic_16
+  - first:
+      213: -5781616490873702378
+    second: novala_shaman_magic_17
+  - first:
+      213: -868838269292767765
+    second: novala_shaman_magic_18
+  - first:
+      213: -9093574606070460471
+    second: novala_shaman_magic_19
+  - first:
+      213: -7145549850819698657
+    second: novala_shaman_magic_20
+  - first:
+      213: 958676248377382327
+    second: novala_shaman_magic_21
+  - first:
+      213: 5240607334592150825
+    second: novala_shaman_magic_22
+  - first:
+      213: 5322605221649625609
+    second: novala_shaman_magic_23
+  - first:
+      213: 2558764665446447709
+    second: novala_shaman_magic_24
+  - first:
+      213: 1071346391961143170
+    second: novala_shaman_magic_25
+  - first:
+      213: -3837807301706149886
+    second: novala_shaman_magic_26
+  - first:
+      213: -8491769100971305275
+    second: novala_shaman_magic_27
+  - first:
+      213: 1599033833680548078
+    second: novala_shaman_magic_28
+  - first:
+      213: 3567937639292787806
+    second: novala_shaman_magic_29
+  - first:
+      213: -2008353293364968093
+    second: novala_shaman_magic_30
+  - first:
+      213: 7267808483570431736
+    second: novala_shaman_magic_31
+  - first:
+      213: 3738697861470333946
+    second: novala_shaman_magic_32
+  - first:
+      213: 3754373881175457425
+    second: novala_shaman_magic_33
+  - first:
+      213: -2743218743140507540
+    second: novala_shaman_magic_34
+  - first:
+      213: -7450132604394515497
+    second: novala_shaman_magic_35
+  - first:
+      213: -9021769678752945590
+    second: novala_shaman_magic_36
+  - first:
+      213: 1296511178495902830
+    second: novala_shaman_magic_37
+  - first:
+      213: 2970579050716382444
+    second: novala_shaman_magic_38
+  - first:
+      213: 3793618922564088774
+    second: novala_shaman_magic_39
+  - first:
+      213: 1970784063396170327
+    second: novala_shaman_magic_40
+  - first:
+      213: -8696625567968263621
+    second: novala_shaman_magic_41
+  - first:
+      213: -4087594004605548070
+    second: novala_shaman_magic_42
+  - first:
+      213: -423459977982874393
+    second: novala_shaman_magic_43
+  - first:
+      213: 3486255720542682558
+    second: novala_shaman_magic_44
+  - first:
+      213: -4868906520350488942
+    second: novala_shaman_magic_45
+  - first:
+      213: 3245554248272846675
+    second: novala_shaman_magic_46
+  - first:
+      213: 479775813837868429
+    second: novala_shaman_magic_47
+  - first:
+      213: -5660933563788689029
+    second: novala_shaman_magic_48
+  - first:
+      213: -6323874822052435859
+    second: novala_shaman_magic_49
+  - first:
+      213: -6137152437102691575
+    second: novala_shaman_magic_50
+  - first:
+      213: 4851563870808897357
+    second: novala_shaman_magic_51
+  - first:
+      213: 5268042100618492192
+    second: novala_shaman_magic_52
+  - first:
+      213: -4070034298833789357
+    second: novala_shaman_magic_53
+  - first:
+      213: -5176870259801112243
+    second: novala_shaman_magic_54
+  - first:
+      213: -340550755646710554
+    second: novala_shaman_magic_55
+  - first:
+      213: -4241931868333868655
+    second: novala_shaman_magic_56
+  - first:
+      213: -8913356153301801280
+    second: novala_shaman_magic_57
+  - first:
+      213: 3270780525959580905
+    second: novala_shaman_magic_58
+  - first:
+      213: -5767387773179518377
+    second: novala_shaman_magic_59
+  - first:
+      213: 2227771988576864075
+    second: novala_shaman_magic_60
+  - first:
+      213: -4053230786969337513
+    second: novala_shaman_magic_61
+  - first:
+      213: 3987981704737512291
+    second: novala_shaman_magic_62
+  - first:
+      213: -5138086523777354809
+    second: novala_shaman_magic_63
+  - first:
+      213: 2103460969677979852
+    second: novala_shaman_magic_64
+  - first:
+      213: 5749868311286166241
+    second: novala_shaman_magic_65
+  - first:
+      213: 1480039492839917936
+    second: novala_shaman_magic_66
+  - first:
+      213: 4686544332688743476
+    second: novala_shaman_magic_67
+  - first:
+      213: -3673361509315923128
+    second: novala_shaman_magic_68
+  - first:
+      213: -5150811157784025231
+    second: novala_shaman_magic_69
+  - first:
+      213: -8835179916216044027
+    second: novala_shaman_magic_70
+  - first:
+      213: -5508760792499339898
+    second: novala_shaman_magic_71
+  - first:
+      213: 495132046316871603
+    second: novala_shaman_magic_72
+  - first:
+      213: -4636390721743272667
+    second: novala_shaman_magic_73
+  - first:
+      213: 4678567454381305440
+    second: novala_shaman_magic_74
+  - first:
+      213: 5049273048951630234
+    second: novala_shaman_magic_75
+  - first:
+      213: 2590332418323161348
+    second: novala_shaman_magic_76
+  - first:
+      213: -1539936207092237945
+    second: novala_shaman_magic_77
+  - first:
+      213: -8739552259750593168
+    second: novala_shaman_magic_78
+  - first:
+      213: -5873016894475829351
+    second: novala_shaman_magic_79
+  - first:
+      213: 2632364823177099725
+    second: novala_shaman_magic_80
+  - first:
+      213: 6579961990938331679
+    second: novala_shaman_magic_81
+  - first:
+      213: -7030034193724108683
+    second: novala_shaman_magic_82
+  - first:
+      213: 8172577504903198047
+    second: novala_shaman_magic_83
+  - first:
+      213: -5609907951461576395
+    second: novala_shaman_magic_84
+  - first:
+      213: -9143046630171808902
+    second: novala_shaman_magic_85
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: novala_shaman_magic_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 581
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0788fc2d25e62c945ac608af67afe91c
+      internalID: -7540913514742498728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 581
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aef0aa256f0d5445bd745cc38401f10
+      internalID: -8600418918305545421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 580
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4390b37d926b624a8281894ff350320
+      internalID: 1108664113991870201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 580
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21f8981c670f94dadbd5c88a660c1f
+      internalID: 6566342924055207337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 580
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5da3d20f08bc04f8098deda6f5bed7
+      internalID: -5634419196723962040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 580
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864147691a31d744aa4e61b2a037fb31
+      internalID: -2958619268348883236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 579
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16355c02aaece342b153088fd1205a7
+      internalID: 4689015476655813494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 578
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5c6c1fa94a62a40aefb6fbead2f32f
+      internalID: -9084127908794898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 577
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354b96bc17ff31e41b51403dda9def40
+      internalID: -4164981208958964203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 578
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a96b235f0983746b62d526ccd9f839
+      internalID: -7579704484984993860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 578
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45daece4bb92694f8bb1475471e440c
+      internalID: 517002448280207159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 577
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fcbccf2d5d5ee4ca395478456dc3cb
+      internalID: -8232739106370853595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_12
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 577
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d250ae2b4487e594da05b5aefcc9ba4a
+      internalID: 1679740702211596208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 576
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b4ce324f977d4cae51220ca2cd21a
+      internalID: -7242768459538676583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 536
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1339a4a8b0e126545bcf6205064d6dba
+      internalID: -2247985775269248001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 536
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6112e8d53d787dd41a3192e720f3df36
+      internalID: 3877094678328344960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 536
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38b2976ebd45c942932b802bc4f0bea
+      internalID: -7899860892707968808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 535
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff5b7c2dd2a52439fc47981d3fe1cc
+      internalID: -5781616490873702378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_18
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 535
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeb8f86ac669bb4a832578b3193efdb
+      internalID: -868838269292767765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 535
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5185e339cd2f2114bb6205494b8de411
+      internalID: -9093574606070460471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_20
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 535
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbd217a67dbb5f47a6042a4fdd4f875
+      internalID: -7145549850819698657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 534
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ddda088f572e47b88cb69825b98e9
+      internalID: 958676248377382327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 534
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576c6ceed132bd4f91a7f7283908cce
+      internalID: 5240607334592150825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 533
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519766de828bbf84c86a5ebfa8bb6bfe
+      internalID: 5322605221649625609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 532
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfbb8173eb717f4790bbc988c1a9718
+      internalID: 2558764665446447709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 480
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a377af6e82ed7e2488ee4b194bf21f65
+      internalID: 1071346391961143170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 479
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d133f22191e843928bc662413e794
+      internalID: -3837807301706149886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 477
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e942467cc6d94f972b882d5597fc6
+      internalID: -8491769100971305275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 476
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1338307db4d81f9439738e5c8d56f450
+      internalID: 1599033833680548078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 476
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e44e360545a164d8ffa62abcf5d027
+      internalID: 3567937639292787806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 475
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac93ad0c9c6db6439fbe0df006f81e8
+      internalID: -2008353293364968093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_31
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 475
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4d4386aa4d1146967b141f88e87c9
+      internalID: 7267808483570431736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_32
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 475
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba41460a9a17f243a2be7140679a953
+      internalID: 3738697861470333946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 476
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddd78f5b479e544ca744f40240620d3
+      internalID: 3754373881175457425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 421
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d73de2e5556cf4499bbf576131f158
+      internalID: -2743218743140507540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 421
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db640867e6abd614b9de28591214531e
+      internalID: -7450132604394515497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_36
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 423
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2200fd8489b0f384298098099f582dd6
+      internalID: -9021769678752945590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_37
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 423
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866ee16878fc9948ba90ec6d9ffad8d
+      internalID: 1296511178495902830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 425
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19ccdea5610e14c9e3bcb4e886b9b3
+      internalID: 2970579050716382444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_39
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 426
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e0e994c591225449efc1be50ae5550
+      internalID: 3793618922564088774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_40
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 427
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278de101352a70347994d2e76ac8468d
+      internalID: 1970784063396170327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_41
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 426
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfaf63b69dd16f438586b61bfe481bf
+      internalID: -8696625567968263621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_42
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 426
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7562f3355f2cab47a50b9e51ea799a6
+      internalID: -4087594004605548070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 371
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50dcee822904643b34a2b38e243c82
+      internalID: -423459977982874393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_44
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 371
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524ba8ee37fb33c48914723ab5291630
+      internalID: 3486255720542682558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 371
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348af0e3268a92449fc6eecb2e03815
+      internalID: -4868906520350488942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_46
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 372
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3764c6b9ff5b09f4887f2044ac2ff0f8
+      internalID: 3245554248272846675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 372
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0dc5cedce8e3b47ab0396697175133
+      internalID: 479775813837868429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_48
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 373
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1cbeb9047a2fb4a84d2526f6348966
+      internalID: -5660933563788689029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 374
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7554efdbf801ef458b8a4f68b6dd004
+      internalID: -6323874822052435859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_50
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 374
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1932091ecf6c7d74c87fe8bb88f04a62
+      internalID: -6137152437102691575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 373
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b347bba7bbe73d4492b40ab24881a6a
+      internalID: 4851563870808897357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_52
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 322
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50570179ee2e8eb4b98355af0382a1a4
+      internalID: 5268042100618492192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_53
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 322
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707609eddfa44264f8fbd87827022f84
+      internalID: -4070034298833789357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_54
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 321
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c1dbd34ff2784409c8890f982e5390
+      internalID: -5176870259801112243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_55
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 321
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb10f203c238d942828238577c06514
+      internalID: -340550755646710554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 321
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74e7c7061ea714f9b7e50a45b271eb
+      internalID: -4241931868333868655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_57
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 321
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6219a2bf7929fe45b8675fdba05323f
+      internalID: -8913356153301801280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_58
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 323
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9630e8f96a737142bd453171236afb9
+      internalID: 3270780525959580905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 276
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183ee780b7661c34db42143909c2b806
+      internalID: -5767387773179518377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_60
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 276
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57a28d28389baf42a51c991c2f46966
+      internalID: 2227771988576864075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_61
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 231
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826a3475ea631e47a8c3a1bd82e868c
+      internalID: -4053230786969337513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_62
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 226
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dcad1ea395bac46b25d42aafc73861
+      internalID: 3987981704737512291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 226
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb50e701ac397c45953ac7499def6dd
+      internalID: -5138086523777354809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_64
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 227
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d8ce19bed8bac49acd114eb0e883ad
+      internalID: 2103460969677979852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_65
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 228
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3372a152c5b891b49962b895451c9327
+      internalID: 5749868311286166241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_66
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 230
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a8ec0372397844eb6493eceed5b382
+      internalID: 1480039492839917936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_67
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 171
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d72ad1d3423b744ba9b478a6f0d5506
+      internalID: 4686544332688743476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_68
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 171
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b27cc588db7f441930846c4f59f959
+      internalID: -3673361509315923128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_69
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 172
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3dd5987a7dd02429afcfcecf0009fd
+      internalID: -5150811157784025231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_70
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 173
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae83c860456caac4293e275839d1b261
+      internalID: -8835179916216044027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_71
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 174
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c0c1d93296f2b42b5e10add709093f
+      internalID: -5508760792499339898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 78
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d34f1e68b9311346b77c0f9925c0912
+      internalID: 495132046316871603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_73
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 116
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad62d204636c05499f8261889c01b5a
+      internalID: -4636390721743272667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_74
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 115
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b372758a4174848bf97443d8160dc8
+      internalID: 4678567454381305440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_75
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 115
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d05716e52e1e4199c442f34b5ea04
+      internalID: 5049273048951630234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_76
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 117
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e0765d12a75f6429695325f050eff1
+      internalID: 2590332418323161348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_77
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 121
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0488a2f206bfa5148ba3b7784c6f9688
+      internalID: -1539936207092237945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_78
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 54
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a024916172e14db74a059000e7d62
+      internalID: -8739552259750593168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_79
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 56
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c06f39c6e3e1240a493d65ca6eaa28
+      internalID: -5873016894475829351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_80
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 58
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c69ed522709ef34ebc00c34e1d43eae
+      internalID: 2632364823177099725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_81
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 59
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb9d71882cf31d4ab7c01d42815b329
+      internalID: 6579961990938331679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 62
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2577192d1ea03a4999d75ed6a8fec11
+      internalID: -7030034193724108683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_83
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8d363e5babc674cbf1a2bc1813b446
+      internalID: 8172577504903198047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91aed632f3a185409b08d1e27854b5f
+      internalID: -5609907951461576395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: novala_shaman_magic_85
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df72104bdbf41374aaec7cf034315eb2
+      internalID: -9143046630171808902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

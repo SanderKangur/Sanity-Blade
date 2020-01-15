@@ -17,9 +17,9 @@ public class PlayerController : MonoBehaviour
     public float Health;
     public float FireRate;
 
-    public ItemData ItemData;
+    public ItemData ItemData, EmptyItemSlot;
     public WeaponData WeaponData;
-    public PotionData PotionData, PotionDefault;
+    public PotionData PotionData, EmptyPotionSlot;
     public SpellData SpellData;
 
     public ParticleSystem freezeParticles;
@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour
             _animator.SetTrigger("Projectile");
         }
         
-        if (Input.GetButtonDown("Fire1") && !_isMelee)
+        if (Input.GetButton("Fire1") && !_isMelee)
         {
             Sword?.Play();
             _isMelee = true;
@@ -207,7 +207,7 @@ public class PlayerController : MonoBehaviour
             
             Health += PotionData.Boost;
             Potion.Play();
-            PotionData = PotionDefault;
+            PotionData = EmptyPotionSlot;
             UpdateSprites();
         }
         if (Input.GetKeyDown("e") && ItemData != null)
@@ -215,6 +215,7 @@ public class PlayerController : MonoBehaviour
             Throw();
             ItemData = null;
             Click.Play();
+            ItemData = EmptyItemSlot;
             UpdateSprites();
         }
     }
@@ -241,6 +242,8 @@ public class PlayerController : MonoBehaviour
             GameObject.Instantiate<Freeze>(Freeze);
 
         }
+
+
     }
 
     void Shoot()
