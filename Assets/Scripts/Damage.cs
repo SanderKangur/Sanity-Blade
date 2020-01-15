@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public float EnemyDamage;
+    public float EnemyCollisionDamage;
+    public float EnemyMeleeDamage;
 }

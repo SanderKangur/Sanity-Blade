@@ -1,7 +1,226 @@
 fileFormatVersion: 2
 guid: eeca47195fb72f949b87242c11087eed
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1900829817698452417
+    second: monster_gargoyle_lance_0
+  - first:
+      213: -9065777498405227352
+    second: monster_gargoyle_lance_1
+  - first:
+      213: -2434777773550439508
+    second: monster_gargoyle_lance_2
+  - first:
+      213: -42082809733797997
+    second: monster_gargoyle_lance_3
+  - first:
+      213: -7954652906436519684
+    second: monster_gargoyle_lance_4
+  - first:
+      213: -1678510812502330238
+    second: monster_gargoyle_lance_5
+  - first:
+      213: -5864850074460563991
+    second: monster_gargoyle_lance_6
+  - first:
+      213: 9208769847512659804
+    second: monster_gargoyle_lance_7
+  - first:
+      213: -4030238814803843295
+    second: monster_gargoyle_lance_8
+  - first:
+      213: 7907772091192819528
+    second: monster_gargoyle_lance_9
+  - first:
+      213: 7327532712976109686
+    second: monster_gargoyle_lance_10
+  - first:
+      213: 2750880679463657540
+    second: monster_gargoyle_lance_11
+  - first:
+      213: 7338411322145466994
+    second: monster_gargoyle_lance_12
+  - first:
+      213: 2051315003070849544
+    second: monster_gargoyle_lance_13
+  - first:
+      213: 7142560057015706828
+    second: monster_gargoyle_lance_14
+  - first:
+      213: 1698932548905850376
+    second: monster_gargoyle_lance_15
+  - first:
+      213: 1170926280270702330
+    second: monster_gargoyle_lance_16
+  - first:
+      213: -7865281935281701188
+    second: monster_gargoyle_lance_17
+  - first:
+      213: 5313178818934342581
+    second: monster_gargoyle_lance_18
+  - first:
+      213: -8105660042189025361
+    second: monster_gargoyle_lance_19
+  - first:
+      213: -4649187993203623767
+    second: monster_gargoyle_lance_20
+  - first:
+      213: 2283349509859313061
+    second: monster_gargoyle_lance_21
+  - first:
+      213: 2505243121080453903
+    second: monster_gargoyle_lance_22
+  - first:
+      213: 1182911186375708416
+    second: monster_gargoyle_lance_23
+  - first:
+      213: 1800872117531327313
+    second: monster_gargoyle_lance_24
+  - first:
+      213: 1050006500477293986
+    second: monster_gargoyle_lance_25
+  - first:
+      213: 308391097758450760
+    second: monster_gargoyle_lance_26
+  - first:
+      213: 7263158944260686111
+    second: monster_gargoyle_lance_27
+  - first:
+      213: -2318901407954669162
+    second: monster_gargoyle_lance_28
+  - first:
+      213: -5888059101000774670
+    second: monster_gargoyle_lance_29
+  - first:
+      213: 2194573295679992913
+    second: monster_gargoyle_lance_30
+  - first:
+      213: 8861424983288440245
+    second: monster_gargoyle_lance_31
+  - first:
+      213: -8867100887088747761
+    second: monster_gargoyle_lance_32
+  - first:
+      213: -6046464423388121062
+    second: monster_gargoyle_lance_33
+  - first:
+      213: 7418920355549991021
+    second: monster_gargoyle_lance_34
+  - first:
+      213: 482514567298925887
+    second: monster_gargoyle_lance_35
+  - first:
+      213: -5096084216645200431
+    second: monster_gargoyle_lance_36
+  - first:
+      213: 2186422695321825638
+    second: monster_gargoyle_lance_37
+  - first:
+      213: 1409678323839519808
+    second: monster_gargoyle_lance_38
+  - first:
+      213: 624690421293898846
+    second: monster_gargoyle_lance_39
+  - first:
+      213: 3937682180396247568
+    second: monster_gargoyle_lance_40
+  - first:
+      213: 3056152349911157268
+    second: monster_gargoyle_lance_41
+  - first:
+      213: 4533768411554404163
+    second: monster_gargoyle_lance_42
+  - first:
+      213: -8162705822055111608
+    second: monster_gargoyle_lance_43
+  - first:
+      213: 3429110766105883637
+    second: monster_gargoyle_lance_44
+  - first:
+      213: -7508720514706355294
+    second: monster_gargoyle_lance_45
+  - first:
+      213: -3069163263830459959
+    second: monster_gargoyle_lance_46
+  - first:
+      213: -347330514335673246
+    second: monster_gargoyle_lance_47
+  - first:
+      213: -3225398322033553145
+    second: monster_gargoyle_lance_48
+  - first:
+      213: -8255012971704627055
+    second: monster_gargoyle_lance_49
+  - first:
+      213: -6062356082477227625
+    second: monster_gargoyle_lance_50
+  - first:
+      213: 5665874861186175358
+    second: monster_gargoyle_lance_51
+  - first:
+      213: 8358759791469268180
+    second: monster_gargoyle_lance_52
+  - first:
+      213: 2246889981384198995
+    second: monster_gargoyle_lance_53
+  - first:
+      213: -3874488522347876923
+    second: monster_gargoyle_lance_54
+  - first:
+      213: -1537757928168040876
+    second: monster_gargoyle_lance_55
+  - first:
+      213: 4558559803339740978
+    second: monster_gargoyle_lance_56
+  - first:
+      213: 8529540689114231577
+    second: monster_gargoyle_lance_57
+  - first:
+      213: -2949741512738927549
+    second: monster_gargoyle_lance_58
+  - first:
+      213: -4894899188243141854
+    second: monster_gargoyle_lance_59
+  - first:
+      213: 5413217132299598402
+    second: monster_gargoyle_lance_60
+  - first:
+      213: -3578095696849184166
+    second: monster_gargoyle_lance_61
+  - first:
+      213: 374337387490468758
+    second: monster_gargoyle_lance_62
+  - first:
+      213: -1762389609794179772
+    second: monster_gargoyle_lance_63
+  - first:
+      213: 300397529347077495
+    second: monster_gargoyle_lance_64
+  - first:
+      213: -8398271697356934618
+    second: monster_gargoyle_lance_65
+  - first:
+      213: -3310980693091704389
+    second: monster_gargoyle_lance_66
+  - first:
+      213: -1820708920854090928
+    second: monster_gargoyle_lance_67
+  - first:
+      213: 2670850127183745810
+    second: monster_gargoyle_lance_68
+  - first:
+      213: 8790213057147103057
+    second: monster_gargoyle_lance_69
+  - first:
+      213: 3429070845643240535
+    second: monster_gargoyle_lance_70
+  - first:
+      213: 5010989500787562154
+    second: monster_gargoyle_lance_71
+  - first:
+      213: -7649091946805818261
+    second: monster_gargoyle_lance_72
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +250,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +259,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +282,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +303,1540 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 751
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc99b136eeebf4479d133839ecff72d
+      internalID: 1900829817698452417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 752
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1599c37a8c70940bd077bed3a0e83b
+      internalID: -9065777498405227352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 753
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a597a97049ab04fb32ec84e6d134e1
+      internalID: -2434777773550439508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 754
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f689333bb85d274aab05335d4691887
+      internalID: -42082809733797997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 764
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4c8b829b76f9f438025003129e1986
+      internalID: -7954652906436519684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 777
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3610ea8d1d0c64e9651382106107a8
+      internalID: -1678510812502330238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 758
+        width: 39
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae188a3c12d8d48924a678b562686d
+      internalID: -5864850074460563991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 758
+        width: 37
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765cb0640640ac246aed4fbc428440bd
+      internalID: 9208769847512659804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 674
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aae9e37b6881d4fae5b7b0303373d5
+      internalID: -4030238814803843295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 678
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770342d4974c997418d81553790e77ac
+      internalID: 7907772091192819528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 669
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8063783bce30894459f227505811a13d
+      internalID: 7327532712976109686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 666
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf53950c894c4d4fb2b24a93a3f6b42
+      internalID: 2750880679463657540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 679
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670aec2a0e241bd48b309d204cd34a00
+      internalID: 7338411322145466994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 683
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c1d47f22093b42a925d404f84a836
+      internalID: 2051315003070849544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 652
+        width: 37
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839f47a8802f58c45b29b7fd7f0723db
+      internalID: 7142560057015706828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 654
+        width: 37
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064751715c0e736468cdaa2b21237c03
+      internalID: 1698932548905850376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 653
+        width: 36
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eb40126e5703b468bedb25b7f8ff5e
+      internalID: 1170926280270702330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_17
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 656
+        width: 36
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57529619ea10cf48b6da80dc339fae2
+      internalID: -7865281935281701188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 648
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c837cd602835d4da9a34302de6e982
+      internalID: 5313178818934342581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_19
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 646
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92658cc64ea54f84e9280085a23c585d
+      internalID: -8105660042189025361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 571
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74fb979107f91044844983d7fd35139
+      internalID: -4649187993203623767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 571
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e37b2fd1eb6fec4aa2c984ef3fde3be
+      internalID: 2283349509859313061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 580
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dca050106d48a42b7223f21c01ca46
+      internalID: 2505243121080453903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 580
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5627278e714a4dc478fb74c27ebc5cbb
+      internalID: 1182911186375708416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 584
+        width: 83
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4efe96915e97db44a67e980bf2e2912
+      internalID: 1800872117531327313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_25
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 573
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e21ebf21dc2049a3de0471a70eefb
+      internalID: 1050006500477293986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_26
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 560
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa78b66573889940b0ca13e6aac31db
+      internalID: 308391097758450760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_27
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 555
+        width: 41
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d696de009a5243908f46ebc85c8ca
+      internalID: 7263158944260686111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 541
+        width: 36
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13690d7757a3c4e40bba7a3efc9156a0
+      internalID: -2318901407954669162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 46
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba7c981b2d5a684da4dab992cdd3f7d
+      internalID: -5888059101000774670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 537
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c267d7bd086740a91ed46a50e527d
+      internalID: 2194573295679992913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 536
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc278071897ab942a5cb0582921e3fa
+      internalID: 8861424983288440245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 455
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b3cbedc7690a74b88ef31ce3b7e1e9
+      internalID: -8867100887088747761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 458
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07955ef1b6d6b846b1eb2d8573bfa6e
+      internalID: -6046464423388121062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 446
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51402f0ae8206142aad93cabeb5ebb2
+      internalID: 7418920355549991021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_35
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 447
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e5a7938875f74b99586b441771608
+      internalID: 482514567298925887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 452
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3ae9796455024cabc3dfb7343f10f
+      internalID: -5096084216645200431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_37
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 456
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155defdbc3bcc9419bd8c446ae45645
+      internalID: 2186422695321825638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 442
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f65b2c7af4ea048b3209c9a0113077
+      internalID: 1409678323839519808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 445
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e0ffe250670443827746c84d24288
+      internalID: 624690421293898846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 370
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314f774e58c05546ada021869015f06
+      internalID: 3937682180396247568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 370
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a175a7e2edc01e947b5c8ff41332537b
+      internalID: 3056152349911157268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_42
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 366
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaa3c1c8bd9bd8449bc7c802b7c5d81
+      internalID: 4533768411554404163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_43
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 366
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7a65f5f44fa6447aa750dbfc92f8a3
+      internalID: -8162705822055111608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 327
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915f27baca99b2446a615f54294f0101
+      internalID: 3429110766105883637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_45
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 324
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83077fdd2c611439aa3a8d32beaff5
+      internalID: -7508720514706355294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 327
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d76e929c8fb74b4498ae61ebd3a077a
+      internalID: -3069163263830459959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 325
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d080936ab040142a725c8e54054383
+      internalID: -347330514335673246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 323
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dbc2b0d30794e4e97f0ac94a1c64ea
+      internalID: -3225398322033553145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_49
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 323
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ba297806e3acb4987a4897f8a99cd6
+      internalID: -8255012971704627055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 284
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6283d8498dd81ba449f31fcbcfebc146
+      internalID: -6062356082477227625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_51
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 281
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b48e00e290c24d8475bfcf8e00a41
+      internalID: 5665874861186175358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 194
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a145c70024118341b80820d54f94801
+      internalID: 8358759791469268180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 192
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c4f3c45bde2fd449d922720353e135
+      internalID: 2246889981384198995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 190
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbac2fe1a6a3b7f42894ac73e2d799d8
+      internalID: -3874488522347876923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 188
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de16e097ddf6ac142a48932305911464
+      internalID: -1537757928168040876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_56
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 185
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3e77de3cbc8494f8a8827735bf9ceb
+      internalID: 4558559803339740978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_57
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 183
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2a8d879b9019f419629b45994a1157
+      internalID: 8529540689114231577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_58
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 121
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8e407b4f6d3aa4ea68255eb1c90e07
+      internalID: -2949741512738927549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 119
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6329efed0ac76488ababe3badc6caa
+      internalID: -4894899188243141854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_60
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 117
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2918c68dabc73154b9df775f8d43d624
+      internalID: 5413217132299598402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 119
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be286d60555e2f46b2f45eb95451771
+      internalID: -3578095696849184166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_62
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 108
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4593316acc629d348ab9631ffb61d936
+      internalID: 374337387490468758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_63
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 105
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8404604e093a47932f3af1586d4b4
+      internalID: -1762389609794179772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_64
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 47
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290edd3600bcc004b81a80a4572b6012
+      internalID: 300397529347077495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 43
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed9a5d2743bca448a5a469152dc41d2
+      internalID: -8398271697356934618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_66
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 41
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d01c2c2fa801ef429676bc02f1a194c
+      internalID: -3310980693091704389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_67
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 17
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb1b29647703d840b01ef8396ff6fde
+      internalID: -1820708920854090928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_68
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 27
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c902a4ceff0f917469b3722ce3474ee7
+      internalID: 2670850127183745810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_69
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 29
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fd8dccc32475f4e92d6e0939738833
+      internalID: 8790213057147103057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_70
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 11
+        width: 39
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c649d035ecf45d498585f763555b9f0
+      internalID: 3429070845643240535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_71
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 8
+        width: 37
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e089970e5f428d946b58a4491c93bc6c
+      internalID: 5010989500787562154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_gargoyle_lance_72
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 5
+        width: 37
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe97d8081867c499554f11b8ff2111
+      internalID: -7649091946805818261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

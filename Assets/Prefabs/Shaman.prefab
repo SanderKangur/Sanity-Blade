@@ -119,7 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyDamage: 10
+  EnemyCollisionDamage: 0
+  EnemyMeleeDamage: 0
 --- !u!95 &5005273965119610270
 Animator:
   serializedVersion: 3
@@ -175,3 +176,10 @@ MonoBehaviour:
   SpellData: {fileID: 11400000, guid: add913460aa4be54794201639ece732a, type: 2}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
   Knockback: 0
+  isFrozen: 0
+  MinDistance: 7
+  MaxDistance: 10
+  AnimationTimer: 1.3
+  MaxFireRate: 4
+  MinFireRate: 2
+  ShotAmount: 3

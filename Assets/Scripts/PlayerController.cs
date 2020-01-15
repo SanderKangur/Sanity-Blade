@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using EZCameraShake;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public ParticleSystem freezeParticles;
 
     public AudioSource Walk, Boop, Potion, Death, FreezeSound;
-    public AudioClipGroup Sword, Fireball, Click, Oof;
+    public AudioClipGroup Oof, Sword, Fireball, Click;
 
     private bool _inv = false;
     private Rigidbody2D _rigidBody;
@@ -215,7 +215,6 @@ public class PlayerController : MonoBehaviour
             Throw();
             ItemData = null;
             Click.Play();
-
             ItemData = EmptyItemSlot;
             UpdateSprites();
         }
@@ -234,17 +233,13 @@ public class PlayerController : MonoBehaviour
             Bomb bomb = GameObject.Instantiate<Bomb>(Bomb);
             bomb.GetComponent<SpriteRenderer>().sprite = ItemData.Sprite;
             bomb.transform.position = this.transform.position;
-
         }
 
         if (ItemData.TypeDescription.Equals("freeze"))
         {
             FreezeSound?.Play();
             freezeParticles?.Play();
-            CameraShaker.Instance.ShakeOnce(0.15f, 0.5f, 0.15f, 0.1f);
-
             GameObject.Instantiate<Freeze>(Freeze);
-
         }
 
 
@@ -261,6 +256,22 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "MeleeEnemy")
+        {
+            Debug.Log("meleeenemy");
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * 2, ForceMode2D.Impulse);
+            _knockback = 0.2f;
+
+            _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+            Oof.Play();
+            Health -= collision.gameObject.GetComponentInParent<Damage>().EnemyMeleeDamage;
+            _inv = true;
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -273,9 +284,7 @@ public class PlayerController : MonoBehaviour
 
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
             Oof.Play();
-            CameraShaker.Instance.ShakeOnce(0.4f, 0.62f, 0.2f, 0.2f);
-
-            Health -= collision.gameObject.GetComponent<Damage>().EnemyDamage;
+            Health -= collision.gameObject.GetComponent<Damage>().EnemyCollisionDamage;
             _inv = true;
             
         }
@@ -289,8 +298,6 @@ public class PlayerController : MonoBehaviour
 
 
             Oof.Play();
-            CameraShaker.Instance.ShakeOnce(0.5f, 0.6f, 0.3f, 0.3f);
-
             Health -= collision.gameObject.GetComponent<ProjectileEnemy>().Damage;
             _inv = true;
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);

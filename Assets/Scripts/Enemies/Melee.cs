@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AerialRanged : MonoBehaviour
+public class Melee : MonoBehaviour
 {
     public float Speed = 3f;
-    public float Lives = 300f;
+    public float Lives = 100f;
     public GameObject Drop;
-    public ProjectileEnemy Projectile;
-    public SpellData SpellData;
     public AudioClipGroup Monster;
     [Range(0, 10)]
     public float Knockback;
+    public bool isFrozen = false;
 
     private float _fireRate = 2;
     private float _nextFire;
@@ -33,26 +32,21 @@ public class AerialRanged : MonoBehaviour
     void Update()
     {
         bool isMoving = false;
-        if (_knockback <= 0)
+        _knockback -= Time.deltaTime;
+        if (_knockback <= 0 && !isFrozen)
         {
-            if (Vector2.Distance(transform.position, _target.position) > Random.Range(5, 10))
+            if (Vector2.Distance(transform.position, _target.position) > 1)
             {
                 isMoving = true;
                 GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
                 transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
-
             }
 
-
         }
-        _knockback -= Time.deltaTime;
 
-        if (Time.time > _nextFire)
-        {
-            _nextFire = Time.time + _fireRate;
-            Shoot();
-            _animator.SetTrigger("Attack");
-        }
+        if (isFrozen) _animator.speed = 0;
+        else _animator.speed = 1;
+
 
         if (Lives <= 0)
         {
@@ -60,18 +54,6 @@ public class AerialRanged : MonoBehaviour
             GameObject.Destroy(this.gameObject);
         }
         _animator.SetBool("Walk", isMoving);
-    }
-
-    void Shoot()
-    {
-
-        ProjectileEnemy projectile = GameObject.Instantiate<ProjectileEnemy>(Projectile);
-        projectile.GetComponent<SpriteRenderer>().sprite = SpellData.Sprite;
-        projectile.Damage = SpellData.Damage;
-        projectile.Speed = SpellData.Speed;
-        projectile.Target = _target;
-        projectile.transform.position = this.transform.position;
-
     }
 
     public void Damage(float dam)
@@ -100,18 +82,31 @@ public class AerialRanged : MonoBehaviour
             _knockback = 0.3f;
         }
 
+        if (collision.gameObject.tag == "Drop")
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.gameObject.tag == "Melee")
         {
+            Debug.Log("Melee");
             Damage(PlayerController.Instance.WeaponData.Damage);
-            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
+            Vector2 dir = collision.transform.position;
             dir = -dir.normalized;
             _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 
-        if (collision.gameObject.tag == "Objects" || collision.gameObject.tag == "Drop")
+        if (collision.gameObject.tag == "Bomb")
         {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+            Damage(100);
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
+            _knockback = 0.3f;
         }
     }
 

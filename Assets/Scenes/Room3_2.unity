@@ -164,8 +164,77 @@ Transform:
   - {fileID: 662909294}
   - {fileID: 855969606}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &393464278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1780320257710873485, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_Name
+      value: Brother
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.7244043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6577843
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780320257710873475, guid: fe49ae0714717434da3d0767fad94734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe49ae0714717434da3d0767fad94734, type: 3}
 --- !u!1 &662909293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,7 +4843,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1313971623
 PrefabInstance:
@@ -4913,7 +4982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1934044525
 PrefabInstance:
@@ -5052,7 +5121,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2024237087
 PrefabInstance:
@@ -5511,8 +5580,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
   AltExit: {fileID: 670822691}
+  BackExit: {fileID: 0}
   NextRoom: Room3_1
   AltRoom: Room5_1
+  BackRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}
   Ambience: {fileID: 2130400990}
@@ -5530,7 +5601,7 @@ Transform:
   - {fileID: 2093959589}
   - {fileID: 670822695}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2130400989
 AudioSource:

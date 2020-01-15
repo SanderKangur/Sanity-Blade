@@ -14,7 +14,10 @@ public class Freeze : MonoBehaviour
         {
             enemy.GetComponent<SpriteRenderer>().color = new Color(0.0f, 0.9f, 1.0f, 1.0f);
             enemy.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-            enemy.GetComponent<GroundMelee>().isFrozen = true;
+            if(enemy.GetComponent<Melee>() != null)
+            enemy.GetComponent<Melee>().isFrozen = true;
+            if(enemy.GetComponent<Ranged>() != null)
+            enemy.GetComponent<Ranged>().isFrozen = true;
         }
     }
 
@@ -29,8 +32,11 @@ public class Freeze : MonoBehaviour
             {
                 enemy.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
                 enemy.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-                enemy.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation; 
-                enemy.GetComponent<GroundMelee>().isFrozen = false;
+                enemy.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+                if (enemy.GetComponent<Melee>() != null)
+                    enemy.GetComponent<Melee>().isFrozen = false;
+                if (enemy.GetComponent<Ranged>() != null)
+                    enemy.GetComponent<Ranged>().isFrozen = false;
             }
             GameObject.Destroy(this.gameObject);
         }

@@ -1,7 +1,175 @@
 fileFormatVersion: 2
 guid: feca56a55202ab6498a52b6ddb266c33
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7315475617165358997
+    second: monster_maelduin_bow_0
+  - first:
+      213: -742089683576566257
+    second: monster_maelduin_bow_1
+  - first:
+      213: -1614816685748132692
+    second: monster_maelduin_bow_2
+  - first:
+      213: -5193282271968776046
+    second: monster_maelduin_bow_3
+  - first:
+      213: -4293685713460251304
+    second: monster_maelduin_bow_4
+  - first:
+      213: -1346213782616709292
+    second: monster_maelduin_bow_5
+  - first:
+      213: -2724154007187799764
+    second: monster_maelduin_bow_6
+  - first:
+      213: 56838267924135773
+    second: monster_maelduin_bow_7
+  - first:
+      213: -1899102490516499059
+    second: monster_maelduin_bow_8
+  - first:
+      213: 7328233913966095268
+    second: monster_maelduin_bow_9
+  - first:
+      213: -5579244076587577984
+    second: monster_maelduin_bow_10
+  - first:
+      213: 926510629937445371
+    second: monster_maelduin_bow_11
+  - first:
+      213: 1290498630470202582
+    second: monster_maelduin_bow_12
+  - first:
+      213: -7147347111718292645
+    second: monster_maelduin_bow_13
+  - first:
+      213: -2416647923517874612
+    second: monster_maelduin_bow_14
+  - first:
+      213: 8276608752177826497
+    second: monster_maelduin_bow_15
+  - first:
+      213: 4268547473651131140
+    second: monster_maelduin_bow_16
+  - first:
+      213: 7258718722722667786
+    second: monster_maelduin_bow_17
+  - first:
+      213: -5852390744268521542
+    second: monster_maelduin_bow_18
+  - first:
+      213: 4300759574601313193
+    second: monster_maelduin_bow_19
+  - first:
+      213: -4800774484981298047
+    second: monster_maelduin_bow_20
+  - first:
+      213: -8598635283790417367
+    second: monster_maelduin_bow_21
+  - first:
+      213: 6884701464832112498
+    second: monster_maelduin_bow_22
+  - first:
+      213: 1096303242472314655
+    second: monster_maelduin_bow_23
+  - first:
+      213: -7137216893970789371
+    second: monster_maelduin_bow_24
+  - first:
+      213: -6629105163382534960
+    second: monster_maelduin_bow_25
+  - first:
+      213: 7844052976512205090
+    second: monster_maelduin_bow_26
+  - first:
+      213: -5857106782908169806
+    second: monster_maelduin_bow_27
+  - first:
+      213: 1788182985768653477
+    second: monster_maelduin_bow_28
+  - first:
+      213: 5403033111760237658
+    second: monster_maelduin_bow_29
+  - first:
+      213: 7757935993601643859
+    second: monster_maelduin_bow_30
+  - first:
+      213: 8669881411893746716
+    second: monster_maelduin_bow_31
+  - first:
+      213: -1557758745447012695
+    second: monster_maelduin_bow_32
+  - first:
+      213: -8112596903635727396
+    second: monster_maelduin_bow_33
+  - first:
+      213: -8299011405229327396
+    second: monster_maelduin_bow_34
+  - first:
+      213: 6922039238238829353
+    second: monster_maelduin_bow_35
+  - first:
+      213: -3932316792622492027
+    second: monster_maelduin_bow_36
+  - first:
+      213: -2385192204366397607
+    second: monster_maelduin_bow_37
+  - first:
+      213: -735758092319051821
+    second: monster_maelduin_bow_38
+  - first:
+      213: 176166410114359065
+    second: monster_maelduin_bow_39
+  - first:
+      213: -7466286416638449015
+    second: monster_maelduin_bow_40
+  - first:
+      213: 1798688062977339551
+    second: monster_maelduin_bow_41
+  - first:
+      213: 8467017946910146095
+    second: monster_maelduin_bow_42
+  - first:
+      213: 4720843245261798336
+    second: monster_maelduin_bow_43
+  - first:
+      213: -2493503911742879599
+    second: monster_maelduin_bow_44
+  - first:
+      213: 7579897691014835708
+    second: monster_maelduin_bow_45
+  - first:
+      213: 2874361981396506704
+    second: monster_maelduin_bow_46
+  - first:
+      213: -2489792183648223674
+    second: monster_maelduin_bow_47
+  - first:
+      213: 1214653419022944140
+    second: monster_maelduin_bow_48
+  - first:
+      213: 1723530028454370575
+    second: monster_maelduin_bow_49
+  - first:
+      213: 4248509983293583333
+    second: monster_maelduin_bow_50
+  - first:
+      213: 4112915481994141867
+    second: monster_maelduin_bow_51
+  - first:
+      213: 8547159134675712068
+    second: monster_maelduin_bow_52
+  - first:
+      213: 2225821855905383248
+    second: monster_maelduin_bow_53
+  - first:
+      213: 6688311723569009276
+    second: monster_maelduin_bow_54
+  - first:
+      213: -5403083983431247086
+    second: monster_maelduin_bow_55
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +199,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +208,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +231,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +252,1183 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: monster_maelduin_bow_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 475
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d92a5391c9adc4f83df28a0886a071
+      internalID: -7315475617165358997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 472
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c7acfe9e3ac44408508e02a28a152b
+      internalID: -742089683576566257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 470
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e6271d0c1ea8d40a55451338529377
+      internalID: -1614816685748132692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 469
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9860321553f5394f85cfe4a6bb4514f
+      internalID: -5193282271968776046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 468
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae33b1a29d0e7fd4f8329481b31c395d
+      internalID: -4293685713460251304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 468
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c1a6c4a88270443813ffa92e973188
+      internalID: -1346213782616709292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 467
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997faf0a6f3acc74abf50470a2b646b6
+      internalID: -2724154007187799764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 467
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64feb5a9101ccdb42b9cf9ed7c4c5074
+      internalID: 56838267924135773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 462
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4cdb082385d58418de1e64f692b03f
+      internalID: -1899102490516499059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 394
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e725759d2337eb44bb2466663a73a8c
+      internalID: 7328233913966095268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 390
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a755636968309440bb9b40d272e6210
+      internalID: -5579244076587577984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 390
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5723735f06d4b4c90f82ca0ddecce6
+      internalID: 926510629937445371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 390
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5372a9fd1a1140c4c907c1ddfe1210ab
+      internalID: 1290498630470202582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 390
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbf69e57edad8642b231a87591b5a1f
+      internalID: -7147347111718292645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe0eb651f175c47bf36888f544f70b
+      internalID: -2416647923517874612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_15
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 390
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27188a13436492499229107f28e6521
+      internalID: 8276608752177826497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 389
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e290baf183d1a94408c10e5e319d756f
+      internalID: 4268547473651131140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 390
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d12e770f178e740a58ca66519f086e
+      internalID: 7258718722722667786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 422
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11feb124bb2089c439b9b850b14a6ea6
+      internalID: -5852390744268521542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 327
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6478494ee4ad047be3e9a5d035e589
+      internalID: 4300759574601313193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 327
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da33486b5da1a4d478e58f5444f0fb19
+      internalID: -4800774484981298047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 326
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec59f06e797ce4fa5c030f179bf94e
+      internalID: -8598635283790417367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 325
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceda3ad61727594bb2eec2734c5e109
+      internalID: 6884701464832112498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 325
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e6688fb9c9f6c4b9fd1daf534002f5
+      internalID: 1096303242472314655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 324
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1c5f0a2f39bc489e1b2934721718a
+      internalID: -7137216893970789371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 218
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bc43132482fd8408e3d130579cd7cf
+      internalID: -6629105163382534960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 215
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a93976720084ae4aa27b10268a059bc
+      internalID: 7844052976512205090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 213
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eb854e7203760489f743b72e7b3487
+      internalID: -5857106782908169806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_28
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 212
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df933c8b5ac4a6439ba5aac17dc48b2
+      internalID: 1788182985768653477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 211
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ecfbfb4e37d443b0f814f5a7f962b
+      internalID: 5403033111760237658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 211
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8b61ba77418014ba05ab8f6e800582
+      internalID: 7757935993601643859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 210
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866d2ad0dff3c7648a19769cec1d1fa9
+      internalID: 8669881411893746716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_32
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 210
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dd7054a9a1bd641a07eaf4e0b12c3d
+      internalID: -1557758745447012695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_33
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 205
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40c5b7e6f73dd4783ea52966c0ccb9
+      internalID: -8112596903635727396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 161
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd62d048063194a950edffdc795f50
+      internalID: -8299011405229327396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 117
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae16a74e80e76a4b914374629c54c09
+      internalID: 6922039238238829353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decdb782ee0636c46bb0a047bbfbf919
+      internalID: -3932316792622492027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 119
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c4f9b1a6bc7d42aed34d173b03c7b
+      internalID: -2385192204366397607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 162
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821c8c4c1c2c07e43b2024d62a11f30b
+      internalID: -735758092319051821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_39
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 119
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8228ca27232b6241a4e80232973ce5b
+      internalID: 176166410114359065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 119
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1850a50d56de52e40843d6543e299ae4
+      internalID: -7466286416638449015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 120
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0418dc309fe8fd4d8001d76c592a852
+      internalID: 1798688062977339551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_42
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 116
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de00089141590ef439698031a286947f
+      internalID: 8467017946910146095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_43
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 116
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b864cf7ca61174043b891f682626d188
+      internalID: 4720843245261798336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_44
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 116
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53efdcef99eb34428ad355ca9e6d8bb
+      internalID: -2493503911742879599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_45
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 117
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34bb452e5057d341b88a6e0a1dca6ef
+      internalID: 7579897691014835708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_46
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 117
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c510f6c2c7d806468ef052ef1abe33b
+      internalID: 2874361981396506704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_47
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 35
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d624a47b71efb40a9f8ef3c05d1424
+      internalID: -2489792183648223674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_48
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 34
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baf639e9edcaa14cb48ee280110c6f7
+      internalID: 1214653419022944140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_49
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 35
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0fde3a685498e4abeca19996fdddd9
+      internalID: 1723530028454370575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85714e8ad8080334f9e7ae6fcc72728a
+      internalID: 4248509983293583333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_51
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe864001ed617f4ca1dabe767b9d491
+      internalID: 4112915481994141867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_52
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 35
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea379a13e728eca46b1d0984ac97094a
+      internalID: 8547159134675712068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_53
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 34
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44600926c3bea0d488c408e5078cee6b
+      internalID: 2225821855905383248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 34
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc7b3ae10903147aa5c463f0b6fede
+      internalID: 6688311723569009276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster_maelduin_bow_55
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 33
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4276cf541e1a23489af9f19a1752bcf
+      internalID: -5403083983431247086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5afe5782f093c4bb724cb63b9186a5, type: 3}
+  m_Name: S_Gargoyle
+  m_EditorClassIdentifier: 
+  Damage: 17
+  Speed: 12
+  FireRate: 0
+  Sprite: {fileID: -5796346509799955821, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}
