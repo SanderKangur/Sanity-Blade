@@ -6,7 +6,10 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance;
     public GameObject Exit;
+    public GameObject AltExit;
     public string NextRoom;
+    public string AltRoom;
+
     public AudioSource DoorOpen;
     public AudioSource Ambience;
 
@@ -18,6 +21,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         Exit.SetActive(false);
+        AltExit.SetActive(false);
         Ambience.Play();
     }
 
@@ -31,6 +35,7 @@ public class GameController : MonoBehaviour
         {
             DoorOpen.Play();
             Exit.SetActive(true);
+            AltExit.SetActive(true);
         }
     }
 

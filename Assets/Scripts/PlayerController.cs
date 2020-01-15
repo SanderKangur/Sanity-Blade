@@ -22,8 +22,10 @@ public class PlayerController : MonoBehaviour
     public PotionData PotionData, PotionDefault;
     public SpellData SpellData;
 
-    public AudioSource Oof, Walk, Boop, Potion, Death;
-    public AudioClipGroup Sword, Fireball;
+    public ParticleSystem freezeParticles;
+
+    public AudioSource Oof, Walk, Boop, Potion, Death, FreezeSound;
+    public AudioClipGroup Sword, Fireball, Click;
 
     private bool _inv = false;
     private Rigidbody2D _rigidBody;
@@ -202,6 +204,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown("q") && PotionData.Boost != 0)
         {
+            
             Health += PotionData.Boost;
             Potion.Play();
             PotionData = PotionDefault;
@@ -211,7 +214,7 @@ public class PlayerController : MonoBehaviour
         {
             Throw();
             ItemData = null;
-
+            Click.Play();
             UpdateSprites();
         }
     }
@@ -233,6 +236,8 @@ public class PlayerController : MonoBehaviour
 
         if (ItemData.TypeDescription.Equals("freeze"))
         {
+            FreezeSound?.Play();
+            freezeParticles?.Play();
             GameObject.Instantiate<Freeze>(Freeze);
 
         }

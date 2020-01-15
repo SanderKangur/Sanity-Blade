@@ -7,6 +7,8 @@ public class Bomb : MonoBehaviour
     public static Bomb Instance;
     public float Damage;
     public ParticleSystem explosion;
+    public AudioClipGroup BoomSound;
+    public AudioSource fizzle;
     public GameObject AoE;
 
     private Rigidbody2D _rigidBody;
@@ -18,6 +20,7 @@ public class Bomb : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        fizzle.Play();
     }
     void Start()
     {
@@ -43,6 +46,7 @@ public class Bomb : MonoBehaviour
         {
             AoE.SetActive(true);
             explosion.Play();
+            BoomSound?.Play();
             this.GetComponent<SpriteRenderer>().sprite = null;
         }
     }
