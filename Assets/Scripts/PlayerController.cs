@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using EZCameraShake;
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem freezeParticles;
 
-    public AudioSource Oof, Walk, Boop, Potion, Death, FreezeSound;
-    public AudioClipGroup Sword, Fireball, Click;
+    public AudioSource Walk, Boop, Potion, Death, FreezeSound;
+    public AudioClipGroup Sword, Fireball, Click, Oof;
 
     private bool _inv = false;
     private Rigidbody2D _rigidBody;
@@ -215,6 +215,7 @@ public class PlayerController : MonoBehaviour
             Throw();
             ItemData = null;
             Click.Play();
+
             ItemData = EmptyItemSlot;
             UpdateSprites();
         }
@@ -233,12 +234,15 @@ public class PlayerController : MonoBehaviour
             Bomb bomb = GameObject.Instantiate<Bomb>(Bomb);
             bomb.GetComponent<SpriteRenderer>().sprite = ItemData.Sprite;
             bomb.transform.position = this.transform.position;
+
         }
 
         if (ItemData.TypeDescription.Equals("freeze"))
         {
             FreezeSound?.Play();
             freezeParticles?.Play();
+            CameraShaker.Instance.ShakeOnce(0.15f, 0.5f, 0.15f, 0.1f);
+
             GameObject.Instantiate<Freeze>(Freeze);
 
         }
@@ -269,6 +273,8 @@ public class PlayerController : MonoBehaviour
 
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
             Oof.Play();
+            CameraShaker.Instance.ShakeOnce(0.3f, 0.62f, 0.2f, 0.2f);
+
             Health -= collision.gameObject.GetComponent<Damage>().EnemyDamage;
             _inv = true;
             
@@ -283,6 +289,8 @@ public class PlayerController : MonoBehaviour
 
 
             Oof.Play();
+            CameraShaker.Instance.ShakeOnce(0.3f, 0.6f, 0.3f, 0.3f);
+
             Health -= collision.gameObject.GetComponent<ProjectileEnemy>().Damage;
             _inv = true;
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);

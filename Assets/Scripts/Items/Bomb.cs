@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class Bomb : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Bomb : MonoBehaviour
     public AudioClipGroup BoomSound;
     public AudioSource fizzle;
     public GameObject AoE;
+
 
     private Rigidbody2D _rigidBody;
     private float _timerAoE = 0.2f;
@@ -46,6 +48,7 @@ public class Bomb : MonoBehaviour
         {
             AoE.SetActive(true);
             explosion.Play();
+            CameraShaker.Instance.ShakeOnce(1f, 0.9f, 0.3f, 0.3f);
             BoomSound?.Play();
             this.GetComponent<SpriteRenderer>().sprite = null;
         }
