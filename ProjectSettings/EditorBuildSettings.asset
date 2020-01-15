@@ -22,14 +22,26 @@ EditorBuildSettings:
     guid: 3b542a5ee494ab849ac444906fecb82c
   - enabled: 1
     path: Assets/Scenes/Room5.unity
+    guid: 443073d2ad000664cb2b0827868a3d93
+  - enabled: 1
+    path: Assets/Scenes/Room5_1.unity
     guid: 86c804874c50325469a012583b4f6d68
   - enabled: 1
     path: Assets/Scenes/Room6.unity
     guid: 1fc92e41efd5f4b4ba925995b82a063c
+  - enabled: 1
+    path: Assets/Scenes/Room6_1.unity
+    guid: ed7c8391ea5ec7c4cb0c00e9d77a2ff5
+  - enabled: 1
+    path: Assets/Scenes/Room6_2.unity
+    guid: c694865ab05cf1e4ba695e7193e5ffee
   - enabled: 1
     path: Assets/Scenes/Room7.unity
     guid: 8e7e34f5f4b50d34f91d75e441e9b697
   - enabled: 1
     path: Assets/Scenes/Room3_1.unity
     guid: eabeec507eed8bc49bf2f7f58c0fc735
+  - enabled: 1
+    path: Assets/Scenes/Room3_2.unity
+    guid: ac9cb712c7d32cd4d99b494cc8ce7c46
   m_configObjects: {}

@@ -4831,6 +4831,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -159.29004
       objectReference: {fileID: 0}
+    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4104000842380658795, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -4850,16 +4860,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4737365907007407976, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6262748710434670911, guid: 62061e1ce30a995458577af63b075e96, type: 3}
@@ -5135,7 +5135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
+  AltExit: {fileID: 0}
   NextRoom: Room2
+  AltRoom: 
+  isCleared: 0
   DoorOpen: {fileID: 2130400989}
   Ambience: {fileID: 2130400990}
 --- !u!4 &2130400988
@@ -5412,12 +5415,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8035856963279066025, guid: 6d51761edfb2ab24c879f6ccafb4b34d,
-        type: 3}
-      propertyPath: Drop
-      value: 
-      objectReference: {fileID: 8141986738642819662, guid: 490ce9ba7226ad34ebaf13c2ef807a4e,
-        type: 3}
     - target: {fileID: -3585243329456344795, guid: 6d51761edfb2ab24c879f6ccafb4b34d,
         type: 3}
       propertyPath: m_UseAutoMass
@@ -5433,6 +5430,12 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8035856963279066025, guid: 6d51761edfb2ab24c879f6ccafb4b34d,
+        type: 3}
+      propertyPath: Drop
+      value: 
+      objectReference: {fileID: 8141986738642819662, guid: 490ce9ba7226ad34ebaf13c2ef807a4e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d51761edfb2ab24c879f6ccafb4b34d, type: 3}
 --- !u!1001 &4239092610197484201

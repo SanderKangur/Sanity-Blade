@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public GameObject AltExit;
     public string NextRoom;
     public string AltRoom;
+    public bool isCleared;
 
     public AudioSource DoorOpen;
     public AudioSource Ambience;
@@ -34,6 +35,7 @@ public class GameController : MonoBehaviour
         if(count == 0 && !Exit.activeSelf)
         {
             DoorOpen.Play();
+            isCleared = true;
             Exit.SetActive(true);
             AltExit.SetActive(true);
         }
