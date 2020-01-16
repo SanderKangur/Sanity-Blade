@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject nextLevel;
+
     private void Update()
     {
         Time.timeScale = 1f;

@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 4
-  Lives: 200
+  Lives: 250
   Drop: {fileID: 0}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
     type: 3}

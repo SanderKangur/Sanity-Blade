@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2160,7 +2160,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1070769818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a377454a62a55149a49772ed9b508c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 370de86e30fe7f144a0341f8ff30bd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1070769820
@@ -3146,11 +3146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb878770a0161f43963dd93b92b2c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Exit: {fileID: 0}
-  AltExit: {fileID: 1070769818}
+  Exit: {fileID: 1070769818}
+  AltExit: {fileID: 0}
   BackExit: {fileID: 0}
-  NextRoom: 
-  AltRoom: Room8
+  NextRoom: Room8
+  AltRoom: 
   BackRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}

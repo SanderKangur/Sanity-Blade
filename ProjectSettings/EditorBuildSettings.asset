@@ -48,14 +48,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1/Room8.unity
     guid: 1e625c51fbc944643b3836718180de96
   - enabled: 1
+    path: Assets/Scenes/Level1/Room9down.unity
+    guid: 75ab911a055d77743904fc97ab4bbb98
+  - enabled: 1
     path: Assets/Scenes/Level1/Room9up.unity
     guid: ce632c4c6ac08034b973df3a17befafb
   - enabled: 1
     path: Assets/Scenes/Level1/MorphFight.unity
     guid: 1ff52091561d37641968fc927e027714
-  - enabled: 1
-    path: Assets/Scenes/BrotherFight.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/EyeFight+.unity
     guid: bc1dec51032c4e448a3b16833b6d5713
@@ -89,4 +89,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room2+.unity
     guid: e2d21e719321f9d4a9e4af552b529b71
+  - enabled: 1
+    path: Assets/Scenes/BrotherFight.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

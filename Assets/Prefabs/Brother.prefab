@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 4
-  Lives: 700
+  Lives: 1000
   Drop: {fileID: 0}
   Melee: {fileID: 97012989}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
@@ -225,3 +225,4 @@ MonoBehaviour:
   SpellData: {fileID: 11400000, guid: ee9958317a932e34487780b1cd4c7ac3, type: 2}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
   Knockback: 0
+  Canvas: {fileID: 0}

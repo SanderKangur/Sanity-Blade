@@ -5006,7 +5006,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Drop
       value: 
-      objectReference: {fileID: 8141986738642819662, guid: 490ce9ba7226ad34ebaf13c2ef807a4e,
+      objectReference: {fileID: 8141986738642819662, guid: 8f3331258e9488e44bd0f6e86aba694a,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3382b1b497051408580cb034638483, type: 3}

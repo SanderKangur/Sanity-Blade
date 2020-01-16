@@ -164,7 +164,7 @@ Transform:
   - {fileID: 662909294}
   - {fileID: 855969606}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &662909293
 GameObject:
@@ -4401,24 +4401,6 @@ Tilemap:
   m_GameObject: {fileID: 855969605}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 6, y: -3, z: 0}
-    second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 6, y: -2, z: 0}
-    second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
   - first: {x: -8, y: -1, z: 0}
     second:
       m_TileIndex: 8
@@ -4612,8 +4594,8 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a75956f2564fdc34faec34d785a5e385, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 436e7d72b6e1a244bb15329a8c4533c0, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 022bd7d73de57df44a841464110a4687, type: 2}
   - m_RefCount: 2
@@ -4636,8 +4618,8 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -812550004322693495, guid: 76ae88aff61b9fc4f9cc1eb475026e61,
       type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: 430233763583787876, guid: 76ae88aff61b9fc4f9cc1eb475026e61, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -374985016243938401, guid: 76ae88aff61b9fc4f9cc1eb475026e61,
       type: 3}
@@ -4666,7 +4648,7 @@ Tilemap:
     m_Data: {fileID: -901745221501390438, guid: 76ae88aff61b9fc4f9cc1eb475026e61,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 23
+  - m_RefCount: 21
     m_Data:
       e00: 1
       e01: 0
@@ -4685,7 +4667,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 23
+  - m_RefCount: 21
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5270,7 +5252,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2024237087
 PrefabInstance:
@@ -5327,7 +5309,7 @@ PrefabInstance:
     - target: {fileID: 4737365907007407979, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4737365907007407979, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
