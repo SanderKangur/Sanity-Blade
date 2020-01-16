@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4eaab4905294ce45a42270e4f388420, type: 3}
   m_Name: W_DragonSword
   m_EditorClassIdentifier: 
-  Damage: 60
-  Speed: 4
+  Damage: 50
+  Speed: 2.5
   Sprite: {fileID: 3314077688014727222, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

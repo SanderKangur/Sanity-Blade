@@ -15,6 +15,7 @@ public class Morph : MonoBehaviour
 
     private float _dragonTimer;
     private float _fairyTimer = 5f;
+    private float _morphTimer;
     private bool _isDragon = false;
 
     private float _fireRate = 1f;
@@ -36,7 +37,7 @@ public class Morph : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody2D>();
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
-        _nextFire = Time.time + 5f;
+        _nextFire = Time.time + 10f;
         _nextSpecial = Time.time + 5f;
     }
 
@@ -74,14 +75,18 @@ public class Morph : MonoBehaviour
         if (_fairyTimer <= 0 && !_isDragon)
         {
             Debug.Log("kek");
+            Debug.Log(_fairyTimer);
             _animator.SetTrigger("Morph");
             _dragonTimer = 10f;
             _isDragon = true;
+            _morphTimer = 1.5f;
         }
 
         if (_isDragon)
         {
-            if (Time.time > _nextFire)
+            _morphTimer -= Time.deltaTime;
+            Debug.Log(_morphTimer);
+            if (Time.time > _nextFire && _morphTimer <= 0)
             {
                 if (!_fireAnim)
                 {

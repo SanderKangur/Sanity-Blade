@@ -29,23 +29,17 @@ public class GameController : MonoBehaviour
         if (AltExit != null) AltExit.SetActive(false);
         Ambience.Play();
 
-
-        
-
-
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        GameObject[] getCount = GameObject.FindGameObjectsWithTag("Enemy");
-        int count = getCount.Length;
-        
-
-
+        var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+       
         if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) == 1) isCleared = true;
 
-        if(count == 0 && !Exit.activeSelf)
+        if(enemies.Length == 0 && !Exit.activeSelf)
         {
             DoorOpen.Play();
             isCleared = true;
@@ -58,12 +52,11 @@ public class GameController : MonoBehaviour
 
         if (isCleared)
         {
-            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-
             foreach (GameObject enemy in enemies)
             {
                 GameObject.Destroy(enemy.gameObject);
             }
+
         }
     }
 
@@ -130,20 +123,14 @@ public class GameController : MonoBehaviour
 
         }
 
-
         Debug.Log("current");
         Debug.Log(currentRoom);
         Debug.Log("previous");
         Debug.Log(previousRoom);
 
-
-
-
-
-
         if (level > 1)
         {
-            
+
             PlayerInfo info = new PlayerInfo();
             PlayerController player = PlayerController.Instance;          
             info.Health = player.Health;

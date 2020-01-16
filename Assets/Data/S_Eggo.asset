@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a984d26be86d4204ab4321188e1222ff, type: 3}
-  m_Name: I_Teleport
+  m_Script: {fileID: 11500000, guid: ae5afe5782f093c4bb724cb63b9186a5, type: 3}
+  m_Name: S_Eggo
   m_EditorClassIdentifier: 
-  Sprite: {fileID: -1307665323872703297, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}
+  Damage: 7
+  Speed: 10
+  FireRate: 0.2
+  Sprite: {fileID: 6659297927806695902, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

@@ -15,6 +15,7 @@ public class Eyeball : MonoBehaviour
 
     private float _fireRate = 2;
     private float _nextFire;
+    private bool _fireAnim = false;
     private float _specialRate = 10;
     private float _nextSpecial;
     private bool _specialAnim = false;
@@ -51,10 +52,21 @@ public class Eyeball : MonoBehaviour
         }
         _knockback -= Time.deltaTime;
 
-        if (Time.time > _nextFire) { 
-            _nextFire = Time.time + _fireRate;
-            Shoot();
-            _animator.SetTrigger("Attack");
+        if (Time.time > _nextFire) {
+
+            if (!_fireAnim)
+            {
+                _animator.SetTrigger("Attack");
+                _fireAnim = true;
+            }
+
+            if(Time.time > _nextFire + 0.2f)
+            {
+                _nextFire = Time.time + _fireRate;
+                Shoot();
+                _fireAnim = false;
+            }
+
         }
 
         if (Time.time > _nextSpecial)

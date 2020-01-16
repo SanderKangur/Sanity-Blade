@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69e9691950bfd54a9fbdf0084262e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
-  Lives: 200
+  Speed: 4
+  Lives: 100
   Drop: {fileID: 8141986738642819662, guid: 418dc084e7265dd4eb1c5debc08cd1e0, type: 3}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
     type: 3}

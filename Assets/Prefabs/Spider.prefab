@@ -138,6 +138,7 @@ MonoBehaviour:
   Drop: {fileID: 0}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
   Knockback: 0
+  isFrozen: 0
 --- !u!50 &4244205723700520495
 Rigidbody2D:
   serializedVersion: 4
@@ -171,4 +172,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyDamage: 15
+  EnemyCollisionDamage: 10
+  EnemyMeleeDamage: 0

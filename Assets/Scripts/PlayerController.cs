@@ -9,13 +9,14 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     public Projectile Projectile;
-    public GameObject Melee;
+    public GameObject Melee, Defence;
     public Bomb Bomb;
     public Freeze Freeze;
 
     public float Speed;
     public float Health;
     public float FireRate;
+    public float MeleeSpeed;
 
     public ItemData ItemData, EmptyItemSlot;
     public WeaponData WeaponData;
@@ -41,6 +42,9 @@ public class PlayerController : MonoBehaviour
     private bool _isMelee = false;
     private const float AntiHealth = 2.1f;
     private bool _attackRight = true;
+    private bool _isDead = false;
+    private float _defenceTimer;
+    
 
 
     private void Awake()
@@ -54,23 +58,24 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        Defence.gameObject.SetActive(false);
         _rigidBody = GetComponent<Rigidbody2D>();
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         FireRate = SpellData.FireRate;
+        MeleeSpeed = WeaponData.Speed;
         Melee.gameObject.SetActive(false);
         Melee.GetComponentInChildren<SpriteRenderer>().sprite = WeaponData.Sprite;
         Instance = this;
         UpdateSprites();
-       
+
     }
 
     public void StartRoom(PlayerInfo data)
-    {
+    { 
         Speed = data.Speed;
-        Health = data.Health;
-        FireRate = data.SpellData.FireRate;
+        Health = data.Health;      
 
         ItemData = data.ItemData;
         WeaponData = data.WeaponData;
@@ -99,6 +104,8 @@ public class PlayerController : MonoBehaviour
             {
                 _animator.SetTrigger("RIP");
                 Death.Play();
+                _isDead = true;
+
             }
             _timerInv -= Time.deltaTime;
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
@@ -128,97 +135,103 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        float velX = Input.GetAxisRaw("Horizontal");
-        float velY = Input.GetAxisRaw("Vertical");
-        bool isMoving = false;
-
-        if (_knockback <= 0)
+        if (!_isDead)
         {
-            if (Mathf.Abs(velX) > float.Epsilon || Mathf.Abs(velY) > float.Epsilon)
+            float velX = Input.GetAxisRaw("Horizontal");
+            float velY = Input.GetAxisRaw("Vertical");
+            bool isMoving = false;
+
+            if (_knockback <= 0)
             {
-                _spriteRenderer.flipX = velX < 0;
-                isMoving = true;
-                Walk.volume = Random.Range(0.8f, 1.0f);
-                Walk.pitch = Random.Range(0.8f, 1.2f);
-                if (!Walk.isPlaying)
+                if (Mathf.Abs(velX) > float.Epsilon || Mathf.Abs(velY) > float.Epsilon)
                 {
-                    Walk.Play();
+                    _spriteRenderer.flipX = velX < 0;
+                    isMoving = true;
+                    Walk.volume = Random.Range(0.8f, 1.0f);
+                    Walk.pitch = Random.Range(0.8f, 1.2f);
+                    if (!Walk.isPlaying)
+                    {
+                        Walk.Play();
+                    }
                 }
-            }
-            _moveInput = new Vector2(velX, velY);
-            _moveVelocity = _moveInput.normalized * Speed;
-            
-        }
-        _knockback -= Time.deltaTime;
+                _moveInput = new Vector2(velX, velY);
+                _moveVelocity = _moveInput.normalized * Speed;
 
-        if (Input.GetButton("Fire2") && Time.time > _nextFire)
-        {
-          
-            _nextFire = Time.time + FireRate;
-            Fireball?.Play();
-            Shoot();
-            _animator.SetTrigger("Projectile");
-        }
-        
-        if (Input.GetButton("Fire1") && !_isMelee)
-        {
-            Sword?.Play();
-            _isMelee = true;
-            _meleeTimer = 0.5f;
-            Melee.gameObject.SetActive(true);
-        }
-        if (_isMelee)
-        {
-            if (_meleeTimer > 0)
+            }
+            _knockback -= Time.deltaTime;
+
+            if (Input.GetButton("Fire2") && Time.time > _nextFire)
             {
-                if (velX > 0 || velX == 0 && _attackRight)
+
+                _nextFire = Time.time + FireRate;
+                Fireball?.Play();
+                Shoot();
+                _animator.SetTrigger("Projectile");
+            }
+
+            if (Input.GetButton("Fire1") && !_isMelee)
+            {
+                Sword?.Play();
+                _isMelee = true;
+                _meleeTimer = 0.5f;
+                Melee.gameObject.SetActive(true);
+            }
+            if (_isMelee)
+            {
+                if (_meleeTimer > 0)
                 {
-                    Melee.transform.localScale = new Vector3(1, 1, 1);
-                    Melee.transform.Rotate(new Vector3(0, 0, -240) * 2 * Time.deltaTime);
-                    _attackRight = true;
+                    if (velX > 0 || velX == 0 && _attackRight)
+                    {
+                        Melee.transform.localScale = new Vector3(1, 1, 1);
+                        Melee.transform.Rotate(new Vector3(0, 0, -240) * MeleeSpeed * Time.deltaTime);
+                        _attackRight = true;
+                    }
+                    else
+                    {
+                        Melee.transform.localScale = new Vector3(1, -1, 1);
+                        Melee.transform.Rotate(new Vector3(0, 0, 240) * MeleeSpeed * Time.deltaTime);
+                        _attackRight = false;
+                    }
+                    _meleeTimer -= Time.deltaTime;
                 }
                 else
                 {
-                    Melee.transform.localScale = new Vector3(1, -1, 1);
-                    Melee.transform.Rotate(new Vector3(0, 0, 240) * 2 * Time.deltaTime);
-                    _attackRight = false;
+                    _isMelee = false;
+                    if (velX > 0)
+                    {
+                        Melee.transform.eulerAngles = new Vector3(0, 0, 100);
+                    }
+                    else
+                    {
+                        Melee.transform.eulerAngles = new Vector3(0, 0, 70);
+                    }
+                    Melee.gameObject.SetActive(false);
+
                 }
-                _meleeTimer -= Time.deltaTime;
             }
-            else
+            _animator.SetBool("Walk", isMoving);
+
+            if (Input.GetKeyDown("q") && PotionData.Boost != 0)
             {
-                _isMelee = false;
-                if (velX > 0)
-                {
-                    Melee.transform.eulerAngles = new Vector3(0, 0, 100);
-                }
-                else
-                {
-                    Melee.transform.eulerAngles = new Vector3(0, 0, 70);
-                }
-                Melee.gameObject.SetActive(false);
 
+                Health += PotionData.Boost;
+                Potion.Play();
+                PotionData = EmptyPotionSlot;
+                UpdateSprites();
             }
-        }        
-        _animator.SetBool("Walk", isMoving);
+            if (Input.GetKeyDown("e") && ItemData != null)
+            {
+                Throw();
+                ItemData = null;
+                Click.Play();
+                CameraShaker.Instance.ShakeOnce(0.2f, 0.2f, 0.3f, 0.3f);
 
-        if (Input.GetKeyDown("q") && PotionData.Boost != 0)
-        {
-            
-            Health += PotionData.Boost;
-            Potion.Play();
-            PotionData = EmptyPotionSlot;
-            UpdateSprites();
-        }
-        if (Input.GetKeyDown("e") && ItemData != null)
-        {
-            Throw();
-            ItemData = null;
-            Click.Play();
-            CameraShaker.Instance.ShakeOnce(0.2f, 0.2f, 0.3f, 0.3f);
+                ItemData = EmptyItemSlot;
+                UpdateSprites();
+            }
 
-            ItemData = EmptyItemSlot;
-            UpdateSprites();
+            _defenceTimer -= Time.deltaTime;
+            if(_defenceTimer <= 0) Defence.gameObject.SetActive(false);
         }
     }
 
@@ -244,7 +257,11 @@ public class PlayerController : MonoBehaviour
             GameObject.Instantiate<Freeze>(Freeze);
         }
 
-
+        if (ItemData.TypeDescription.Equals("defence"))
+        {
+            Defence.gameObject.SetActive(true);
+            _defenceTimer = 10f;
+        }
     }
 
     void Shoot()
@@ -260,7 +277,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "MeleeEnemy")
+        if (collision.gameObject.tag == "MeleeEnemy" && !_inv)
         {
             Debug.Log("meleeenemy");
             Vector2 dir = collision.transform.position;
@@ -313,6 +330,7 @@ public class PlayerController : MonoBehaviour
             if (type.Equals("Weapon"))
             {
                 WeaponData = collision.gameObject.GetComponent<Drop>().Weapon;
+                MeleeSpeed = WeaponData.Speed;
                 Melee.GetComponentInChildren<SpriteRenderer>().sprite = WeaponData.Sprite;
                 Boop.Play();
                 UpdateSprites();

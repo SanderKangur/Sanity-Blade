@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyDamage: 10
+  EnemyCollisionDamage: 10
+  EnemyMeleeDamage: 0
 --- !u!95 &235707303
 Animator:
   serializedVersion: 3
@@ -173,6 +174,7 @@ MonoBehaviour:
   Drop: {fileID: 0}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
   Knockback: 0
+  isFrozen: 0
 --- !u!114 &7530205627962150208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,4 +187,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyDamage: 10
+  EnemyCollisionDamage: 0
+  EnemyMeleeDamage: 0

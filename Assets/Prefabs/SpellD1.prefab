@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 942379730}
   - component: {fileID: 942379729}
   m_Layer: 0
-  m_Name: WeaponDrop
+  m_Name: SpellD1
   m_TagString: Drop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,21 +110,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caee87c016a720f449512c9d7a0dfa72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: Weapon
+  Type: Spell
   Weapons:
-  - {fileID: 11400000, guid: 7458212cb8cb3e144997fcb67a6e6590, type: 2}
-  - {fileID: 11400000, guid: 2ed47c34cdfc0f4488b5272e6fee7ccd, type: 2}
-  - {fileID: 11400000, guid: 1df44954955985744b04dc7db5ec28c8, type: 2}
+  - {fileID: 0}
   Items:
   - {fileID: 11400000, guid: 79ed9a8353a2b3a499b06e6488923f2a, type: 2}
   - {fileID: 11400000, guid: 8ca87dc34f12d4c459a549416c4d8759, type: 2}
   Spells:
-  - {fileID: 11400000, guid: 08aaab437dfb85740868b3c03c5579c7, type: 2}
+  - {fileID: 11400000, guid: 79c2073a9dc695547b7d9f01c4f18196, type: 2}
+  - {fileID: 11400000, guid: 770f82f020822c947ab3c6a47afb58a8, type: 2}
   - {fileID: 11400000, guid: fdb5c538e26ea6f419eb117297e1376a, type: 2}
   - {fileID: 11400000, guid: 52afec483abd4e8489a5f48270a4ef82, type: 2}
   Potions:
-  - {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
-  - {fileID: 11400000, guid: 9449644a68518e14b8732e503ddad5b9, type: 2}
+  - {fileID: 0}
   Weapon: {fileID: 0}
   Item: {fileID: 0}
   Spell: {fileID: 0}

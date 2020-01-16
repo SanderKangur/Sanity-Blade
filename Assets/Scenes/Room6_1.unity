@@ -135,12 +135,12 @@ PrefabInstance:
     - target: {fileID: 1912947152527699321, guid: 8f3331258e9488e44bd0f6e86aba694a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.86
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: 1912947152527699321, guid: 8f3331258e9488e44bd0f6e86aba694a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.63
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 1912947152527699321, guid: 8f3331258e9488e44bd0f6e86aba694a,
         type: 3}
@@ -2811,8 +2811,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
   AltExit: {fileID: 0}
+  BackExit: {fileID: 0}
   NextRoom: Room6_2
   AltRoom: 
+  BackRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}
   Ambience: {fileID: 2130400990}

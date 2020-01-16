@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: W_Axe
   m_EditorClassIdentifier: 
   Damage: 40
-  Speed: 5
+  Speed: 2
   Sprite: {fileID: 4718581933186826507, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: W_SuperSword
   m_EditorClassIdentifier: 
   Damage: 70
-  Speed: 4
+  Speed: 1.5
   Sprite: {fileID: 5248234906712254004, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

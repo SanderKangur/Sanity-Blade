@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5afe5782f093c4bb724cb63b9186a5, type: 3}
   m_Name: S_Fire
   m_EditorClassIdentifier: 
-  Damage: 20
+  Damage: 15
   Speed: 8
   FireRate: 0.35
   Sprite: {fileID: 3350171417016514770, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}

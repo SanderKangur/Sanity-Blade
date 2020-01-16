@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 2747409035204650891}
   - component: {fileID: 2747409035204650888}
   - component: {fileID: 2747409035204650889}
-  - component: {fileID: 2747409035204650894}
   - component: {fileID: 2747409035204650895}
   - component: {fileID: 522455057}
   - component: {fileID: -4170021389801425303}
+  - component: {fileID: 3066531135062051568}
   m_Layer: 0
   m_Name: Eyeball
   m_TagString: Enemy
@@ -105,39 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!60 &2747409035204650894
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2747409035204650893}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.4375}
-    newSize: {x: 0.97, y: 0.99}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.3125, y: 0.71875}
-      - {x: -0.4375, y: 0.59375}
-      - {x: -0.4375, y: -0.71875}
-      - {x: 0.4375, y: -0.71875}
-      - {x: 0.4375, y: -0.375}
-      - {x: 0.40625, y: -0.1875}
-      - {x: 0.4375, y: -0.09375}
-      - {x: 0.4375, y: 0.71875}
 --- !u!50 &2747409035204650895
 Rigidbody2D:
   serializedVersion: 4
@@ -150,7 +117,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.2456055
+  m_Mass: 0.7242808
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -191,4 +158,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyDamage: 10
+  EnemyCollisionDamage: 0
+  EnemyMeleeDamage: 0
+--- !u!70 &3066531135062051568
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2747409035204650893}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.015326977, y: 0.19925046}
+  m_Size: {x: 0.84434605, y: 1.0389991}
+  m_Direction: 0

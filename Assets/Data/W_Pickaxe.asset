@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: W_Pickaxe
   m_EditorClassIdentifier: 
   Damage: 50
-  Speed: 5
+  Speed: 3
   Sprite: {fileID: -4684350547438585706, guid: 9d96edecb1e578e41a0dd7f6dac4fa35, type: 3}
