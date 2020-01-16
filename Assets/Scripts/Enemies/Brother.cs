@@ -13,6 +13,7 @@ public class Brother : MonoBehaviour
     public AudioClipGroup Monster;
     [Range(0, 10)]
     public float Knockback;
+    public GameObject Canvas;
 
     private float _fireRate = 5f;
     private float _nextFire;
@@ -98,6 +99,9 @@ public class Brother : MonoBehaviour
 
         if (Lives <= 0)
         {
+            Canvas.SetActive(true);
+            Time.timeScale = 0f;
+
             PlayerController.Instance.Health = PlayerController.Instance.Health + 10;
             GameObject.Destroy(this.gameObject);
         }
@@ -177,6 +181,13 @@ public class Brother : MonoBehaviour
 
         if (Drop != null)
         Instantiate(Drop, transform.position, Drop.transform.rotation);
+    }
+
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
+
     }
 
 }

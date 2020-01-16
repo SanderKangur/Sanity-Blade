@@ -9,54 +9,84 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 06a616d44d9f18c42907663dfce86e0b
   - enabled: 1
-    path: Assets/Scenes/Room1.unity
+    path: Assets/Scenes/Level1/Room1.unity
     guid: 3bf0d23042b989a45824414a835838e4
   - enabled: 1
-    path: Assets/Scenes/Room2.unity
+    path: Assets/Scenes/Level1/Room2.unity
     guid: 842134d74a92b0744b73877d06ed92ca
   - enabled: 1
-    path: Assets/Scenes/Room3.unity
+    path: Assets/Scenes/Level1/Room3.unity
     guid: 32ea6b6eada70ea4584941c28a7512e0
   - enabled: 1
-    path: Assets/Scenes/Room4.unity
+    path: Assets/Scenes/Level1/Room4.unity
     guid: 3b542a5ee494ab849ac444906fecb82c
   - enabled: 1
-    path: Assets/Scenes/Room5.unity
+    path: Assets/Scenes/Level1/Room5.unity
     guid: 443073d2ad000664cb2b0827868a3d93
   - enabled: 1
-    path: Assets/Scenes/Room5_1.unity
+    path: Assets/Scenes/Level1/Room5_1.unity
     guid: 86c804874c50325469a012583b4f6d68
   - enabled: 1
-    path: Assets/Scenes/Room6.unity
+    path: Assets/Scenes/Level1/Room6.unity
     guid: 1fc92e41efd5f4b4ba925995b82a063c
   - enabled: 1
-    path: Assets/Scenes/Room6_1.unity
+    path: Assets/Scenes/Level1/Room6_1.unity
     guid: ed7c8391ea5ec7c4cb0c00e9d77a2ff5
   - enabled: 1
-    path: Assets/Scenes/Room6_2.unity
+    path: Assets/Scenes/Level1/Room6_2.unity
     guid: c694865ab05cf1e4ba695e7193e5ffee
   - enabled: 1
-    path: Assets/Scenes/EyeFight.unity
+    path: Assets/Scenes/Level1/EyeFight.unity
     guid: 8e7e34f5f4b50d34f91d75e441e9b697
   - enabled: 1
-    path: Assets/Scenes/Room3_1.unity
+    path: Assets/Scenes/Level1/Room3_1.unity
     guid: eabeec507eed8bc49bf2f7f58c0fc735
   - enabled: 1
-    path: Assets/Scenes/Room3_2.unity
+    path: Assets/Scenes/Level1/Room3_2.unity
     guid: ac9cb712c7d32cd4d99b494cc8ce7c46
   - enabled: 1
-    path: Assets/Scenes/Room8.unity
+    path: Assets/Scenes/Level1/Room8.unity
     guid: 1e625c51fbc944643b3836718180de96
   - enabled: 1
-    path: Assets/Scenes/Room9up.unity
+    path: Assets/Scenes/Level1/Room9up.unity
     guid: ce632c4c6ac08034b973df3a17befafb
   - enabled: 1
-    path: Assets/Scenes/MorphFight.unity
+    path: Assets/Scenes/Level1/MorphFight.unity
     guid: 1ff52091561d37641968fc927e027714
-  - enabled: 1
-    path: Assets/Scenes/Room11up.unity
-    guid: 5e25a9545d0f6504bbba87ad4ea48925
   - enabled: 1
     path: Assets/Scenes/BrotherFight.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EyeFight+.unity
+    guid: bc1dec51032c4e448a3b16833b6d5713
+  - enabled: 1
+    path: Assets/Scenes/Room3+.unity
+    guid: 6c7088fd4688d2341b3c812cd49772bf
+  - enabled: 1
+    path: Assets/Scenes/Room3_1+.unity
+    guid: 5cf98434a70299745a9137dabb556d99
+  - enabled: 1
+    path: Assets/Scenes/Room3_2+.unity
+    guid: f9b41fe21bbeda54b9ee9bca0dbada80
+  - enabled: 1
+    path: Assets/Scenes/Room4+.unity
+    guid: ae59e542b9c894f4993b623b77f74dc5
+  - enabled: 1
+    path: Assets/Scenes/Room5+.unity
+    guid: de261ca1648fbf246b24f96e5a4e670f
+  - enabled: 1
+    path: Assets/Scenes/Room5_1+.unity
+    guid: d850b151af4ef7846a0d502df8505805
+  - enabled: 1
+    path: Assets/Scenes/Room6+.unity
+    guid: 74c7338f83141704a8847136f1efe055
+  - enabled: 1
+    path: Assets/Scenes/Room6_1+.unity
+    guid: 70aa261795b43c346a93b300f3afa7ac
+  - enabled: 1
+    path: Assets/Scenes/Room6_2+.unity
+    guid: a22dda3534e1ed44499195a95b8ef23d
+  - enabled: 1
+    path: Assets/Scenes/Room2+.unity
+    guid: e2d21e719321f9d4a9e4af552b529b71
   m_configObjects: {}

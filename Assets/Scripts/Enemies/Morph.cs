@@ -14,6 +14,8 @@ public class Morph : MonoBehaviour
     [Range(0, 10)]
     public float Knockback;
 
+    public GameObject Canvas, Bonus;
+
     private float _dragonTimer;
     private float _fairyTimer = 5f;
     private float _morphTimer;
@@ -119,6 +121,10 @@ public class Morph : MonoBehaviour
 
         if (Lives <= 0)
         {
+            Canvas.SetActive(true);
+            Bonus.SetActive(true);
+            Time.timeScale = 0f;
+
             PlayerController.Instance.Health = PlayerController.Instance.Health + 10;
             GameObject.Destroy(this.gameObject);
         }  
@@ -198,6 +204,13 @@ public class Morph : MonoBehaviour
         if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) == 1) Drop = null;
         if (Drop != null)
             Instantiate(Drop, transform.position, Drop.transform.rotation);
+    }
+
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
+
     }
 
 }

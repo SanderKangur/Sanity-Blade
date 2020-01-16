@@ -12,6 +12,13 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void PlayGameX()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
+        PlayerPrefs.DeleteAll();
+    }
+
+
     public void QuitGame()
     {
         Debug.Log("Quit the game");
