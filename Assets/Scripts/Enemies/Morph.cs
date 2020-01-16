@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Morph : MonoBehaviour
 {
@@ -194,6 +195,7 @@ public class Morph : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) == 1) Drop = null;
         if (Drop != null)
             Instantiate(Drop, transform.position, Drop.transform.rotation);
     }

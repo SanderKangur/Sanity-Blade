@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour
         
         Exit.SetActive(false);
         if (AltExit != null) AltExit.SetActive(false);
+        if (BackExit != null) BackExit.SetActive(false);
         Ambience.Play();
 
        
@@ -46,6 +47,8 @@ public class GameController : MonoBehaviour
             Exit.SetActive(true);
 
             if (AltExit != null) AltExit.SetActive(true);
+            if (BackExit != null) BackExit.SetActive(true);
+
 
             PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
         }
