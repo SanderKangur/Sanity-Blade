@@ -8,6 +8,7 @@ public class Morph : MonoBehaviour
     public float Speed = 5f;
     public float Lives = 300f;
     public GameObject Drop;
+    public GameObject wonMenu;
     public ProjectileEnemy Projectile;
     public SpellData SpellData;
     public AudioClipGroup Monster;
@@ -201,15 +202,22 @@ public class Morph : MonoBehaviour
 
     private void OnDestroy()
     {
+
+        PlayerPrefs.SetInt("unlocked", 1);
+
         if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) == 1) Drop = null;
         if (Drop != null)
+        {
             Instantiate(Drop, transform.position, Drop.transform.rotation);
+
+        }
     }
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        GameObject.Destroy(this.gameObject);
+        Time.timeScale = 0f;
+        wonMenu.SetActive(true);
 
     }
 

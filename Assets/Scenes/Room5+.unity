@@ -6470,7 +6470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
-  AltExit: {fileID: 0}
+  AltExit: {fileID: 1486980795}
   BackExit: {fileID: 1565149703}
   NextRoom: Room6
   AltRoom: Room5_1+
