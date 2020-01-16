@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem freezeParticles;
 
-    public AudioSource Walk, Boop, Potion, Death, FreezeSound;
+    public AudioSource Walk, Boop, Potion, Death, FreezeSound, DefenceSound;
     public AudioClipGroup Oof, Sword, Fireball, Click;
 
     private bool _inv = false;
@@ -261,6 +261,7 @@ public class PlayerController : MonoBehaviour
         {
             Defence.gameObject.SetActive(true);
             _defenceTimer = 5f;
+            DefenceSound?.Play();
         }
     }
 
