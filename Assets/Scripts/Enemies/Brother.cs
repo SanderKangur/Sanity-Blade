@@ -38,6 +38,7 @@ public class Brother : MonoBehaviour
 
     void Update()
     {
+        BossUIController.Instance.SetHealth((int)Lives);
         bool isMoving = false;
         if (_knockback <= 0)
         {

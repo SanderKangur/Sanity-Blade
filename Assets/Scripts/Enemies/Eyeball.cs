@@ -16,7 +16,7 @@ public class Eyeball : MonoBehaviour
     private float _fireRate = 2;
     private float _nextFire;
     private bool _fireAnim = false;
-    private float _specialRate = 10;
+    private float _specialRate = 5;
     private float _nextSpecial;
     private bool _specialAnim = false;
     private Animator _animator;
@@ -32,11 +32,12 @@ public class Eyeball : MonoBehaviour
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
         _nextFire = Time.time + 5;
-        _nextSpecial = Time.time + 13;
+        _nextSpecial = Time.time + 10;
     }
 
     void Update()
     {
+        BossUIController.Instance.SetHealth((int)Lives);
         bool isMoving = false;
         if (_knockback <= 0)
         {

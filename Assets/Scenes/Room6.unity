@@ -5682,7 +5682,7 @@ MonoBehaviour:
   Exit: {fileID: 2093959585}
   AltExit: {fileID: 92337346}
   BackExit: {fileID: 1447461874}
-  NextRoom: Room7
+  NextRoom: EyeFight
   AltRoom: Room6_2
   BackRoom: Room5
   isCleared: 0

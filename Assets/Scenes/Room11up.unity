@@ -2492,7 +2492,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1783880273
 PrefabInstance:
@@ -3228,8 +3228,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Exit: {fileID: 2093959585}
   AltExit: {fileID: 1070769818}
-  NextRoom: Room10up
+  BackExit: {fileID: 0}
+  NextRoom: MorphFight
   AltRoom: Room12up
+  BackRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}
   Ambience: {fileID: 2130400990}
@@ -3247,7 +3249,7 @@ Transform:
   - {fileID: 2093959589}
   - {fileID: 1070769822}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2130400989
 AudioSource:

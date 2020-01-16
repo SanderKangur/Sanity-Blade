@@ -2315,7 +2315,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1328590038
 GameObject:
@@ -2455,7 +2455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1732780703
 PrefabInstance:
@@ -3124,7 +3124,7 @@ MonoBehaviour:
   AltExit: {fileID: 1070769818}
   BackExit: {fileID: 0}
   NextRoom: Room8
-  AltRoom: Room10up
+  AltRoom: MorphFight
   BackRoom: 
   isCleared: 0
   DoorOpen: {fileID: 2130400989}
