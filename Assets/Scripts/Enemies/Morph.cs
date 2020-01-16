@@ -11,7 +11,7 @@ public class Morph : MonoBehaviour
     public SpellData SpellData;
     public AudioClipGroup Monster;
     [Range(0, 10)]
-    public float Force;
+    public float Knockback;
 
     private float _dragonTimer;
     private float _fairyTimer = 5f;
@@ -37,7 +37,7 @@ public class Morph : MonoBehaviour
         _rigidBody = GetComponent<Rigidbody2D>();
         _rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
         _animator = GetComponent<Animator>();
-        _nextFire = Time.time + 10f;
+        _nextFire = Time.time + 6f;
         _nextSpecial = Time.time + 5f;
     }
 
@@ -50,13 +50,13 @@ public class Morph : MonoBehaviour
             bool isMoving = false;
             if (_knockback <= 0)
             {
-                if (Vector2.Distance(transform.position, _target.position) > 20)
+                if (Vector2.Distance(transform.position, _target.position) > 10)
                 {
                     isMoving = true;
                     GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
                     transform.position = Vector2.MoveTowards(transform.position, _target.position, Speed * Time.deltaTime);
                 }
-                else if (Vector2.Distance(transform.position, _target.position) > 15)
+                else if (Vector2.Distance(transform.position, _target.position) > 7)
                 {
                     isMoving = false;
                 }
@@ -79,14 +79,14 @@ public class Morph : MonoBehaviour
             _animator.SetTrigger("Morph");
             _dragonTimer = 10f;
             _isDragon = true;
-            _morphTimer = 1.5f;
         }
 
         if (_isDragon)
         {
-            _morphTimer -= Time.deltaTime;
+            GetComponent<SpriteRenderer>().flipX = _target.position.x > transform.position.x;
+
             Debug.Log(_morphTimer);
-            if (Time.time > _nextFire && _morphTimer <= 0)
+            if (Time.time > _nextFire)
             {
                 if (!_fireAnim)
                 {
@@ -95,10 +95,11 @@ public class Morph : MonoBehaviour
                 }
 
                 if (Time.time > _nextFire + 0.5f)
-                {
-                   
+                {                   
                     _nextFire = Time.time + _fireRate;
                     _fireAnim = false;
+                    Shoot();
+                    Shoot();
                     Shoot();
                     Shoot();
                     Shoot();
@@ -138,7 +139,31 @@ public class Morph : MonoBehaviour
     public void Damage(float dam)
     {
         Monster?.Play();
+
+        if (!_isDragon) dam /= 2;
         Lives -= dam;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Melee")
+        {
+            Debug.Log("Melee");
+            Damage(PlayerController.Instance.WeaponData.Damage);
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
+            _knockback = 0.3f;
+        }
+
+        if (collision.gameObject.tag == "Bomb")
+        {
+            Damage(100);
+            Vector2 dir = collision.transform.position;
+            dir = -dir.normalized;
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
+            _knockback = 0.3f;
+        }
     }
 
 
@@ -148,7 +173,7 @@ public class Morph : MonoBehaviour
         {
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
 
         }
@@ -157,20 +182,11 @@ public class Morph : MonoBehaviour
             Damage(collision.gameObject.GetComponent<Projectile>().Damage);
             Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
             dir = -dir.normalized;
-            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
+            _rigidBody.AddForce(dir * Knockback, ForceMode2D.Impulse);
             _knockback = 0.3f;
         }
 
-        if (collision.gameObject.tag == "Melee")
-        {
-            Damage(PlayerController.Instance.WeaponData.Damage);
-            Vector2 dir = collision.GetContact(0).point - (Vector2)this.transform.position;
-            dir = -dir.normalized;
-            _rigidBody.AddForce(dir * Force, ForceMode2D.Impulse);
-            _knockback = 0.3f;
-        }
-
-        if (collision.gameObject.tag == "Objects" || collision.gameObject.tag == "Drop")
+        if (collision.gameObject.tag == "Drop")
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
         }

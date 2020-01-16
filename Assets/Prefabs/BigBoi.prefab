@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7105153284838718098}
   - component: {fileID: -3585243329456344795}
   - component: {fileID: 1808758408}
-  - component: {fileID: 4787991986677605487}
   - component: {fileID: 235707303}
   - component: {fileID: 8035856963279066025}
   - component: {fileID: 7530205627962150208}
@@ -124,20 +123,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.23582959, y: -0.5512425}
   m_Size: {x: 2.4883409, y: 3.1104257}
   m_Direction: 0
---- !u!114 &4787991986677605487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7105153284838718099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyCollisionDamage: 10
-  EnemyMeleeDamage: 0
 --- !u!95 &235707303
 Animator:
   serializedVersion: 3
@@ -187,5 +172,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyCollisionDamage: 0
+  EnemyCollisionDamage: 13
   EnemyMeleeDamage: 0

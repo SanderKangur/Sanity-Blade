@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 3
   Lives: 150
-  Drop: {fileID: 8141986738642819662, guid: 418dc084e7265dd4eb1c5debc08cd1e0, type: 3}
+  Drop: {fileID: 0}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
     type: 3}
   SpellData: {fileID: 11400000, guid: 2ce3e92513f23c24f98bb4f0c5c62de2, type: 2}

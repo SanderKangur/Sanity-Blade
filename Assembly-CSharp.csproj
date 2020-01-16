@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\PotionData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\SpellData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\TextFadeOut.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\VolumeControl.cs" />

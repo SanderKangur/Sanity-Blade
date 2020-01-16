@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 26293740265589586}
   - component: {fileID: 3240710944517538021}
   - component: {fileID: 7117931791538014024}
-  - component: {fileID: 2356970407154668975}
   - component: {fileID: 7117931793245186663}
   - component: {fileID: 740652334929869952}
   - component: {fileID: 26293740265589596}
@@ -124,20 +123,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.050477028, y: -0.16862226}
   m_Size: {x: 0.9852295, y: 0.9852295}
   m_Direction: 0
---- !u!114 &2356970407154668975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 26293740265589587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyCollisionDamage: 0
-  EnemyMeleeDamage: 0
 --- !u!95 &7117931793245186663
 Animator:
   serializedVersion: 3
@@ -169,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyCollisionDamage: 10
+  EnemyCollisionDamage: 20
   EnemyMeleeDamage: 0
 --- !u!114 &26293740265589596
 MonoBehaviour:
@@ -183,11 +168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4171c9cbb05f61a41ac331d312568246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  Lives: 300
+  Speed: 6
+  Lives: 1000
   Drop: {fileID: 0}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
     type: 3}
   SpellData: {fileID: 11400000, guid: 33dacb665f84f204cbac76e2cffbc39e, type: 2}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
-  Force: 0
+  Knockback: 0

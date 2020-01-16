@@ -260,7 +260,7 @@ public class PlayerController : MonoBehaviour
         if (ItemData.TypeDescription.Equals("defence"))
         {
             Defence.gameObject.SetActive(true);
-            _defenceTimer = 10f;
+            _defenceTimer = 5f;
         }
     }
 

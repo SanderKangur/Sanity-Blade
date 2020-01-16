@@ -240,7 +240,7 @@ MonoBehaviour:
   WeaponData: {fileID: 11400000, guid: ebc9bd84fdfd48c42829a60e4afcdcd4, type: 2}
   PotionData: {fileID: 11400000, guid: 1026801f8c341484e86712915c513276, type: 2}
   EmptyPotionSlot: {fileID: 11400000, guid: b58b75410984ffb49b689a0d11359599, type: 2}
-  SpellData: {fileID: 11400000, guid: 934bb88dc03e0b740a8c34b1d93d807e, type: 2}
+  SpellData: {fileID: 11400000, guid: 79c2073a9dc695547b7d9f01c4f18196, type: 2}
   freezeParticles: {fileID: 2228097375755042301}
   Walk: {fileID: 2053574609}
   Boop: {fileID: 6677263002494295427}
@@ -1325,6 +1325,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezeSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 566645512980999492, guid: a9b901cc1e996794da79cb7dd2c1db9e,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2704015557974051979, guid: a9b901cc1e996794da79cb7dd2c1db9e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1380,11 +1385,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 566645512980999492, guid: a9b901cc1e996794da79cb7dd2c1db9e,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b901cc1e996794da79cb7dd2c1db9e, type: 3}
 --- !u!4 &4373131608962276402 stripped
@@ -1406,16 +1406,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4306182013996423516}
     m_Modifications:
-    - target: {fileID: 3078371618823026203, guid: 8e4b1c9383aa97c46af133d1e18c0486,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.047078032
-      objectReference: {fileID: 0}
-    - target: {fileID: 3078371618823026203, guid: 8e4b1c9383aa97c46af133d1e18c0486,
-        type: 3}
-      propertyPath: m_Radius
-      value: 1.4133065
-      objectReference: {fileID: 0}
     - target: {fileID: 2168262203514771312, guid: 8e4b1c9383aa97c46af133d1e18c0486,
         type: 3}
       propertyPath: m_Name
@@ -1475,6 +1465,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078371618823026203, guid: 8e4b1c9383aa97c46af133d1e18c0486,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.047078032
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078371618823026203, guid: 8e4b1c9383aa97c46af133d1e18c0486,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.4133065
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e4b1c9383aa97c46af133d1e18c0486, type: 3}

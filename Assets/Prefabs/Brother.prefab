@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyCollisionDamage: 10
-  EnemyMeleeDamage: 30
+  EnemyMeleeDamage: 25
 --- !u!114 &1780320257710873482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,12 +216,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec04e16745ef8848b5ebb9696a5e502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
-  Lives: 300
+  Speed: 4
+  Lives: 700
   Drop: {fileID: 0}
   Melee: {fileID: 97012989}
   Projectile: {fileID: 1214132783976786743, guid: 05fde99d36c5eaa46b23b7943436b577,
     type: 3}
   SpellData: {fileID: 11400000, guid: ee9958317a932e34487780b1cd4c7ac3, type: 2}
   Monster: {fileID: 11400000, guid: 6b3cb20a76d20144996e00a10d772a25, type: 2}
-  Force: 0
+  Knockback: 0

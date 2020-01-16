@@ -172,5 +172,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7672a88a7e9be46469f081564434b7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyCollisionDamage: 10
+  EnemyCollisionDamage: 15
   EnemyMeleeDamage: 0
