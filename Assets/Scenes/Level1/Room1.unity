@@ -4875,6 +4875,36 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.96862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.5411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.96862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.5411765
+      objectReference: {fileID: 0}
     - target: {fileID: 4227657944189203893, guid: 62061e1ce30a995458577af63b075e96,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -4899,36 +4929,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.96862745
-      objectReference: {fileID: 0}
-    - target: {fileID: 1927958026651253731, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 0.5411765
-      objectReference: {fileID: 0}
-    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.96862745
-      objectReference: {fileID: 0}
-    - target: {fileID: 6323383313110665370, guid: 62061e1ce30a995458577af63b075e96,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 0.5411765
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6262748710434670911, guid: 62061e1ce30a995458577af63b075e96, type: 3}
@@ -5236,7 +5236,8 @@ AudioSource:
   m_GameObject: {fileID: 2130400986}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: acbe6e61db1c9684cb579f95e7522861,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9355ea12d8963c44bbdbc3b053636051, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -5332,7 +5333,8 @@ AudioSource:
   m_GameObject: {fileID: 2130400986}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: acbe6e61db1c9684cb579f95e7522861,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 5f19fdeab79fab643976df6aab46a0dd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

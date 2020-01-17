@@ -2049,7 +2049,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: TWO
+  m_text: Volume   test
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee5987e310e17dc44a08e4d64e882d34, type: 2}
   m_sharedMaterial: {fileID: 7723524300486150029, guid: ee5987e310e17dc44a08e4d64e882d34,
@@ -2318,7 +2318,8 @@ AudioSource:
   m_GameObject: {fileID: 1033608071}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: acbe6e61db1c9684cb579f95e7522861,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 38b35583a4fd1f747842501ef6d4f5e0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

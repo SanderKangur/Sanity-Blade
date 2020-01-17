@@ -4494,7 +4494,7 @@ Tilemap:
   - first: {x: -2, y: 0, z: 0}
     second:
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -4615,11 +4615,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 38b79ef11ed7c844db549e54f9e82dd8, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -812550004322693495, guid: 76ae88aff61b9fc4f9cc1eb475026e61,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -374985016243938401, guid: 76ae88aff61b9fc4f9cc1eb475026e61,
       type: 3}
@@ -5743,7 +5743,8 @@ AudioSource:
   m_GameObject: {fileID: 2130400986}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: acbe6e61db1c9684cb579f95e7522861,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9355ea12d8963c44bbdbc3b053636051, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -5839,7 +5840,8 @@ AudioSource:
   m_GameObject: {fileID: 2130400986}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: acbe6e61db1c9684cb579f95e7522861,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 5f19fdeab79fab643976df6aab46a0dd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
